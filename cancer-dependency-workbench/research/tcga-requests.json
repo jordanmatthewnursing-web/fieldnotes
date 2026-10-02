@@ -1,0 +1,79 @@
+[
+  {
+    "base_url": "https://www.cbioportal.org/api",
+    "path": "studies/coadread_tcga_pan_can_atlas_2018/clinical-attributes",
+    "params": {},
+    "headers": {
+      "Accept": "application/json"
+    },
+    "save_raw": true,
+    "raw_output_path": "research/tcga-clinical-attributes.json"
+  },
+  {
+    "base_url": "https://www.cbioportal.org/api",
+    "path": "studies/coadread_tcga_pan_can_atlas_2018",
+    "params": {},
+    "headers": {
+      "Accept": "application/json"
+    },
+    "save_raw": true,
+    "raw_output_path": "research/tcga-study.json"
+  },
+  {
+    "base_url": "https://www.cbioportal.org/api",
+    "path": "studies/coadread_tcga_pan_can_atlas_2018/molecular-profiles",
+    "params": {
+      "pageSize": 100
+    },
+    "headers": {
+      "Accept": "application/json"
+    },
+    "save_raw": true,
+    "raw_output_path": "research/tcga-profiles.json"
+  },
+  {
+    "base_url": "https://www.cbioportal.org/api",
+    "path": "studies/coadread_tcga_pan_can_atlas_2018/samples",
+    "params": {
+      "pageSize": 1000,
+      "projection": "DETAILED"
+    },
+    "headers": {
+      "Accept": "application/json"
+    },
+    "save_raw": true,
+    "raw_output_path": "research/tcga-samples.json"
+  },
+  {
+    "base_url": "https://www.cbioportal.org/api",
+    "path": "studies/coadread_tcga_pan_can_atlas_2018/clinical-data",
+    "params": {
+      "clinicalDataType": "SAMPLE",
+      "pageSize": 100000
+    },
+    "headers": {
+      "Accept": "application/json"
+    },
+    "save_raw": true,
+    "raw_output_path": "research/tcga-sample-clinical.json"
+  },
+  {
+    "base_url": "https://www.cbioportal.org/api",
+    "path": "molecular-profiles/coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna/molecular-data/fetch",
+    "method": "POST",
+    "params": {
+      "projection": "DETAILED"
+    },
+    "json_body": {
+      "sampleListId": "coadread_tcga_pan_can_atlas_2018_all",
+      "entrezGeneIds": [
+        7486
+      ]
+    },
+    "headers": {
+      "Accept": "application/json"
+    },
+    "save_raw": true,
+    "raw_output_path": "research/tcga-wrn-expression.json"
+  }
+]

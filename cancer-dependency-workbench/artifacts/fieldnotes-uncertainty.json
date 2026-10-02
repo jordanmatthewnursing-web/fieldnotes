@@ -1,0 +1,404 @@
+{
+  "format": "fieldnotes-uncertainty-v1",
+  "datasetText": "{\n  \"schemaVersion\": 2,\n  \"evidenceMode\": \"continuous-depmap\",\n  \"release\": \"10.25452/figshare.plus.27993248.v1\",\n  \"question\": \"How does WRN gene effect vary with continuous MSI score in colorectal cell models?\",\n  \"genes\": {\n    \"WRN\": \"WRN (7486)\",\n    \"BRAF\": \"BRAF (673)\",\n    \"KRAS\": \"KRAS (3845)\",\n    \"PCNA\": \"PCNA (5111)\",\n    \"RPL4\": \"RPL4 (6124)\"\n  },\n  \"models\": [\n    {\n      \"ModelID\": \"ACH-000003\",\n      \"PatientID\": \"PT-puKIyc\",\n      \"CellLineName\": \"CACO2\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": null\n    },\n    {\n      \"ModelID\": \"ACH-000007\",\n      \"PatientID\": \"PT-NOXwpH\",\n      \"CellLineName\": \"LS513\",\n      \"WRN (7486)\": -0.3480631489,\n      \"BRAF (673)\": -0.0136730433,\n      \"KRAS (3845)\": -2.1936453224,\n      \"PCNA (5111)\": -2.2912892951,\n      \"RPL4 (6124)\": -1.8414621945,\n      \"MSIScore\": 3.36\n    },\n    {\n      \"ModelID\": \"ACH-000009\",\n      \"PatientID\": \"PT-puKIyc\",\n      \"CellLineName\": \"C2BBe1\",\n      \"WRN (7486)\": 0.018596489,\n      \"BRAF (673)\": -0.0205033038,\n      \"KRAS (3845)\": -1.3123820036,\n      \"PCNA (5111)\": -3.515318565,\n      \"RPL4 (6124)\": -1.8418828991,\n      \"MSIScore\": 1.0\n    },\n    {\n      \"ModelID\": \"ACH-000089\",\n      \"PatientID\": \"PT-0joF2E\",\n      \"CellLineName\": \"NCI-H684\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 1.98\n    },\n    {\n      \"ModelID\": \"ACH-000202\",\n      \"PatientID\": \"PT-UB7otW\",\n      \"CellLineName\": \"COLO-320\",\n      \"WRN (7486)\": -0.0354213166,\n      \"BRAF (673)\": 0.0543899371,\n      \"KRAS (3845)\": -0.5531711046,\n      \"PCNA (5111)\": -2.7637882703,\n      \"RPL4 (6124)\": -2.0150612466,\n      \"MSIScore\": 2.34\n    },\n    {\n      \"ModelID\": \"ACH-000236\",\n      \"PatientID\": \"PT-DDlBLT\",\n      \"CellLineName\": \"SW1417\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 1.5\n    },\n    {\n      \"ModelID\": \"ACH-000249\",\n      \"PatientID\": \"PT-hYUBUD\",\n      \"CellLineName\": \"CL-11\",\n      \"WRN (7486)\": 0.2191420019,\n      \"BRAF (673)\": -0.0789736586,\n      \"KRAS (3845)\": -1.1816214245,\n      \"PCNA (5111)\": -2.4418972336,\n      \"RPL4 (6124)\": -2.1326743169,\n      \"MSIScore\": 2.38\n    },\n    {\n      \"ModelID\": \"ACH-000252\",\n      \"PatientID\": \"PT-XQHvQF\",\n      \"CellLineName\": \"LS1034\",\n      \"WRN (7486)\": 0.0146971824,\n      \"BRAF (673)\": -0.2484511814,\n      \"KRAS (3845)\": -2.4786282563,\n      \"PCNA (5111)\": -3.9507593936,\n      \"RPL4 (6124)\": -1.5966231235,\n      \"MSIScore\": 1.36\n    },\n    {\n      \"ModelID\": \"ACH-000253\",\n      \"PatientID\": \"PT-BLAWlD\",\n      \"CellLineName\": \"COLO 201\",\n      \"WRN (7486)\": 0.0211525717,\n      \"BRAF (673)\": -1.3080789396,\n      \"KRAS (3845)\": -0.4392833139,\n      \"PCNA (5111)\": -2.6981763846,\n      \"RPL4 (6124)\": -1.8903198162,\n      \"MSIScore\": 1.77\n    },\n    {\n      \"ModelID\": \"ACH-000286\",\n      \"PatientID\": \"PT-eQWzKj\",\n      \"CellLineName\": \"SNU-1033\",\n      \"WRN (7486)\": 0.0425735451,\n      \"BRAF (673)\": 0.1829465215,\n      \"KRAS (3845)\": -1.2246729099,\n      \"PCNA (5111)\": -3.0214573047,\n      \"RPL4 (6124)\": -2.4287028732,\n      \"MSIScore\": 2.42\n    },\n    {\n      \"ModelID\": \"ACH-000296\",\n      \"PatientID\": \"PT-GezIUF\",\n      \"CellLineName\": \"OUMS-23\",\n      \"WRN (7486)\": -0.0693515391,\n      \"BRAF (673)\": -0.303071658,\n      \"KRAS (3845)\": -0.5144991891,\n      \"PCNA (5111)\": -3.0197270529,\n      \"RPL4 (6124)\": -2.6147528641,\n      \"MSIScore\": 4.2\n    },\n    {\n      \"ModelID\": \"ACH-000342\",\n      \"PatientID\": \"PT-p9FCOx\",\n      \"CellLineName\": \"CL-14\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 2.0\n    },\n    {\n      \"ModelID\": \"ACH-000350\",\n      \"PatientID\": \"PT-j0XD5z\",\n      \"CellLineName\": \"COLO-678\",\n      \"WRN (7486)\": 0.0625608642,\n      \"BRAF (673)\": -0.1523899612,\n      \"KRAS (3845)\": -1.8776263987,\n      \"PCNA (5111)\": -2.8778092505,\n      \"RPL4 (6124)\": -1.6252549727,\n      \"MSIScore\": 1.56\n    },\n    {\n      \"ModelID\": \"ACH-000360\",\n      \"PatientID\": \"PT-M0lnCb\",\n      \"CellLineName\": \"NCI-H508\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 1.72\n    },\n    {\n      \"ModelID\": \"ACH-000381\",\n      \"PatientID\": \"PT-3aeu41\",\n      \"CellLineName\": \"T84\",\n      \"WRN (7486)\": -0.1059112633,\n      \"BRAF (673)\": -0.0477886661,\n      \"KRAS (3845)\": -1.2927522614,\n      \"PCNA (5111)\": -1.9577064079,\n      \"RPL4 (6124)\": -1.4942970454,\n      \"MSIScore\": 2.27\n    },\n    {\n      \"ModelID\": \"ACH-000400\",\n      \"PatientID\": \"PT-cPXTdY\",\n      \"CellLineName\": \"SK-CO-1\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 1.14\n    },\n    {\n      \"ModelID\": \"ACH-000403\",\n      \"PatientID\": \"PT-cabct5\",\n      \"CellLineName\": \"NCI-H747\",\n      \"WRN (7486)\": 0.0724263738,\n      \"BRAF (673)\": -0.1399823121,\n      \"KRAS (3845)\": -1.7711523938,\n      \"PCNA (5111)\": -2.8543260752,\n      \"RPL4 (6124)\": -1.9589912231,\n      \"MSIScore\": 1.17\n    },\n    {\n      \"ModelID\": \"ACH-000412\",\n      \"PatientID\": \"PT-FvlAfh\",\n      \"CellLineName\": \"SNU-1197\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 2.02\n    },\n    {\n      \"ModelID\": \"ACH-000421\",\n      \"PatientID\": \"PT-M67oxD\",\n      \"CellLineName\": \"SW837\",\n      \"WRN (7486)\": -0.0062433438,\n      \"BRAF (673)\": -0.1350562069,\n      \"KRAS (3845)\": -2.5431032974,\n      \"PCNA (5111)\": -3.1144405243,\n      \"RPL4 (6124)\": -1.1261110026,\n      \"MSIScore\": 2.22\n    },\n    {\n      \"ModelID\": \"ACH-000467\",\n      \"PatientID\": \"PT-2RDjdA\",\n      \"CellLineName\": \"HCC-56\",\n      \"WRN (7486)\": 0.1152378109,\n      \"BRAF (673)\": -0.2509742494,\n      \"KRAS (3845)\": -1.4660784253,\n      \"PCNA (5111)\": -2.8227385455,\n      \"RPL4 (6124)\": -1.9000599339,\n      \"MSIScore\": 1.08\n    },\n    {\n      \"ModelID\": \"ACH-000470\",\n      \"PatientID\": \"PT-XPa83T\",\n      \"CellLineName\": \"SW1463\",\n      \"WRN (7486)\": -0.0602051882,\n      \"BRAF (673)\": 0.0335677032,\n      \"KRAS (3845)\": -1.4995811235,\n      \"PCNA (5111)\": -2.4411442771,\n      \"RPL4 (6124)\": -2.5934888134,\n      \"MSIScore\": 1.72\n    },\n    {\n      \"ModelID\": \"ACH-000489\",\n      \"PatientID\": \"PT-EtFrRG\",\n      \"CellLineName\": \"SW1116\",\n      \"WRN (7486)\": -0.0835672792,\n      \"BRAF (673)\": -0.6696683888,\n      \"KRAS (3845)\": -2.5045265293,\n      \"PCNA (5111)\": -2.7821048726,\n      \"RPL4 (6124)\": -2.2716404217,\n      \"MSIScore\": 1.21\n    },\n    {\n      \"ModelID\": \"ACH-000491\",\n      \"PatientID\": \"PT-5GhHA6\",\n      \"CellLineName\": \"NCI-H716\",\n      \"WRN (7486)\": 0.1597141697,\n      \"BRAF (673)\": 0.1347292602,\n      \"KRAS (3845)\": -0.9544110229,\n      \"PCNA (5111)\": -2.8711364642,\n      \"RPL4 (6124)\": -2.1780437194,\n      \"MSIScore\": 1.25\n    },\n    {\n      \"ModelID\": \"ACH-000501\",\n      \"PatientID\": \"PT-kCvNaO\",\n      \"CellLineName\": \"LS123\",\n      \"WRN (7486)\": 0.1994366362,\n      \"BRAF (673)\": -0.5059181335,\n      \"KRAS (3845)\": -0.9043050635,\n      \"PCNA (5111)\": -2.3533387712,\n      \"RPL4 (6124)\": -1.617436622,\n      \"MSIScore\": 1.19\n    },\n    {\n      \"ModelID\": \"ACH-000532\",\n      \"PatientID\": \"PT-663aNr\",\n      \"CellLineName\": \"SNU-61\",\n      \"WRN (7486)\": 0.0296403194,\n      \"BRAF (673)\": -0.3841712794,\n      \"KRAS (3845)\": -2.72539386,\n      \"PCNA (5111)\": -3.2378411423,\n      \"RPL4 (6124)\": -1.6474291479,\n      \"MSIScore\": 2.58\n    },\n    {\n      \"ModelID\": \"ACH-000552\",\n      \"PatientID\": \"PT-sF39aT\",\n      \"CellLineName\": \"HT-29\",\n      \"WRN (7486)\": -0.0175631019,\n      \"BRAF (673)\": -0.9215229354,\n      \"KRAS (3845)\": -0.4086127007,\n      \"PCNA (5111)\": -3.7394416034,\n      \"RPL4 (6124)\": -2.1520851097,\n      \"MSIScore\": 1.3\n    },\n    {\n      \"ModelID\": \"ACH-000565\",\n      \"PatientID\": \"PT-XIcCcb\",\n      \"CellLineName\": \"RCM-1\",\n      \"WRN (7486)\": -0.3692609956,\n      \"BRAF (673)\": -0.4344089091,\n      \"KRAS (3845)\": -2.7789607309,\n      \"PCNA (5111)\": -2.9113769081,\n      \"RPL4 (6124)\": -2.3695298522,\n      \"MSIScore\": 1.52\n    },\n    {\n      \"ModelID\": \"ACH-000651\",\n      \"PatientID\": \"PT-IPboWn\",\n      \"CellLineName\": \"SW 620\",\n      \"WRN (7486)\": 0.149337497,\n      \"BRAF (673)\": -0.221703596,\n      \"KRAS (3845)\": -2.5029804884,\n      \"PCNA (5111)\": -2.1694471736,\n      \"RPL4 (6124)\": -2.1091402062,\n      \"MSIScore\": 3.2\n    },\n    {\n      \"ModelID\": \"ACH-000680\",\n      \"PatientID\": \"PT-R9aZKI\",\n      \"CellLineName\": \"SW948\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 2.06\n    },\n    {\n      \"ModelID\": \"ACH-000683\",\n      \"PatientID\": \"PT-O04gFy\",\n      \"CellLineName\": \"SNU-503\",\n      \"WRN (7486)\": 0.0991233662,\n      \"BRAF (673)\": 0.0513357792,\n      \"KRAS (3845)\": -0.3468270674,\n      \"PCNA (5111)\": -3.3846502496,\n      \"RPL4 (6124)\": -2.6987456585,\n      \"MSIScore\": 3.28\n    },\n    {\n      \"ModelID\": \"ACH-000708\",\n      \"PatientID\": \"PT-dNJJRP\",\n      \"CellLineName\": \"SNU-283\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 1.43\n    },\n    {\n      \"ModelID\": \"ACH-000710\",\n      \"PatientID\": \"PT-brxGNT\",\n      \"CellLineName\": \"NCI-H854\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": null\n    },\n    {\n      \"ModelID\": \"ACH-000722\",\n      \"PatientID\": \"PT-04KbrE\",\n      \"CellLineName\": \"SNU-C1\",\n      \"WRN (7486)\": -0.4202551121,\n      \"BRAF (673)\": 0.1988651838,\n      \"KRAS (3845)\": 0.0984487989,\n      \"PCNA (5111)\": -3.3617679973,\n      \"RPL4 (6124)\": -2.0819153103,\n      \"MSIScore\": 1.73\n    },\n    {\n      \"ModelID\": \"ACH-000798\",\n      \"PatientID\": \"PT-maJywx\",\n      \"CellLineName\": \"CL-40\",\n      \"WRN (7486)\": -0.2364080514,\n      \"BRAF (673)\": -0.3433784298,\n      \"KRAS (3845)\": -1.5513889519,\n      \"PCNA (5111)\": -1.4937569955,\n      \"RPL4 (6124)\": -2.5463263429,\n      \"MSIScore\": 1.7\n    },\n    {\n      \"ModelID\": \"ACH-000820\",\n      \"PatientID\": \"PT-EteVig\",\n      \"CellLineName\": \"SW403\",\n      \"WRN (7486)\": -0.0150251624,\n      \"BRAF (673)\": -0.0167243628,\n      \"KRAS (3845)\": -0.7424706228,\n      \"PCNA (5111)\": -2.6649352668,\n      \"RPL4 (6124)\": -2.1528314766,\n      \"MSIScore\": 2.99\n    },\n    {\n      \"ModelID\": \"ACH-000842\",\n      \"PatientID\": \"PT-IPboWn\",\n      \"CellLineName\": \"SW 480\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 1.23\n    },\n    {\n      \"ModelID\": \"ACH-000895\",\n      \"PatientID\": \"PT-LoHukX\",\n      \"CellLineName\": \"CL-34\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 81.92\n    },\n    {\n      \"ModelID\": \"ACH-000926\",\n      \"PatientID\": \"PT-vAncSZ\",\n      \"CellLineName\": \"HT-55\",\n      \"WRN (7486)\": 0.2245338416,\n      \"BRAF (673)\": -0.4268391497,\n      \"KRAS (3845)\": -0.35344855,\n      \"PCNA (5111)\": -3.1417500589,\n      \"RPL4 (6124)\": -1.8928845738,\n      \"MSIScore\": 1.65\n    },\n    {\n      \"ModelID\": \"ACH-000935\",\n      \"PatientID\": \"PT-snQqpb\",\n      \"CellLineName\": \"MDST8\",\n      \"WRN (7486)\": -0.107112021,\n      \"BRAF (673)\": -0.8842194013,\n      \"KRAS (3845)\": -0.2811754359,\n      \"PCNA (5111)\": -2.2297771819,\n      \"RPL4 (6124)\": -2.2384748662,\n      \"MSIScore\": 0.83\n    },\n    {\n      \"ModelID\": \"ACH-000943\",\n      \"PatientID\": \"PT-9E5O4L\",\n      \"CellLineName\": \"RKO\",\n      \"WRN (7486)\": -2.2928714132,\n      \"BRAF (673)\": -0.7007138811,\n      \"KRAS (3845)\": -0.4257877557,\n      \"PCNA (5111)\": -2.8689420184,\n      \"RPL4 (6124)\": -2.4023391496,\n      \"MSIScore\": 90.46\n    },\n    {\n      \"ModelID\": \"ACH-000950\",\n      \"PatientID\": \"PT-6USEGU\",\n      \"CellLineName\": \"LoVo\",\n      \"WRN (7486)\": -0.7750164758,\n      \"BRAF (673)\": -0.4185766364,\n      \"KRAS (3845)\": -1.1435435496,\n      \"PCNA (5111)\": -2.702371919,\n      \"RPL4 (6124)\": -1.461182996,\n      \"MSIScore\": 88.59\n    },\n    {\n      \"ModelID\": \"ACH-000955\",\n      \"PatientID\": \"PT-lgLAoF\",\n      \"CellLineName\": \"SNU-407\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 88.91\n    },\n    {\n      \"ModelID\": \"ACH-000957\",\n      \"PatientID\": \"PT-FXUrcz\",\n      \"CellLineName\": \"LS 180\",\n      \"WRN (7486)\": -1.4034440716,\n      \"BRAF (673)\": -0.1154069343,\n      \"KRAS (3845)\": -1.6268250233,\n      \"PCNA (5111)\": -2.907637575,\n      \"RPL4 (6124)\": -1.6420738364,\n      \"MSIScore\": 88.39\n    },\n    {\n      \"ModelID\": \"ACH-000958\",\n      \"PatientID\": \"PT-EB6qeM\",\n      \"CellLineName\": \"SW48\",\n      \"WRN (7486)\": -2.4698537526,\n      \"BRAF (673)\": -0.0047696576,\n      \"KRAS (3845)\": -0.3155357704,\n      \"PCNA (5111)\": -2.617754024,\n      \"RPL4 (6124)\": -1.3488076829,\n      \"MSIScore\": 84.58\n    },\n    {\n      \"ModelID\": \"ACH-000959\",\n      \"PatientID\": \"PT-ulmNPq\",\n      \"CellLineName\": \"SNU-C4\",\n      \"WRN (7486)\": -0.7831418417,\n      \"BRAF (673)\": 0.0511707597,\n      \"KRAS (3845)\": -0.8825104136,\n      \"PCNA (5111)\": -2.0783485157,\n      \"RPL4 (6124)\": -2.1949231452,\n      \"MSIScore\": 89.04\n    },\n    {\n      \"ModelID\": \"ACH-000963\",\n      \"PatientID\": \"PT-c4ZGOD\",\n      \"CellLineName\": \"CCK-81\",\n      \"WRN (7486)\": -0.3699265774,\n      \"BRAF (673)\": 0.2047812356,\n      \"KRAS (3845)\": -0.5381137192,\n      \"PCNA (5111)\": -2.8751905426,\n      \"RPL4 (6124)\": -2.1331539756,\n      \"MSIScore\": 91.78\n    },\n    {\n      \"ModelID\": \"ACH-000967\",\n      \"PatientID\": \"PT-GfrL06\",\n      \"CellLineName\": \"SNU-C2A\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 90.86\n    },\n    {\n      \"ModelID\": \"ACH-000969\",\n      \"PatientID\": \"PT-ue72rD\",\n      \"CellLineName\": \"KM12\",\n      \"WRN (7486)\": -2.8485778215,\n      \"BRAF (673)\": -0.0026875631,\n      \"KRAS (3845)\": -0.4846858782,\n      \"PCNA (5111)\": -2.8347741868,\n      \"RPL4 (6124)\": -1.5688864294,\n      \"MSIScore\": 89.35\n    },\n    {\n      \"ModelID\": \"ACH-000970\",\n      \"PatientID\": \"PT-B2n6IN\",\n      \"CellLineName\": \"SNU-C5\",\n      \"WRN (7486)\": -2.1048350915,\n      \"BRAF (673)\": -0.2970007575,\n      \"KRAS (3845)\": -0.6890002846,\n      \"PCNA (5111)\": -3.5007563852,\n      \"RPL4 (6124)\": -1.8113336742,\n      \"MSIScore\": 87.97\n    },\n    {\n      \"ModelID\": \"ACH-000971\",\n      \"PatientID\": \"PT-2Roqq2\",\n      \"CellLineName\": \"HCT 116\",\n      \"WRN (7486)\": -2.2129445373,\n      \"BRAF (673)\": -0.3626173383,\n      \"KRAS (3845)\": -2.3772410446,\n      \"PCNA (5111)\": -2.6353320142,\n      \"RPL4 (6124)\": -2.2060867713,\n      \"MSIScore\": 89.11\n    },\n    {\n      \"ModelID\": \"ACH-000982\",\n      \"PatientID\": \"PT-sGJOXH\",\n      \"CellLineName\": \"GP2d\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 90.28\n    },\n    {\n      \"ModelID\": \"ACH-000985\",\n      \"PatientID\": \"PT-KI0Di1\",\n      \"CellLineName\": \"LS411N\",\n      \"WRN (7486)\": -2.5930488381,\n      \"BRAF (673)\": -0.6038270056,\n      \"KRAS (3845)\": 0.0779883379,\n      \"PCNA (5111)\": -2.7808534076,\n      \"RPL4 (6124)\": -1.7797960661,\n      \"MSIScore\": 88.71\n    },\n    {\n      \"ModelID\": \"ACH-000986\",\n      \"PatientID\": \"PT-EoHcfh\",\n      \"CellLineName\": \"HT115\",\n      \"WRN (7486)\": -0.0769163741,\n      \"BRAF (673)\": -0.0544677687,\n      \"KRAS (3845)\": -0.9655550972,\n      \"PCNA (5111)\": -2.7243746431,\n      \"RPL4 (6124)\": -2.3436417407,\n      \"MSIScore\": 2.85\n    },\n    {\n      \"ModelID\": \"ACH-000989\",\n      \"PatientID\": \"PT-iFoJMI\",\n      \"CellLineName\": \"SNU-175\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 71.61\n    },\n    {\n      \"ModelID\": \"ACH-000991\",\n      \"PatientID\": \"PT-pBOr7s\",\n      \"CellLineName\": \"SNU-81\",\n      \"WRN (7486)\": -0.1755089508,\n      \"BRAF (673)\": -0.2512038561,\n      \"KRAS (3845)\": -0.8198056046,\n      \"PCNA (5111)\": -2.9808874347,\n      \"RPL4 (6124)\": -1.9095294014,\n      \"MSIScore\": 2.67\n    },\n    {\n      \"ModelID\": \"ACH-000997\",\n      \"PatientID\": \"PT-i0VYNQ\",\n      \"CellLineName\": \"HCT-15\",\n      \"WRN (7486)\": -0.2173938795,\n      \"BRAF (673)\": -0.3187279213,\n      \"KRAS (3845)\": -0.4557091339,\n      \"PCNA (5111)\": -2.9017156506,\n      \"RPL4 (6124)\": -1.374628838,\n      \"MSIScore\": 65.0\n    },\n    {\n      \"ModelID\": \"ACH-000998\",\n      \"PatientID\": \"PT-A55gCd\",\n      \"CellLineName\": \"CW-2\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 83.72\n    },\n    {\n      \"ModelID\": \"ACH-000999\",\n      \"PatientID\": \"PT-hR5WVg\",\n      \"CellLineName\": \"SNU-1040\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 75.95\n    },\n    {\n      \"ModelID\": \"ACH-001039\",\n      \"PatientID\": \"PT-BLAWlD\",\n      \"CellLineName\": \"COLO 205\",\n      \"WRN (7486)\": 0.1864969364,\n      \"BRAF (673)\": -0.9798382092,\n      \"KRAS (3845)\": -0.1897626137,\n      \"PCNA (5111)\": -3.6946817909,\n      \"RPL4 (6124)\": -2.1451894977,\n      \"MSIScore\": 1.14\n    },\n    {\n      \"ModelID\": \"ACH-001061\",\n      \"PatientID\": \"PT-i0VYNQ\",\n      \"CellLineName\": \"DLD-1\",\n      \"WRN (7486)\": 0.0037118457,\n      \"BRAF (673)\": 0.0300615516,\n      \"KRAS (3845)\": -1.2498120018,\n      \"PCNA (5111)\": -1.8975539672,\n      \"RPL4 (6124)\": -2.4823087316,\n      \"MSIScore\": 64.95\n    },\n    {\n      \"ModelID\": \"ACH-001081\",\n      \"PatientID\": \"PT-JITDXL\",\n      \"CellLineName\": \"HCC2998\",\n      \"WRN (7486)\": -0.0730131791,\n      \"BRAF (673)\": -0.008171891,\n      \"KRAS (3845)\": -2.3708622133,\n      \"PCNA (5111)\": -3.0728248184,\n      \"RPL4 (6124)\": -2.3038085319,\n      \"MSIScore\": 2.15\n    },\n    {\n      \"ModelID\": \"ACH-001084\",\n      \"PatientID\": \"PT-i0VYNQ\",\n      \"CellLineName\": \"HCT-8\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": null\n    },\n    {\n      \"ModelID\": \"ACH-001091\",\n      \"PatientID\": \"PT-i0VYNQ\",\n      \"CellLineName\": \"HRT18\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": null\n    },\n    {\n      \"ModelID\": \"ACH-001199\",\n      \"PatientID\": \"PT-GfrL06\",\n      \"CellLineName\": \"SNUC2B\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 89.27\n    },\n    {\n      \"ModelID\": \"ACH-001345\",\n      \"PatientID\": \"PT-sGJOXH\",\n      \"CellLineName\": \"GP5d\",\n      \"WRN (7486)\": -1.7457320029,\n      \"BRAF (673)\": 0.0001836739,\n      \"KRAS (3845)\": -1.5452037162,\n      \"PCNA (5111)\": -3.2065060762,\n      \"RPL4 (6124)\": -1.4268215853,\n      \"MSIScore\": 89.33\n    },\n    {\n      \"ModelID\": \"ACH-001399\",\n      \"PatientID\": \"PT-V8yAFO\",\n      \"CellLineName\": \"SW 626\",\n      \"WRN (7486)\": -0.0682519669,\n      \"BRAF (673)\": -0.0663327592,\n      \"KRAS (3845)\": -2.8064496986,\n      \"PCNA (5111)\": -2.3875226198,\n      \"RPL4 (6124)\": -2.1265874063,\n      \"MSIScore\": 2.99\n    },\n    {\n      \"ModelID\": \"ACH-001454\",\n      \"PatientID\": \"PT-LAy4cf\",\n      \"CellLineName\": \"C10\",\n      \"WRN (7486)\": -0.0036223435,\n      \"BRAF (673)\": 0.0010159904,\n      \"KRAS (3845)\": -0.7165593184,\n      \"PCNA (5111)\": -2.7961070731,\n      \"RPL4 (6124)\": -2.4352023455,\n      \"MSIScore\": 4.57\n    },\n    {\n      \"ModelID\": \"ACH-001456\",\n      \"PatientID\": \"PT-pBU2pM\",\n      \"CellLineName\": \"C125PM\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 4.35\n    },\n    {\n      \"ModelID\": \"ACH-001458\",\n      \"PatientID\": \"PT-gDrzwl\",\n      \"CellLineName\": \"C75\",\n      \"WRN (7486)\": -0.0989847827,\n      \"BRAF (673)\": -0.8097885625,\n      \"KRAS (3845)\": -0.9585562881,\n      \"PCNA (5111)\": -2.6976566298,\n      \"RPL4 (6124)\": -1.9620668773,\n      \"MSIScore\": 4.8\n    },\n    {\n      \"ModelID\": \"ACH-001459\",\n      \"PatientID\": \"PT-4HbM7P\",\n      \"CellLineName\": \"C80\",\n      \"WRN (7486)\": -0.115479095,\n      \"BRAF (673)\": -0.484235789,\n      \"KRAS (3845)\": -1.2668872588,\n      \"PCNA (5111)\": -2.8381007132,\n      \"RPL4 (6124)\": -2.1880475039,\n      \"MSIScore\": 4.66\n    },\n    {\n      \"ModelID\": \"ACH-001460\",\n      \"PatientID\": \"PT-7da898\",\n      \"CellLineName\": \"C84\",\n      \"WRN (7486)\": 0.0046886934,\n      \"BRAF (673)\": -0.0864325858,\n      \"KRAS (3845)\": -2.2138997305,\n      \"PCNA (5111)\": -3.4952522827,\n      \"RPL4 (6124)\": -2.8201211837,\n      \"MSIScore\": 5.54\n    },\n    {\n      \"ModelID\": \"ACH-001461\",\n      \"PatientID\": \"PT-3wMRZS\",\n      \"CellLineName\": \"C99\",\n      \"WRN (7486)\": -0.2056429265,\n      \"BRAF (673)\": -0.2260500884,\n      \"KRAS (3845)\": -1.0040030346,\n      \"PCNA (5111)\": -2.5539264089,\n      \"RPL4 (6124)\": -2.2982769746,\n      \"MSIScore\": 3.62\n    },\n    {\n      \"ModelID\": \"ACH-001786\",\n      \"PatientID\": \"PT-LbUj3S\",\n      \"CellLineName\": \"SNU-1544\",\n      \"WRN (7486)\": -0.4893722569,\n      \"BRAF (673)\": 0.0280266414,\n      \"KRAS (3845)\": -0.571978141,\n      \"PCNA (5111)\": -3.0842280382,\n      \"RPL4 (6124)\": -2.7686460359,\n      \"MSIScore\": 88.0\n    },\n    {\n      \"ModelID\": \"ACH-001825\",\n      \"PatientID\": \"PT-IPboWn\",\n      \"CellLineName\": \"SW527\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": null\n    },\n    {\n      \"ModelID\": \"ACH-002024\",\n      \"PatientID\": \"PT-2Stxl0\",\n      \"CellLineName\": \"ECC4\",\n      \"WRN (7486)\": 0.0408809411,\n      \"BRAF (673)\": -0.3775797255,\n      \"KRAS (3845)\": -1.037226577,\n      \"PCNA (5111)\": -2.7066834102,\n      \"RPL4 (6124)\": -2.0773997082,\n      \"MSIScore\": 3.13\n    },\n    {\n      \"ModelID\": \"ACH-002025\",\n      \"PatientID\": \"PT-mIVrGc\",\n      \"CellLineName\": \"TT1TKB\",\n      \"WRN (7486)\": -0.0805503335,\n      \"BRAF (673)\": 0.0339310504,\n      \"KRAS (3845)\": -1.0577775282,\n      \"PCNA (5111)\": -2.7418551185,\n      \"RPL4 (6124)\": -2.1603962901,\n      \"MSIScore\": 2.55\n    },\n    {\n      \"ModelID\": \"ACH-002219\",\n      \"PatientID\": \"PT-UB7otW\",\n      \"CellLineName\": \"COLO-320-HSR\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": null\n    },\n    {\n      \"ModelID\": \"ACH-002233\",\n      \"PatientID\": \"PT-E7CRZu\",\n      \"CellLineName\": \"DIFI\",\n      \"WRN (7486)\": 0.1866649183,\n      \"BRAF (673)\": -0.1818612629,\n      \"KRAS (3845)\": -1.7443424164,\n      \"PCNA (5111)\": -3.2523377526,\n      \"RPL4 (6124)\": -1.5202535204,\n      \"MSIScore\": 0.95\n    },\n    {\n      \"ModelID\": \"ACH-002287\",\n      \"PatientID\": \"PT-3ANo8s\",\n      \"CellLineName\": \"NCI-H630\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 80.38\n    },\n    {\n      \"ModelID\": \"ACH-002345\",\n      \"PatientID\": \"PT-ORM06p\",\n      \"CellLineName\": \"CaR-1\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 2.75\n    },\n    {\n      \"ModelID\": \"ACH-002530\",\n      \"PatientID\": \"PT-RYQaF6\",\n      \"CellLineName\": \"SNU-977\",\n      \"WRN (7486)\": 0.0653632366,\n      \"BRAF (673)\": -0.3561233371,\n      \"KRAS (3845)\": -0.6664855171,\n      \"PCNA (5111)\": -2.8782803799,\n      \"RPL4 (6124)\": -2.1702283152,\n      \"MSIScore\": 2.74\n    },\n    {\n      \"ModelID\": \"ACH-002532\",\n      \"PatientID\": \"PT-IT0tKB\",\n      \"CellLineName\": \"SNU-1411\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 2.78\n    },\n    {\n      \"ModelID\": \"ACH-002535\",\n      \"PatientID\": \"PT-W0h0s9\",\n      \"CellLineName\": \"SNU-254\",\n      \"WRN (7486)\": -0.0567203293,\n      \"BRAF (673)\": -0.0162913752,\n      \"KRAS (3845)\": -2.3230136805,\n      \"PCNA (5111)\": -3.1501408913,\n      \"RPL4 (6124)\": -2.1485270206,\n      \"MSIScore\": 3.51\n    },\n    {\n      \"ModelID\": \"ACH-002538\",\n      \"PatientID\": \"PT-WkPESC\",\n      \"CellLineName\": \"SNU-1235\",\n      \"WRN (7486)\": -0.1834074913,\n      \"BRAF (673)\": -0.9971717546,\n      \"KRAS (3845)\": -0.0927234524,\n      \"PCNA (5111)\": -1.4552856105,\n      \"RPL4 (6124)\": -2.8099231276,\n      \"MSIScore\": 3.13\n    },\n    {\n      \"ModelID\": \"ACH-002539\",\n      \"PatientID\": \"PT-PWtOWn\",\n      \"CellLineName\": \"SNU-1460\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 2.91\n    },\n    {\n      \"ModelID\": \"ACH-002543\",\n      \"PatientID\": \"PT-dKUyPL\",\n      \"CellLineName\": \"SNU-1406\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 2.36\n    },\n    {\n      \"ModelID\": \"ACH-002654\",\n      \"PatientID\": \"PT-anuBoi\",\n      \"CellLineName\": \"JVE-015\",\n      \"WRN (7486)\": 0.1614155442,\n      \"BRAF (673)\": -0.059155045,\n      \"KRAS (3845)\": -2.1408669623,\n      \"PCNA (5111)\": -3.2821509879,\n      \"RPL4 (6124)\": -2.1753001513,\n      \"MSIScore\": 2.18\n    },\n    {\n      \"ModelID\": \"ACH-002659\",\n      \"PatientID\": \"PT-btmPL5\",\n      \"CellLineName\": \"JVE-127\",\n      \"WRN (7486)\": -0.0955887435,\n      \"BRAF (673)\": -1.0112906576,\n      \"KRAS (3845)\": -0.1971811497,\n      \"PCNA (5111)\": -2.9666237633,\n      \"RPL4 (6124)\": -2.3817984014,\n      \"MSIScore\": 2.39\n    },\n    {\n      \"ModelID\": \"ACH-002660\",\n      \"PatientID\": \"PT-iZtOKB\",\n      \"CellLineName\": \"JVE-187\",\n      \"WRN (7486)\": 0.1166822828,\n      \"BRAF (673)\": -0.2380447358,\n      \"KRAS (3845)\": -1.2199597392,\n      \"PCNA (5111)\": -2.9569838246,\n      \"RPL4 (6124)\": -2.0307595506,\n      \"MSIScore\": 2.76\n    },\n    {\n      \"ModelID\": \"ACH-002662\",\n      \"PatientID\": \"PT-iwSeHI\",\n      \"CellLineName\": \"JVE-207\",\n      \"WRN (7486)\": 0.2904329911,\n      \"BRAF (673)\": -0.7308311651,\n      \"KRAS (3845)\": -0.7334841437,\n      \"PCNA (5111)\": -3.2120789762,\n      \"RPL4 (6124)\": -1.8153946425,\n      \"MSIScore\": 2.52\n    },\n    {\n      \"ModelID\": \"ACH-002664\",\n      \"PatientID\": \"PT-FT4DA3\",\n      \"CellLineName\": \"JVE-253\",\n      \"WRN (7486)\": 0.0329733697,\n      \"BRAF (673)\": 0.0473223194,\n      \"KRAS (3845)\": -1.0110978289,\n      \"PCNA (5111)\": -3.4860235822,\n      \"RPL4 (6124)\": -1.9375438,\n      \"MSIScore\": 2.49\n    },\n    {\n      \"ModelID\": \"ACH-002667\",\n      \"PatientID\": \"PT-KCNAWx\",\n      \"CellLineName\": \"JVE-528\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 4.6\n    },\n    {\n      \"ModelID\": \"ACH-002669\",\n      \"PatientID\": \"PT-53ZOQS\",\n      \"CellLineName\": \"KP-363T\",\n      \"WRN (7486)\": -0.1190450921,\n      \"BRAF (673)\": -0.8885680697,\n      \"KRAS (3845)\": -0.1378961864,\n      \"PCNA (5111)\": -3.2168911051,\n      \"RPL4 (6124)\": -2.6135369717,\n      \"MSIScore\": 2.24\n    },\n    {\n      \"ModelID\": \"ACH-002839\",\n      \"PatientID\": \"PT-aXPS8n\",\n      \"CellLineName\": \"CCLF_CORE_0002_T\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": null\n    },\n    {\n      \"ModelID\": \"ACH-002886\",\n      \"PatientID\": \"PT-MF3WjU\",\n      \"CellLineName\": \"VACO 432\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 82.96\n    },\n    {\n      \"ModelID\": \"ACH-002932\",\n      \"PatientID\": \"PT-G1Vi03\",\n      \"CellLineName\": \"CCLF_NEURO_0001_T\",\n      \"WRN (7486)\": null,\n      \"BRAF (673)\": null,\n      \"KRAS (3845)\": null,\n      \"PCNA (5111)\": null,\n      \"RPL4 (6124)\": null,\n      \"MSIScore\": 4.61\n    }\n  ],\n  \"coverage\": {\n    \"models\": 96,\n    \"pairedWRNAndMSI\": 63,\n    \"unpaired\": 33\n  },\n  \"wrnSummary\": {\n    \"spearmanRho\": -0.6031010730681383,\n    \"n\": 63,\n    \"inference\": \"Descriptive association in this model cohort; no categorical classification or causal estimate.\"\n  },\n  \"sources\": [\n    {\n      \"name\": \"DepMap 24Q4 Public v1\",\n      \"url\": \"https://doi.org/10.25452/figshare.plus.27993248.v1\",\n      \"license\": \"CC BY 4.0\",\n      \"licenseUrl\": \"https://creativecommons.org/licenses/by/4.0/\",\n      \"attribution\": \"DepMap, Broad (2024). DepMap 24Q4 Public. Figshare+. Dataset. https://doi.org/10.25452/figshare.plus.27993248.v1\"\n    }\n  ],\n  \"sourceManifest\": [\n    {\n      \"file\": \"Model-24Q4.csv\",\n      \"source\": \"https://ndownloader.figshare.com/files/51065297\",\n      \"md5\": \"675210d17675f3517b0ce39a3c274f16\",\n      \"bytes\": 645696,\n      \"license\": \"CC BY 4.0\",\n      \"release\": \"DepMap 24Q4 Public\"\n    },\n    {\n      \"file\": \"CRISPRGeneEffect-24Q4.csv\",\n      \"source\": \"https://ndownloader.figshare.com/files/51064667\",\n      \"md5\": \"6edf7ade09b9b34199210b559d4745d3\",\n      \"bytes\": 428678699,\n      \"license\": \"CC BY 4.0\",\n      \"release\": \"DepMap 24Q4 Public\"\n    },\n    {\n      \"file\": \"OmicsSignatures-24Q4.csv\",\n      \"source\": \"https://ndownloader.figshare.com/files/51065726\",\n      \"md5\": \"14bdb13656a584dab52e2959a1e11c5a\",\n      \"bytes\": 131912,\n      \"license\": \"CC BY 4.0\",\n      \"release\": \"DepMap 24Q4 Public\"\n    },\n    {\n      \"file\": \"README-24Q4.txt\",\n      \"source\": \"https://ndownloader.figshare.com/files/51065795\",\n      \"md5\": \"54628c15a10b9ff6536db245cfed5231\",\n      \"bytes\": 43103,\n      \"license\": \"CC BY 4.0\",\n      \"release\": \"DepMap 24Q4 Public\"\n    }\n  ],\n  \"limits\": [\n    \"Continuous MSI scores are not converted into MSI/MSS categories.\",\n    \"Missing scores remain missing, not zero.\",\n    \"This is a related analysis of the same cell models, not independent replication.\",\n    \"Association does not establish clinical efficacy or treatment selection.\",\n    \"Historical manuscript annotations and group contrasts are absent from this dataset.\"\n  ],\n  \"donorSensitivity\": {\n    \"method\": \"Select complete MSI/gene-effect pairs, then take each measurement median within source donor.\",\n    \"modelLevel\": {\n      \"spearmanRho\": -0.6031010730681383,\n      \"n\": 63,\n      \"status\": \"available\"\n    },\n    \"donorLevel\": {\n      \"spearmanRho\": -0.6038234751839835,\n      \"n\": 61,\n      \"status\": \"available\"\n    },\n    \"donors\": [\n      {\n        \"donorId\": \"PT-04KbrE\",\n        \"modelIds\": [\n          \"ACH-000722\"\n        ],\n        \"modelNames\": [\n          \"SNU-C1\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 1.73,\n        \"geneEffect\": -0.4202551121068195,\n        \"msiRange\": [\n          1.73,\n          1.73\n        ],\n        \"effectRange\": [\n          -0.4202551121068195,\n          -0.4202551121068195\n        ]\n      },\n      {\n        \"donorId\": \"PT-2RDjdA\",\n        \"modelIds\": [\n          \"ACH-000467\"\n        ],\n        \"modelNames\": [\n          \"HCC-56\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 1.08,\n        \"geneEffect\": 0.1152378109102595,\n        \"msiRange\": [\n          1.08,\n          1.08\n        ],\n        \"effectRange\": [\n          0.1152378109102595,\n          0.1152378109102595\n        ]\n      },\n      {\n        \"donorId\": \"PT-2Roqq2\",\n        \"modelIds\": [\n          \"ACH-000971\"\n        ],\n        \"modelNames\": [\n          \"HCT 116\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 89.11,\n        \"geneEffect\": -2.212944537331724,\n        \"msiRange\": [\n          89.11,\n          89.11\n        ],\n        \"effectRange\": [\n          -2.212944537331724,\n          -2.212944537331724\n        ]\n      },\n      {\n        \"donorId\": \"PT-2Stxl0\",\n        \"modelIds\": [\n          \"ACH-002024\"\n        ],\n        \"modelNames\": [\n          \"ECC4\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 3.13,\n        \"geneEffect\": 0.0408809410690005,\n        \"msiRange\": [\n          3.13,\n          3.13\n        ],\n        \"effectRange\": [\n          0.0408809410690005,\n          0.0408809410690005\n        ]\n      },\n      {\n        \"donorId\": \"PT-3aeu41\",\n        \"modelIds\": [\n          \"ACH-000381\"\n        ],\n        \"modelNames\": [\n          \"T84\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.27,\n        \"geneEffect\": -0.1059112632865877,\n        \"msiRange\": [\n          2.27,\n          2.27\n        ],\n        \"effectRange\": [\n          -0.1059112632865877,\n          -0.1059112632865877\n        ]\n      },\n      {\n        \"donorId\": \"PT-3wMRZS\",\n        \"modelIds\": [\n          \"ACH-001461\"\n        ],\n        \"modelNames\": [\n          \"C99\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 3.62,\n        \"geneEffect\": -0.2056429264809289,\n        \"msiRange\": [\n          3.62,\n          3.62\n        ],\n        \"effectRange\": [\n          -0.2056429264809289,\n          -0.2056429264809289\n        ]\n      },\n      {\n        \"donorId\": \"PT-4HbM7P\",\n        \"modelIds\": [\n          \"ACH-001459\"\n        ],\n        \"modelNames\": [\n          \"C80\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 4.66,\n        \"geneEffect\": -0.1154790949702799,\n        \"msiRange\": [\n          4.66,\n          4.66\n        ],\n        \"effectRange\": [\n          -0.1154790949702799,\n          -0.1154790949702799\n        ]\n      },\n      {\n        \"donorId\": \"PT-53ZOQS\",\n        \"modelIds\": [\n          \"ACH-002669\"\n        ],\n        \"modelNames\": [\n          \"KP-363T\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.24,\n        \"geneEffect\": -0.1190450921386667,\n        \"msiRange\": [\n          2.24,\n          2.24\n        ],\n        \"effectRange\": [\n          -0.1190450921386667,\n          -0.1190450921386667\n        ]\n      },\n      {\n        \"donorId\": \"PT-5GhHA6\",\n        \"modelIds\": [\n          \"ACH-000491\"\n        ],\n        \"modelNames\": [\n          \"NCI-H716\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 1.25,\n        \"geneEffect\": 0.1597141696997562,\n        \"msiRange\": [\n          1.25,\n          1.25\n        ],\n        \"effectRange\": [\n          0.1597141696997562,\n          0.1597141696997562\n        ]\n      },\n      {\n        \"donorId\": \"PT-663aNr\",\n        \"modelIds\": [\n          \"ACH-000532\"\n        ],\n        \"modelNames\": [\n          \"SNU-61\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.58,\n        \"geneEffect\": 0.0296403193655914,\n        \"msiRange\": [\n          2.58,\n          2.58\n        ],\n        \"effectRange\": [\n          0.0296403193655914,\n          0.0296403193655914\n        ]\n      },\n      {\n        \"donorId\": \"PT-6USEGU\",\n        \"modelIds\": [\n          \"ACH-000950\"\n        ],\n        \"modelNames\": [\n          \"LoVo\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 88.59,\n        \"geneEffect\": -0.7750164758130806,\n        \"msiRange\": [\n          88.59,\n          88.59\n        ],\n        \"effectRange\": [\n          -0.7750164758130806,\n          -0.7750164758130806\n        ]\n      },\n      {\n        \"donorId\": \"PT-7da898\",\n        \"modelIds\": [\n          \"ACH-001460\"\n        ],\n        \"modelNames\": [\n          \"C84\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 5.54,\n        \"geneEffect\": 0.00468869335331,\n        \"msiRange\": [\n          5.54,\n          5.54\n        ],\n        \"effectRange\": [\n          0.00468869335331,\n          0.00468869335331\n        ]\n      },\n      {\n        \"donorId\": \"PT-9E5O4L\",\n        \"modelIds\": [\n          \"ACH-000943\"\n        ],\n        \"modelNames\": [\n          \"RKO\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 90.46,\n        \"geneEffect\": -2.2928714131596086,\n        \"msiRange\": [\n          90.46,\n          90.46\n        ],\n        \"effectRange\": [\n          -2.2928714131596086,\n          -2.2928714131596086\n        ]\n      },\n      {\n        \"donorId\": \"PT-B2n6IN\",\n        \"modelIds\": [\n          \"ACH-000970\"\n        ],\n        \"modelNames\": [\n          \"SNU-C5\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 87.97,\n        \"geneEffect\": -2.1048350915076575,\n        \"msiRange\": [\n          87.97,\n          87.97\n        ],\n        \"effectRange\": [\n          -2.1048350915076575,\n          -2.1048350915076575\n        ]\n      },\n      {\n        \"donorId\": \"PT-BLAWlD\",\n        \"modelIds\": [\n          \"ACH-000253\",\n          \"ACH-001039\"\n        ],\n        \"modelNames\": [\n          \"COLO 201\",\n          \"COLO 205\"\n        ],\n        \"pairedModelCount\": 2,\n        \"msiScore\": 1.455,\n        \"geneEffect\": 0.1038247540332262,\n        \"msiRange\": [\n          1.14,\n          1.77\n        ],\n        \"effectRange\": [\n          0.0211525717162238,\n          0.1864969363502286\n        ]\n      },\n      {\n        \"donorId\": \"PT-E7CRZu\",\n        \"modelIds\": [\n          \"ACH-002233\"\n        ],\n        \"modelNames\": [\n          \"DIFI\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 0.95,\n        \"geneEffect\": 0.1866649183015695,\n        \"msiRange\": [\n          0.95,\n          0.95\n        ],\n        \"effectRange\": [\n          0.1866649183015695,\n          0.1866649183015695\n        ]\n      },\n      {\n        \"donorId\": \"PT-EB6qeM\",\n        \"modelIds\": [\n          \"ACH-000958\"\n        ],\n        \"modelNames\": [\n          \"SW48\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 84.58,\n        \"geneEffect\": -2.469853752607064,\n        \"msiRange\": [\n          84.58,\n          84.58\n        ],\n        \"effectRange\": [\n          -2.469853752607064,\n          -2.469853752607064\n        ]\n      },\n      {\n        \"donorId\": \"PT-EoHcfh\",\n        \"modelIds\": [\n          \"ACH-000986\"\n        ],\n        \"modelNames\": [\n          \"HT115\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.85,\n        \"geneEffect\": -0.0769163740786937,\n        \"msiRange\": [\n          2.85,\n          2.85\n        ],\n        \"effectRange\": [\n          -0.0769163740786937,\n          -0.0769163740786937\n        ]\n      },\n      {\n        \"donorId\": \"PT-EtFrRG\",\n        \"modelIds\": [\n          \"ACH-000489\"\n        ],\n        \"modelNames\": [\n          \"SW1116\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 1.21,\n        \"geneEffect\": -0.0835672791832219,\n        \"msiRange\": [\n          1.21,\n          1.21\n        ],\n        \"effectRange\": [\n          -0.0835672791832219,\n          -0.0835672791832219\n        ]\n      },\n      {\n        \"donorId\": \"PT-EteVig\",\n        \"modelIds\": [\n          \"ACH-000820\"\n        ],\n        \"modelNames\": [\n          \"SW403\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.99,\n        \"geneEffect\": -0.015025162433694,\n        \"msiRange\": [\n          2.99,\n          2.99\n        ],\n        \"effectRange\": [\n          -0.015025162433694,\n          -0.015025162433694\n        ]\n      },\n      {\n        \"donorId\": \"PT-FT4DA3\",\n        \"modelIds\": [\n          \"ACH-002664\"\n        ],\n        \"modelNames\": [\n          \"JVE-253\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.49,\n        \"geneEffect\": 0.0329733696508016,\n        \"msiRange\": [\n          2.49,\n          2.49\n        ],\n        \"effectRange\": [\n          0.0329733696508016,\n          0.0329733696508016\n        ]\n      },\n      {\n        \"donorId\": \"PT-FXUrcz\",\n        \"modelIds\": [\n          \"ACH-000957\"\n        ],\n        \"modelNames\": [\n          \"LS 180\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 88.39,\n        \"geneEffect\": -1.4034440716030907,\n        \"msiRange\": [\n          88.39,\n          88.39\n        ],\n        \"effectRange\": [\n          -1.4034440716030907,\n          -1.4034440716030907\n        ]\n      },\n      {\n        \"donorId\": \"PT-GezIUF\",\n        \"modelIds\": [\n          \"ACH-000296\"\n        ],\n        \"modelNames\": [\n          \"OUMS-23\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 4.2,\n        \"geneEffect\": -0.0693515390960308,\n        \"msiRange\": [\n          4.2,\n          4.2\n        ],\n        \"effectRange\": [\n          -0.0693515390960308,\n          -0.0693515390960308\n        ]\n      },\n      {\n        \"donorId\": \"PT-IPboWn\",\n        \"modelIds\": [\n          \"ACH-000651\"\n        ],\n        \"modelNames\": [\n          \"SW 620\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 3.2,\n        \"geneEffect\": 0.1493374970093555,\n        \"msiRange\": [\n          3.2,\n          3.2\n        ],\n        \"effectRange\": [\n          0.1493374970093555,\n          0.1493374970093555\n        ]\n      },\n      {\n        \"donorId\": \"PT-JITDXL\",\n        \"modelIds\": [\n          \"ACH-001081\"\n        ],\n        \"modelNames\": [\n          \"HCC2998\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.15,\n        \"geneEffect\": -0.0730131791441714,\n        \"msiRange\": [\n          2.15,\n          2.15\n        ],\n        \"effectRange\": [\n          -0.0730131791441714,\n          -0.0730131791441714\n        ]\n      },\n      {\n        \"donorId\": \"PT-KI0Di1\",\n        \"modelIds\": [\n          \"ACH-000985\"\n        ],\n        \"modelNames\": [\n          \"LS411N\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 88.71,\n        \"geneEffect\": -2.593048838050624,\n        \"msiRange\": [\n          88.71,\n          88.71\n        ],\n        \"effectRange\": [\n          -2.593048838050624,\n          -2.593048838050624\n        ]\n      },\n      {\n        \"donorId\": \"PT-LAy4cf\",\n        \"modelIds\": [\n          \"ACH-001454\"\n        ],\n        \"modelNames\": [\n          \"C10\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 4.57,\n        \"geneEffect\": -0.0036223435264259,\n        \"msiRange\": [\n          4.57,\n          4.57\n        ],\n        \"effectRange\": [\n          -0.0036223435264259,\n          -0.0036223435264259\n        ]\n      },\n      {\n        \"donorId\": \"PT-LbUj3S\",\n        \"modelIds\": [\n          \"ACH-001786\"\n        ],\n        \"modelNames\": [\n          \"SNU-1544\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 88.0,\n        \"geneEffect\": -0.4893722568732663,\n        \"msiRange\": [\n          88.0,\n          88.0\n        ],\n        \"effectRange\": [\n          -0.4893722568732663,\n          -0.4893722568732663\n        ]\n      },\n      {\n        \"donorId\": \"PT-M67oxD\",\n        \"modelIds\": [\n          \"ACH-000421\"\n        ],\n        \"modelNames\": [\n          \"SW837\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.22,\n        \"geneEffect\": -0.006243343769079,\n        \"msiRange\": [\n          2.22,\n          2.22\n        ],\n        \"effectRange\": [\n          -0.006243343769079,\n          -0.006243343769079\n        ]\n      },\n      {\n        \"donorId\": \"PT-NOXwpH\",\n        \"modelIds\": [\n          \"ACH-000007\"\n        ],\n        \"modelNames\": [\n          \"LS513\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 3.36,\n        \"geneEffect\": -0.3480631488667096,\n        \"msiRange\": [\n          3.36,\n          3.36\n        ],\n        \"effectRange\": [\n          -0.3480631488667096,\n          -0.3480631488667096\n        ]\n      },\n      {\n        \"donorId\": \"PT-O04gFy\",\n        \"modelIds\": [\n          \"ACH-000683\"\n        ],\n        \"modelNames\": [\n          \"SNU-503\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 3.28,\n        \"geneEffect\": 0.0991233662078102,\n        \"msiRange\": [\n          3.28,\n          3.28\n        ],\n        \"effectRange\": [\n          0.0991233662078102,\n          0.0991233662078102\n        ]\n      },\n      {\n        \"donorId\": \"PT-RYQaF6\",\n        \"modelIds\": [\n          \"ACH-002530\"\n        ],\n        \"modelNames\": [\n          \"SNU-977\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.74,\n        \"geneEffect\": 0.0653632366086613,\n        \"msiRange\": [\n          2.74,\n          2.74\n        ],\n        \"effectRange\": [\n          0.0653632366086613,\n          0.0653632366086613\n        ]\n      },\n      {\n        \"donorId\": \"PT-UB7otW\",\n        \"modelIds\": [\n          \"ACH-000202\"\n        ],\n        \"modelNames\": [\n          \"COLO-320\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.34,\n        \"geneEffect\": -0.0354213165889028,\n        \"msiRange\": [\n          2.34,\n          2.34\n        ],\n        \"effectRange\": [\n          -0.0354213165889028,\n          -0.0354213165889028\n        ]\n      },\n      {\n        \"donorId\": \"PT-V8yAFO\",\n        \"modelIds\": [\n          \"ACH-001399\"\n        ],\n        \"modelNames\": [\n          \"SW 626\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.99,\n        \"geneEffect\": -0.0682519669059169,\n        \"msiRange\": [\n          2.99,\n          2.99\n        ],\n        \"effectRange\": [\n          -0.0682519669059169,\n          -0.0682519669059169\n        ]\n      },\n      {\n        \"donorId\": \"PT-W0h0s9\",\n        \"modelIds\": [\n          \"ACH-002535\"\n        ],\n        \"modelNames\": [\n          \"SNU-254\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 3.51,\n        \"geneEffect\": -0.0567203293113488,\n        \"msiRange\": [\n          3.51,\n          3.51\n        ],\n        \"effectRange\": [\n          -0.0567203293113488,\n          -0.0567203293113488\n        ]\n      },\n      {\n        \"donorId\": \"PT-WkPESC\",\n        \"modelIds\": [\n          \"ACH-002538\"\n        ],\n        \"modelNames\": [\n          \"SNU-1235\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 3.13,\n        \"geneEffect\": -0.1834074913237768,\n        \"msiRange\": [\n          3.13,\n          3.13\n        ],\n        \"effectRange\": [\n          -0.1834074913237768,\n          -0.1834074913237768\n        ]\n      },\n      {\n        \"donorId\": \"PT-XIcCcb\",\n        \"modelIds\": [\n          \"ACH-000565\"\n        ],\n        \"modelNames\": [\n          \"RCM-1\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 1.52,\n        \"geneEffect\": -0.3692609956394078,\n        \"msiRange\": [\n          1.52,\n          1.52\n        ],\n        \"effectRange\": [\n          -0.3692609956394078,\n          -0.3692609956394078\n        ]\n      },\n      {\n        \"donorId\": \"PT-XPa83T\",\n        \"modelIds\": [\n          \"ACH-000470\"\n        ],\n        \"modelNames\": [\n          \"SW1463\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 1.72,\n        \"geneEffect\": -0.0602051882019311,\n        \"msiRange\": [\n          1.72,\n          1.72\n        ],\n        \"effectRange\": [\n          -0.0602051882019311,\n          -0.0602051882019311\n        ]\n      },\n      {\n        \"donorId\": \"PT-XQHvQF\",\n        \"modelIds\": [\n          \"ACH-000252\"\n        ],\n        \"modelNames\": [\n          \"LS1034\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 1.36,\n        \"geneEffect\": 0.0146971824061043,\n        \"msiRange\": [\n          1.36,\n          1.36\n        ],\n        \"effectRange\": [\n          0.0146971824061043,\n          0.0146971824061043\n        ]\n      },\n      {\n        \"donorId\": \"PT-anuBoi\",\n        \"modelIds\": [\n          \"ACH-002654\"\n        ],\n        \"modelNames\": [\n          \"JVE-015\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.18,\n        \"geneEffect\": 0.1614155442349693,\n        \"msiRange\": [\n          2.18,\n          2.18\n        ],\n        \"effectRange\": [\n          0.1614155442349693,\n          0.1614155442349693\n        ]\n      },\n      {\n        \"donorId\": \"PT-btmPL5\",\n        \"modelIds\": [\n          \"ACH-002659\"\n        ],\n        \"modelNames\": [\n          \"JVE-127\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.39,\n        \"geneEffect\": -0.0955887435028454,\n        \"msiRange\": [\n          2.39,\n          2.39\n        ],\n        \"effectRange\": [\n          -0.0955887435028454,\n          -0.0955887435028454\n        ]\n      },\n      {\n        \"donorId\": \"PT-c4ZGOD\",\n        \"modelIds\": [\n          \"ACH-000963\"\n        ],\n        \"modelNames\": [\n          \"CCK-81\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 91.78,\n        \"geneEffect\": -0.3699265773973085,\n        \"msiRange\": [\n          91.78,\n          91.78\n        ],\n        \"effectRange\": [\n          -0.3699265773973085,\n          -0.3699265773973085\n        ]\n      },\n      {\n        \"donorId\": \"PT-cabct5\",\n        \"modelIds\": [\n          \"ACH-000403\"\n        ],\n        \"modelNames\": [\n          \"NCI-H747\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 1.17,\n        \"geneEffect\": 0.0724263738238867,\n        \"msiRange\": [\n          1.17,\n          1.17\n        ],\n        \"effectRange\": [\n          0.0724263738238867,\n          0.0724263738238867\n        ]\n      },\n      {\n        \"donorId\": \"PT-eQWzKj\",\n        \"modelIds\": [\n          \"ACH-000286\"\n        ],\n        \"modelNames\": [\n          \"SNU-1033\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.42,\n        \"geneEffect\": 0.0425735451129778,\n        \"msiRange\": [\n          2.42,\n          2.42\n        ],\n        \"effectRange\": [\n          0.0425735451129778,\n          0.0425735451129778\n        ]\n      },\n      {\n        \"donorId\": \"PT-gDrzwl\",\n        \"modelIds\": [\n          \"ACH-001458\"\n        ],\n        \"modelNames\": [\n          \"C75\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 4.8,\n        \"geneEffect\": -0.0989847826586267,\n        \"msiRange\": [\n          4.8,\n          4.8\n        ],\n        \"effectRange\": [\n          -0.0989847826586267,\n          -0.0989847826586267\n        ]\n      },\n      {\n        \"donorId\": \"PT-hYUBUD\",\n        \"modelIds\": [\n          \"ACH-000249\"\n        ],\n        \"modelNames\": [\n          \"CL-11\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.38,\n        \"geneEffect\": 0.2191420018764938,\n        \"msiRange\": [\n          2.38,\n          2.38\n        ],\n        \"effectRange\": [\n          0.2191420018764938,\n          0.2191420018764938\n        ]\n      },\n      {\n        \"donorId\": \"PT-i0VYNQ\",\n        \"modelIds\": [\n          \"ACH-000997\",\n          \"ACH-001061\"\n        ],\n        \"modelNames\": [\n          \"HCT-15\",\n          \"DLD-1\"\n        ],\n        \"pairedModelCount\": 2,\n        \"msiScore\": 64.975,\n        \"geneEffect\": -0.1068410169187026,\n        \"msiRange\": [\n          64.95,\n          65.0\n        ],\n        \"effectRange\": [\n          -0.2173938795103647,\n          0.0037118456729595\n        ]\n      },\n      {\n        \"donorId\": \"PT-iZtOKB\",\n        \"modelIds\": [\n          \"ACH-002660\"\n        ],\n        \"modelNames\": [\n          \"JVE-187\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.76,\n        \"geneEffect\": 0.1166822827591247,\n        \"msiRange\": [\n          2.76,\n          2.76\n        ],\n        \"effectRange\": [\n          0.1166822827591247,\n          0.1166822827591247\n        ]\n      },\n      {\n        \"donorId\": \"PT-iwSeHI\",\n        \"modelIds\": [\n          \"ACH-002662\"\n        ],\n        \"modelNames\": [\n          \"JVE-207\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.52,\n        \"geneEffect\": 0.290432991142454,\n        \"msiRange\": [\n          2.52,\n          2.52\n        ],\n        \"effectRange\": [\n          0.290432991142454,\n          0.290432991142454\n        ]\n      },\n      {\n        \"donorId\": \"PT-j0XD5z\",\n        \"modelIds\": [\n          \"ACH-000350\"\n        ],\n        \"modelNames\": [\n          \"COLO-678\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 1.56,\n        \"geneEffect\": 0.0625608642483867,\n        \"msiRange\": [\n          1.56,\n          1.56\n        ],\n        \"effectRange\": [\n          0.0625608642483867,\n          0.0625608642483867\n        ]\n      },\n      {\n        \"donorId\": \"PT-kCvNaO\",\n        \"modelIds\": [\n          \"ACH-000501\"\n        ],\n        \"modelNames\": [\n          \"LS123\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 1.19,\n        \"geneEffect\": 0.1994366362458289,\n        \"msiRange\": [\n          1.19,\n          1.19\n        ],\n        \"effectRange\": [\n          0.1994366362458289,\n          0.1994366362458289\n        ]\n      },\n      {\n        \"donorId\": \"PT-mIVrGc\",\n        \"modelIds\": [\n          \"ACH-002025\"\n        ],\n        \"modelNames\": [\n          \"TT1TKB\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.55,\n        \"geneEffect\": -0.0805503334718151,\n        \"msiRange\": [\n          2.55,\n          2.55\n        ],\n        \"effectRange\": [\n          -0.0805503334718151,\n          -0.0805503334718151\n        ]\n      },\n      {\n        \"donorId\": \"PT-maJywx\",\n        \"modelIds\": [\n          \"ACH-000798\"\n        ],\n        \"modelNames\": [\n          \"CL-40\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 1.7,\n        \"geneEffect\": -0.2364080513956481,\n        \"msiRange\": [\n          1.7,\n          1.7\n        ],\n        \"effectRange\": [\n          -0.2364080513956481,\n          -0.2364080513956481\n        ]\n      },\n      {\n        \"donorId\": \"PT-pBOr7s\",\n        \"modelIds\": [\n          \"ACH-000991\"\n        ],\n        \"modelNames\": [\n          \"SNU-81\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 2.67,\n        \"geneEffect\": -0.1755089507897725,\n        \"msiRange\": [\n          2.67,\n          2.67\n        ],\n        \"effectRange\": [\n          -0.1755089507897725,\n          -0.1755089507897725\n        ]\n      },\n      {\n        \"donorId\": \"PT-puKIyc\",\n        \"modelIds\": [\n          \"ACH-000009\"\n        ],\n        \"modelNames\": [\n          \"C2BBe1\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 1.0,\n        \"geneEffect\": 0.018596488986665,\n        \"msiRange\": [\n          1.0,\n          1.0\n        ],\n        \"effectRange\": [\n          0.018596488986665,\n          0.018596488986665\n        ]\n      },\n      {\n        \"donorId\": \"PT-sF39aT\",\n        \"modelIds\": [\n          \"ACH-000552\"\n        ],\n        \"modelNames\": [\n          \"HT-29\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 1.3,\n        \"geneEffect\": -0.0175631018849613,\n        \"msiRange\": [\n          1.3,\n          1.3\n        ],\n        \"effectRange\": [\n          -0.0175631018849613,\n          -0.0175631018849613\n        ]\n      },\n      {\n        \"donorId\": \"PT-sGJOXH\",\n        \"modelIds\": [\n          \"ACH-001345\"\n        ],\n        \"modelNames\": [\n          \"GP5d\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 89.33,\n        \"geneEffect\": -1.745732002900284,\n        \"msiRange\": [\n          89.33,\n          89.33\n        ],\n        \"effectRange\": [\n          -1.745732002900284,\n          -1.745732002900284\n        ]\n      },\n      {\n        \"donorId\": \"PT-snQqpb\",\n        \"modelIds\": [\n          \"ACH-000935\"\n        ],\n        \"modelNames\": [\n          \"MDST8\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 0.83,\n        \"geneEffect\": -0.1071120210441943,\n        \"msiRange\": [\n          0.83,\n          0.83\n        ],\n        \"effectRange\": [\n          -0.1071120210441943,\n          -0.1071120210441943\n        ]\n      },\n      {\n        \"donorId\": \"PT-ue72rD\",\n        \"modelIds\": [\n          \"ACH-000969\"\n        ],\n        \"modelNames\": [\n          \"KM12\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 89.35,\n        \"geneEffect\": -2.8485778215085533,\n        \"msiRange\": [\n          89.35,\n          89.35\n        ],\n        \"effectRange\": [\n          -2.8485778215085533,\n          -2.8485778215085533\n        ]\n      },\n      {\n        \"donorId\": \"PT-ulmNPq\",\n        \"modelIds\": [\n          \"ACH-000959\"\n        ],\n        \"modelNames\": [\n          \"SNU-C4\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 89.04,\n        \"geneEffect\": -0.7831418416535635,\n        \"msiRange\": [\n          89.04,\n          89.04\n        ],\n        \"effectRange\": [\n          -0.7831418416535635,\n          -0.7831418416535635\n        ]\n      },\n      {\n        \"donorId\": \"PT-vAncSZ\",\n        \"modelIds\": [\n          \"ACH-000926\"\n        ],\n        \"modelNames\": [\n          \"HT-55\"\n        ],\n        \"pairedModelCount\": 1,\n        \"msiScore\": 1.65,\n        \"geneEffect\": 0.2245338415575201,\n        \"msiRange\": [\n          1.65,\n          1.65\n        ],\n        \"effectRange\": [\n          0.2245338415575201,\n          0.2245338415575201\n        ]\n      }\n    ],\n    \"relatedDonors\": 2,\n    \"unpairedModels\": 33,\n    \"limits\": [\n      \"Aggregation reduces repeated representation of known source donors; it does not control other confounders.\",\n      \"Medians summarize distinct models; the median pair is not necessarily an observed single model.\",\n      \"Donor identity comes from the pinned DepMap release. This is a sensitivity analysis, not independent validation.\"\n    ]\n  }\n}\n",
+  "analysis": {
+    "unit": "source donor; medians of complete measurement pairs",
+    "point": {
+      "spearmanRho": -0.6038234751839835,
+      "n": 61,
+      "status": "available"
+    },
+    "seed": 20260929,
+    "resamples": 9999,
+    "method": "paired BCa bootstrap",
+    "confidenceLevel": 0.95,
+    "interval": [
+      -0.7619058837179299,
+      -0.38350442392315454
+    ],
+    "status": "available",
+    "undefinedResamples": 0,
+    "leaveOneDonorOut": [
+      {
+        "omittedDonorId": "PT-04KbrE",
+        "spearmanRho": -0.6263580540915856,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-2RDjdA",
+        "spearmanRho": -0.5947928536014765,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-2Roqq2",
+        "spearmanRho": -0.585178804860651,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-2Stxl0",
+        "spearmanRho": -0.6134289168265906,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-3aeu41",
+        "spearmanRho": -0.6146044627119059,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-3wMRZS",
+        "spearmanRho": -0.594181555704661,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-4HbM7P",
+        "spearmanRho": -0.5948206398695136,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-53ZOQS",
+        "spearmanRho": -0.6163272113302042,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-5GhHA6",
+        "spearmanRho": -0.59295895991103,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-663aNr",
+        "spearmanRho": -0.6098807971456044,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-6USEGU",
+        "spearmanRho": -0.585178804860651,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-7da898",
+        "spearmanRho": -0.613826447206868,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-9E5O4L",
+        "spearmanRho": -0.5852343773967251,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-B2n6IN",
+        "spearmanRho": -0.5857901027574665,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-BLAWlD",
+        "spearmanRho": -0.5971269001165903,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-E7CRZu",
+        "spearmanRho": -0.5894023176022853,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-EB6qeM",
+        "spearmanRho": -0.5866236907985786,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-EoHcfh",
+        "spearmanRho": -0.6055461393318218,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-EtFrRG",
+        "spearmanRho": -0.6205507240718385,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-EteVig",
+        "spearmanRho": -0.6086219592412755,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-FT4DA3",
+        "spearmanRho": -0.6099919422177527,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-FXUrcz",
+        "spearmanRho": -0.5852899499327994,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-GezIUF",
+        "spearmanRho": -0.6049904139710803,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-IPboWn",
+        "spearmanRho": -0.622023396277803,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-JITDXL",
+        "spearmanRho": -0.6141598824233129,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-KI0Di1",
+        "spearmanRho": -0.5853455224688735,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-LAy4cf",
+        "spearmanRho": -0.6120481260524957,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-LbUj3S",
+        "spearmanRho": -0.5850676597885027,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-M67oxD",
+        "spearmanRho": -0.6090472091044923,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-NOXwpH",
+        "spearmanRho": -0.5936814028799938,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-O04gFy",
+        "spearmanRho": -0.6181888912886877,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-RYQaF6",
+        "spearmanRho": -0.6124093475369775,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-UB7otW",
+        "spearmanRho": -0.6106865989186794,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-V8yAFO",
+        "spearmanRho": -0.6057877992776795,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-W0h0s9",
+        "spearmanRho": -0.606018505888452,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-WkPESC",
+        "spearmanRho": -0.5994804040645781,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-XIcCcb",
+        "spearmanRho": -0.6294701161117373,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-XPa83T",
+        "spearmanRho": -0.6106310263826052,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-XQHvQF",
+        "spearmanRho": -0.6036011005692271,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-anuBoi",
+        "spearmanRho": -0.6046847650226727,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-btmPL5",
+        "spearmanRho": -0.610936675331013,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-c4ZGOD",
+        "spearmanRho": -0.5897913253548043,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-cabct5",
+        "spearmanRho": -0.5970713275805161,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-eQWzKj",
+        "spearmanRho": -0.6094084305889742,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-gDrzwl",
+        "spearmanRho": -0.5985439997864808,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-hYUBUD",
+        "spearmanRho": -0.6127427827534223,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-i0VYNQ",
+        "spearmanRho": -0.5962655258074412,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-iZtOKB",
+        "spearmanRho": -0.6162438525260929,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-iwSeHI",
+        "spearmanRho": -0.6168551504229085,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-j0XD5z",
+        "spearmanRho": -0.6012948403221504,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-kCvNaO",
+        "spearmanRho": -0.5909583486123611,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-mIVrGc",
+        "spearmanRho": -0.6082136210633804,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-maJywx",
+        "spearmanRho": -0.6237461448961013,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-pBOr7s",
+        "spearmanRho": -0.605990719620415,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-puKIyc",
+        "spearmanRho": -0.6051015590432287,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-sF39aT",
+        "spearmanRho": -0.6096307207332708,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-sGJOXH",
+        "spearmanRho": -0.5855122400770958,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-snQqpb",
+        "spearmanRho": -0.6348884383789656,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-ue72rD",
+        "spearmanRho": -0.5845119344277614,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-ulmNPq",
+        "spearmanRho": -0.5855678126131699,
+        "n": 60,
+        "status": "available"
+      },
+      {
+        "omittedDonorId": "PT-vAncSZ",
+        "spearmanRho": -0.5979049156216282,
+        "n": 60,
+        "status": "available"
+      }
+    ],
+    "warnings": [],
+    "input": {
+      "path": "data/derived/continuous-evidence.json",
+      "sha256": "fe9e69a73bc083b90216c6773399756aae0535ec9c73c765a1d99dc48101f4c9",
+      "release": "10.25452/figshare.plus.27993248.v1"
+    },
+    "limits": [
+      "Resampling assumes source donors are independent and exchangeable within this selected cohort.",
+      "A nominal 95% interval is conditional on these assumptions; it does not establish coverage for tumors or patients.",
+      "This convenience cohort is not a random clinical sample. Missing measurements, selection and unmeasured confounding remain.",
+      "Donor medians change the estimand; this interval belongs to the donor-level correlation, not the model-level estimate.",
+      "Leave-one-donor-out values describe influence, not independent validation or confidence bounds."
+    ]
+  },
+  "replay": "In the research repository: .venv/bin/python scripts/replay_uncertainty.py fieldnotes-uncertainty.json"
+}

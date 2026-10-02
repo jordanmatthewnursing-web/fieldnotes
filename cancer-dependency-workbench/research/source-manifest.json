@@ -1,0 +1,34 @@
+[
+  {
+    "file": "Model-24Q4.csv",
+    "source": "https://ndownloader.figshare.com/files/51065297",
+    "md5": "675210d17675f3517b0ce39a3c274f16",
+    "bytes": 645696,
+    "license": "CC BY 4.0",
+    "release": "DepMap 24Q4 Public"
+  },
+  {
+    "file": "CRISPRGeneEffect-24Q4.csv",
+    "source": "https://ndownloader.figshare.com/files/51064667",
+    "md5": "6edf7ade09b9b34199210b559d4745d3",
+    "bytes": 428678699,
+    "license": "CC BY 4.0",
+    "release": "DepMap 24Q4 Public"
+  },
+  {
+    "file": "OmicsSignatures-24Q4.csv",
+    "source": "https://ndownloader.figshare.com/files/51065726",
+    "md5": "14bdb13656a584dab52e2959a1e11c5a",
+    "bytes": 131912,
+    "license": "CC BY 4.0",
+    "release": "DepMap 24Q4 Public"
+  },
+  {
+    "file": "README-24Q4.txt",
+    "source": "https://ndownloader.figshare.com/files/51065795",
+    "md5": "54628c15a10b9ff6536db245cfed5231",
+    "bytes": 43103,
+    "license": "CC BY 4.0",
+    "release": "DepMap 24Q4 Public"
+  }
+]

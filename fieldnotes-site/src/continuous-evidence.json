@@ -1,0 +1,2377 @@
+{
+  "schemaVersion": 2,
+  "evidenceMode": "continuous-depmap",
+  "release": "10.25452/figshare.plus.27993248.v1",
+  "question": "How does WRN gene effect vary with continuous MSI score in colorectal cell models?",
+  "genes": {
+    "WRN": "WRN (7486)",
+    "BRAF": "BRAF (673)",
+    "KRAS": "KRAS (3845)",
+    "PCNA": "PCNA (5111)",
+    "RPL4": "RPL4 (6124)"
+  },
+  "models": [
+    {
+      "ModelID": "ACH-000003",
+      "PatientID": "PT-puKIyc",
+      "CellLineName": "CACO2",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": null
+    },
+    {
+      "ModelID": "ACH-000007",
+      "PatientID": "PT-NOXwpH",
+      "CellLineName": "LS513",
+      "WRN (7486)": -0.3480631489,
+      "BRAF (673)": -0.0136730433,
+      "KRAS (3845)": -2.1936453224,
+      "PCNA (5111)": -2.2912892951,
+      "RPL4 (6124)": -1.8414621945,
+      "MSIScore": 3.36
+    },
+    {
+      "ModelID": "ACH-000009",
+      "PatientID": "PT-puKIyc",
+      "CellLineName": "C2BBe1",
+      "WRN (7486)": 0.018596489,
+      "BRAF (673)": -0.0205033038,
+      "KRAS (3845)": -1.3123820036,
+      "PCNA (5111)": -3.515318565,
+      "RPL4 (6124)": -1.8418828991,
+      "MSIScore": 1.0
+    },
+    {
+      "ModelID": "ACH-000089",
+      "PatientID": "PT-0joF2E",
+      "CellLineName": "NCI-H684",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 1.98
+    },
+    {
+      "ModelID": "ACH-000202",
+      "PatientID": "PT-UB7otW",
+      "CellLineName": "COLO-320",
+      "WRN (7486)": -0.0354213166,
+      "BRAF (673)": 0.0543899371,
+      "KRAS (3845)": -0.5531711046,
+      "PCNA (5111)": -2.7637882703,
+      "RPL4 (6124)": -2.0150612466,
+      "MSIScore": 2.34
+    },
+    {
+      "ModelID": "ACH-000236",
+      "PatientID": "PT-DDlBLT",
+      "CellLineName": "SW1417",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 1.5
+    },
+    {
+      "ModelID": "ACH-000249",
+      "PatientID": "PT-hYUBUD",
+      "CellLineName": "CL-11",
+      "WRN (7486)": 0.2191420019,
+      "BRAF (673)": -0.0789736586,
+      "KRAS (3845)": -1.1816214245,
+      "PCNA (5111)": -2.4418972336,
+      "RPL4 (6124)": -2.1326743169,
+      "MSIScore": 2.38
+    },
+    {
+      "ModelID": "ACH-000252",
+      "PatientID": "PT-XQHvQF",
+      "CellLineName": "LS1034",
+      "WRN (7486)": 0.0146971824,
+      "BRAF (673)": -0.2484511814,
+      "KRAS (3845)": -2.4786282563,
+      "PCNA (5111)": -3.9507593936,
+      "RPL4 (6124)": -1.5966231235,
+      "MSIScore": 1.36
+    },
+    {
+      "ModelID": "ACH-000253",
+      "PatientID": "PT-BLAWlD",
+      "CellLineName": "COLO 201",
+      "WRN (7486)": 0.0211525717,
+      "BRAF (673)": -1.3080789396,
+      "KRAS (3845)": -0.4392833139,
+      "PCNA (5111)": -2.6981763846,
+      "RPL4 (6124)": -1.8903198162,
+      "MSIScore": 1.77
+    },
+    {
+      "ModelID": "ACH-000286",
+      "PatientID": "PT-eQWzKj",
+      "CellLineName": "SNU-1033",
+      "WRN (7486)": 0.0425735451,
+      "BRAF (673)": 0.1829465215,
+      "KRAS (3845)": -1.2246729099,
+      "PCNA (5111)": -3.0214573047,
+      "RPL4 (6124)": -2.4287028732,
+      "MSIScore": 2.42
+    },
+    {
+      "ModelID": "ACH-000296",
+      "PatientID": "PT-GezIUF",
+      "CellLineName": "OUMS-23",
+      "WRN (7486)": -0.0693515391,
+      "BRAF (673)": -0.303071658,
+      "KRAS (3845)": -0.5144991891,
+      "PCNA (5111)": -3.0197270529,
+      "RPL4 (6124)": -2.6147528641,
+      "MSIScore": 4.2
+    },
+    {
+      "ModelID": "ACH-000342",
+      "PatientID": "PT-p9FCOx",
+      "CellLineName": "CL-14",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 2.0
+    },
+    {
+      "ModelID": "ACH-000350",
+      "PatientID": "PT-j0XD5z",
+      "CellLineName": "COLO-678",
+      "WRN (7486)": 0.0625608642,
+      "BRAF (673)": -0.1523899612,
+      "KRAS (3845)": -1.8776263987,
+      "PCNA (5111)": -2.8778092505,
+      "RPL4 (6124)": -1.6252549727,
+      "MSIScore": 1.56
+    },
+    {
+      "ModelID": "ACH-000360",
+      "PatientID": "PT-M0lnCb",
+      "CellLineName": "NCI-H508",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 1.72
+    },
+    {
+      "ModelID": "ACH-000381",
+      "PatientID": "PT-3aeu41",
+      "CellLineName": "T84",
+      "WRN (7486)": -0.1059112633,
+      "BRAF (673)": -0.0477886661,
+      "KRAS (3845)": -1.2927522614,
+      "PCNA (5111)": -1.9577064079,
+      "RPL4 (6124)": -1.4942970454,
+      "MSIScore": 2.27
+    },
+    {
+      "ModelID": "ACH-000400",
+      "PatientID": "PT-cPXTdY",
+      "CellLineName": "SK-CO-1",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 1.14
+    },
+    {
+      "ModelID": "ACH-000403",
+      "PatientID": "PT-cabct5",
+      "CellLineName": "NCI-H747",
+      "WRN (7486)": 0.0724263738,
+      "BRAF (673)": -0.1399823121,
+      "KRAS (3845)": -1.7711523938,
+      "PCNA (5111)": -2.8543260752,
+      "RPL4 (6124)": -1.9589912231,
+      "MSIScore": 1.17
+    },
+    {
+      "ModelID": "ACH-000412",
+      "PatientID": "PT-FvlAfh",
+      "CellLineName": "SNU-1197",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 2.02
+    },
+    {
+      "ModelID": "ACH-000421",
+      "PatientID": "PT-M67oxD",
+      "CellLineName": "SW837",
+      "WRN (7486)": -0.0062433438,
+      "BRAF (673)": -0.1350562069,
+      "KRAS (3845)": -2.5431032974,
+      "PCNA (5111)": -3.1144405243,
+      "RPL4 (6124)": -1.1261110026,
+      "MSIScore": 2.22
+    },
+    {
+      "ModelID": "ACH-000467",
+      "PatientID": "PT-2RDjdA",
+      "CellLineName": "HCC-56",
+      "WRN (7486)": 0.1152378109,
+      "BRAF (673)": -0.2509742494,
+      "KRAS (3845)": -1.4660784253,
+      "PCNA (5111)": -2.8227385455,
+      "RPL4 (6124)": -1.9000599339,
+      "MSIScore": 1.08
+    },
+    {
+      "ModelID": "ACH-000470",
+      "PatientID": "PT-XPa83T",
+      "CellLineName": "SW1463",
+      "WRN (7486)": -0.0602051882,
+      "BRAF (673)": 0.0335677032,
+      "KRAS (3845)": -1.4995811235,
+      "PCNA (5111)": -2.4411442771,
+      "RPL4 (6124)": -2.5934888134,
+      "MSIScore": 1.72
+    },
+    {
+      "ModelID": "ACH-000489",
+      "PatientID": "PT-EtFrRG",
+      "CellLineName": "SW1116",
+      "WRN (7486)": -0.0835672792,
+      "BRAF (673)": -0.6696683888,
+      "KRAS (3845)": -2.5045265293,
+      "PCNA (5111)": -2.7821048726,
+      "RPL4 (6124)": -2.2716404217,
+      "MSIScore": 1.21
+    },
+    {
+      "ModelID": "ACH-000491",
+      "PatientID": "PT-5GhHA6",
+      "CellLineName": "NCI-H716",
+      "WRN (7486)": 0.1597141697,
+      "BRAF (673)": 0.1347292602,
+      "KRAS (3845)": -0.9544110229,
+      "PCNA (5111)": -2.8711364642,
+      "RPL4 (6124)": -2.1780437194,
+      "MSIScore": 1.25
+    },
+    {
+      "ModelID": "ACH-000501",
+      "PatientID": "PT-kCvNaO",
+      "CellLineName": "LS123",
+      "WRN (7486)": 0.1994366362,
+      "BRAF (673)": -0.5059181335,
+      "KRAS (3845)": -0.9043050635,
+      "PCNA (5111)": -2.3533387712,
+      "RPL4 (6124)": -1.617436622,
+      "MSIScore": 1.19
+    },
+    {
+      "ModelID": "ACH-000532",
+      "PatientID": "PT-663aNr",
+      "CellLineName": "SNU-61",
+      "WRN (7486)": 0.0296403194,
+      "BRAF (673)": -0.3841712794,
+      "KRAS (3845)": -2.72539386,
+      "PCNA (5111)": -3.2378411423,
+      "RPL4 (6124)": -1.6474291479,
+      "MSIScore": 2.58
+    },
+    {
+      "ModelID": "ACH-000552",
+      "PatientID": "PT-sF39aT",
+      "CellLineName": "HT-29",
+      "WRN (7486)": -0.0175631019,
+      "BRAF (673)": -0.9215229354,
+      "KRAS (3845)": -0.4086127007,
+      "PCNA (5111)": -3.7394416034,
+      "RPL4 (6124)": -2.1520851097,
+      "MSIScore": 1.3
+    },
+    {
+      "ModelID": "ACH-000565",
+      "PatientID": "PT-XIcCcb",
+      "CellLineName": "RCM-1",
+      "WRN (7486)": -0.3692609956,
+      "BRAF (673)": -0.4344089091,
+      "KRAS (3845)": -2.7789607309,
+      "PCNA (5111)": -2.9113769081,
+      "RPL4 (6124)": -2.3695298522,
+      "MSIScore": 1.52
+    },
+    {
+      "ModelID": "ACH-000651",
+      "PatientID": "PT-IPboWn",
+      "CellLineName": "SW 620",
+      "WRN (7486)": 0.149337497,
+      "BRAF (673)": -0.221703596,
+      "KRAS (3845)": -2.5029804884,
+      "PCNA (5111)": -2.1694471736,
+      "RPL4 (6124)": -2.1091402062,
+      "MSIScore": 3.2
+    },
+    {
+      "ModelID": "ACH-000680",
+      "PatientID": "PT-R9aZKI",
+      "CellLineName": "SW948",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 2.06
+    },
+    {
+      "ModelID": "ACH-000683",
+      "PatientID": "PT-O04gFy",
+      "CellLineName": "SNU-503",
+      "WRN (7486)": 0.0991233662,
+      "BRAF (673)": 0.0513357792,
+      "KRAS (3845)": -0.3468270674,
+      "PCNA (5111)": -3.3846502496,
+      "RPL4 (6124)": -2.6987456585,
+      "MSIScore": 3.28
+    },
+    {
+      "ModelID": "ACH-000708",
+      "PatientID": "PT-dNJJRP",
+      "CellLineName": "SNU-283",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 1.43
+    },
+    {
+      "ModelID": "ACH-000710",
+      "PatientID": "PT-brxGNT",
+      "CellLineName": "NCI-H854",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": null
+    },
+    {
+      "ModelID": "ACH-000722",
+      "PatientID": "PT-04KbrE",
+      "CellLineName": "SNU-C1",
+      "WRN (7486)": -0.4202551121,
+      "BRAF (673)": 0.1988651838,
+      "KRAS (3845)": 0.0984487989,
+      "PCNA (5111)": -3.3617679973,
+      "RPL4 (6124)": -2.0819153103,
+      "MSIScore": 1.73
+    },
+    {
+      "ModelID": "ACH-000798",
+      "PatientID": "PT-maJywx",
+      "CellLineName": "CL-40",
+      "WRN (7486)": -0.2364080514,
+      "BRAF (673)": -0.3433784298,
+      "KRAS (3845)": -1.5513889519,
+      "PCNA (5111)": -1.4937569955,
+      "RPL4 (6124)": -2.5463263429,
+      "MSIScore": 1.7
+    },
+    {
+      "ModelID": "ACH-000820",
+      "PatientID": "PT-EteVig",
+      "CellLineName": "SW403",
+      "WRN (7486)": -0.0150251624,
+      "BRAF (673)": -0.0167243628,
+      "KRAS (3845)": -0.7424706228,
+      "PCNA (5111)": -2.6649352668,
+      "RPL4 (6124)": -2.1528314766,
+      "MSIScore": 2.99
+    },
+    {
+      "ModelID": "ACH-000842",
+      "PatientID": "PT-IPboWn",
+      "CellLineName": "SW 480",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 1.23
+    },
+    {
+      "ModelID": "ACH-000895",
+      "PatientID": "PT-LoHukX",
+      "CellLineName": "CL-34",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 81.92
+    },
+    {
+      "ModelID": "ACH-000926",
+      "PatientID": "PT-vAncSZ",
+      "CellLineName": "HT-55",
+      "WRN (7486)": 0.2245338416,
+      "BRAF (673)": -0.4268391497,
+      "KRAS (3845)": -0.35344855,
+      "PCNA (5111)": -3.1417500589,
+      "RPL4 (6124)": -1.8928845738,
+      "MSIScore": 1.65
+    },
+    {
+      "ModelID": "ACH-000935",
+      "PatientID": "PT-snQqpb",
+      "CellLineName": "MDST8",
+      "WRN (7486)": -0.107112021,
+      "BRAF (673)": -0.8842194013,
+      "KRAS (3845)": -0.2811754359,
+      "PCNA (5111)": -2.2297771819,
+      "RPL4 (6124)": -2.2384748662,
+      "MSIScore": 0.83
+    },
+    {
+      "ModelID": "ACH-000943",
+      "PatientID": "PT-9E5O4L",
+      "CellLineName": "RKO",
+      "WRN (7486)": -2.2928714132,
+      "BRAF (673)": -0.7007138811,
+      "KRAS (3845)": -0.4257877557,
+      "PCNA (5111)": -2.8689420184,
+      "RPL4 (6124)": -2.4023391496,
+      "MSIScore": 90.46
+    },
+    {
+      "ModelID": "ACH-000950",
+      "PatientID": "PT-6USEGU",
+      "CellLineName": "LoVo",
+      "WRN (7486)": -0.7750164758,
+      "BRAF (673)": -0.4185766364,
+      "KRAS (3845)": -1.1435435496,
+      "PCNA (5111)": -2.702371919,
+      "RPL4 (6124)": -1.461182996,
+      "MSIScore": 88.59
+    },
+    {
+      "ModelID": "ACH-000955",
+      "PatientID": "PT-lgLAoF",
+      "CellLineName": "SNU-407",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 88.91
+    },
+    {
+      "ModelID": "ACH-000957",
+      "PatientID": "PT-FXUrcz",
+      "CellLineName": "LS 180",
+      "WRN (7486)": -1.4034440716,
+      "BRAF (673)": -0.1154069343,
+      "KRAS (3845)": -1.6268250233,
+      "PCNA (5111)": -2.907637575,
+      "RPL4 (6124)": -1.6420738364,
+      "MSIScore": 88.39
+    },
+    {
+      "ModelID": "ACH-000958",
+      "PatientID": "PT-EB6qeM",
+      "CellLineName": "SW48",
+      "WRN (7486)": -2.4698537526,
+      "BRAF (673)": -0.0047696576,
+      "KRAS (3845)": -0.3155357704,
+      "PCNA (5111)": -2.617754024,
+      "RPL4 (6124)": -1.3488076829,
+      "MSIScore": 84.58
+    },
+    {
+      "ModelID": "ACH-000959",
+      "PatientID": "PT-ulmNPq",
+      "CellLineName": "SNU-C4",
+      "WRN (7486)": -0.7831418417,
+      "BRAF (673)": 0.0511707597,
+      "KRAS (3845)": -0.8825104136,
+      "PCNA (5111)": -2.0783485157,
+      "RPL4 (6124)": -2.1949231452,
+      "MSIScore": 89.04
+    },
+    {
+      "ModelID": "ACH-000963",
+      "PatientID": "PT-c4ZGOD",
+      "CellLineName": "CCK-81",
+      "WRN (7486)": -0.3699265774,
+      "BRAF (673)": 0.2047812356,
+      "KRAS (3845)": -0.5381137192,
+      "PCNA (5111)": -2.8751905426,
+      "RPL4 (6124)": -2.1331539756,
+      "MSIScore": 91.78
+    },
+    {
+      "ModelID": "ACH-000967",
+      "PatientID": "PT-GfrL06",
+      "CellLineName": "SNU-C2A",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 90.86
+    },
+    {
+      "ModelID": "ACH-000969",
+      "PatientID": "PT-ue72rD",
+      "CellLineName": "KM12",
+      "WRN (7486)": -2.8485778215,
+      "BRAF (673)": -0.0026875631,
+      "KRAS (3845)": -0.4846858782,
+      "PCNA (5111)": -2.8347741868,
+      "RPL4 (6124)": -1.5688864294,
+      "MSIScore": 89.35
+    },
+    {
+      "ModelID": "ACH-000970",
+      "PatientID": "PT-B2n6IN",
+      "CellLineName": "SNU-C5",
+      "WRN (7486)": -2.1048350915,
+      "BRAF (673)": -0.2970007575,
+      "KRAS (3845)": -0.6890002846,
+      "PCNA (5111)": -3.5007563852,
+      "RPL4 (6124)": -1.8113336742,
+      "MSIScore": 87.97
+    },
+    {
+      "ModelID": "ACH-000971",
+      "PatientID": "PT-2Roqq2",
+      "CellLineName": "HCT 116",
+      "WRN (7486)": -2.2129445373,
+      "BRAF (673)": -0.3626173383,
+      "KRAS (3845)": -2.3772410446,
+      "PCNA (5111)": -2.6353320142,
+      "RPL4 (6124)": -2.2060867713,
+      "MSIScore": 89.11
+    },
+    {
+      "ModelID": "ACH-000982",
+      "PatientID": "PT-sGJOXH",
+      "CellLineName": "GP2d",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 90.28
+    },
+    {
+      "ModelID": "ACH-000985",
+      "PatientID": "PT-KI0Di1",
+      "CellLineName": "LS411N",
+      "WRN (7486)": -2.5930488381,
+      "BRAF (673)": -0.6038270056,
+      "KRAS (3845)": 0.0779883379,
+      "PCNA (5111)": -2.7808534076,
+      "RPL4 (6124)": -1.7797960661,
+      "MSIScore": 88.71
+    },
+    {
+      "ModelID": "ACH-000986",
+      "PatientID": "PT-EoHcfh",
+      "CellLineName": "HT115",
+      "WRN (7486)": -0.0769163741,
+      "BRAF (673)": -0.0544677687,
+      "KRAS (3845)": -0.9655550972,
+      "PCNA (5111)": -2.7243746431,
+      "RPL4 (6124)": -2.3436417407,
+      "MSIScore": 2.85
+    },
+    {
+      "ModelID": "ACH-000989",
+      "PatientID": "PT-iFoJMI",
+      "CellLineName": "SNU-175",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 71.61
+    },
+    {
+      "ModelID": "ACH-000991",
+      "PatientID": "PT-pBOr7s",
+      "CellLineName": "SNU-81",
+      "WRN (7486)": -0.1755089508,
+      "BRAF (673)": -0.2512038561,
+      "KRAS (3845)": -0.8198056046,
+      "PCNA (5111)": -2.9808874347,
+      "RPL4 (6124)": -1.9095294014,
+      "MSIScore": 2.67
+    },
+    {
+      "ModelID": "ACH-000997",
+      "PatientID": "PT-i0VYNQ",
+      "CellLineName": "HCT-15",
+      "WRN (7486)": -0.2173938795,
+      "BRAF (673)": -0.3187279213,
+      "KRAS (3845)": -0.4557091339,
+      "PCNA (5111)": -2.9017156506,
+      "RPL4 (6124)": -1.374628838,
+      "MSIScore": 65.0
+    },
+    {
+      "ModelID": "ACH-000998",
+      "PatientID": "PT-A55gCd",
+      "CellLineName": "CW-2",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 83.72
+    },
+    {
+      "ModelID": "ACH-000999",
+      "PatientID": "PT-hR5WVg",
+      "CellLineName": "SNU-1040",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 75.95
+    },
+    {
+      "ModelID": "ACH-001039",
+      "PatientID": "PT-BLAWlD",
+      "CellLineName": "COLO 205",
+      "WRN (7486)": 0.1864969364,
+      "BRAF (673)": -0.9798382092,
+      "KRAS (3845)": -0.1897626137,
+      "PCNA (5111)": -3.6946817909,
+      "RPL4 (6124)": -2.1451894977,
+      "MSIScore": 1.14
+    },
+    {
+      "ModelID": "ACH-001061",
+      "PatientID": "PT-i0VYNQ",
+      "CellLineName": "DLD-1",
+      "WRN (7486)": 0.0037118457,
+      "BRAF (673)": 0.0300615516,
+      "KRAS (3845)": -1.2498120018,
+      "PCNA (5111)": -1.8975539672,
+      "RPL4 (6124)": -2.4823087316,
+      "MSIScore": 64.95
+    },
+    {
+      "ModelID": "ACH-001081",
+      "PatientID": "PT-JITDXL",
+      "CellLineName": "HCC2998",
+      "WRN (7486)": -0.0730131791,
+      "BRAF (673)": -0.008171891,
+      "KRAS (3845)": -2.3708622133,
+      "PCNA (5111)": -3.0728248184,
+      "RPL4 (6124)": -2.3038085319,
+      "MSIScore": 2.15
+    },
+    {
+      "ModelID": "ACH-001084",
+      "PatientID": "PT-i0VYNQ",
+      "CellLineName": "HCT-8",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": null
+    },
+    {
+      "ModelID": "ACH-001091",
+      "PatientID": "PT-i0VYNQ",
+      "CellLineName": "HRT18",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": null
+    },
+    {
+      "ModelID": "ACH-001199",
+      "PatientID": "PT-GfrL06",
+      "CellLineName": "SNUC2B",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 89.27
+    },
+    {
+      "ModelID": "ACH-001345",
+      "PatientID": "PT-sGJOXH",
+      "CellLineName": "GP5d",
+      "WRN (7486)": -1.7457320029,
+      "BRAF (673)": 0.0001836739,
+      "KRAS (3845)": -1.5452037162,
+      "PCNA (5111)": -3.2065060762,
+      "RPL4 (6124)": -1.4268215853,
+      "MSIScore": 89.33
+    },
+    {
+      "ModelID": "ACH-001399",
+      "PatientID": "PT-V8yAFO",
+      "CellLineName": "SW 626",
+      "WRN (7486)": -0.0682519669,
+      "BRAF (673)": -0.0663327592,
+      "KRAS (3845)": -2.8064496986,
+      "PCNA (5111)": -2.3875226198,
+      "RPL4 (6124)": -2.1265874063,
+      "MSIScore": 2.99
+    },
+    {
+      "ModelID": "ACH-001454",
+      "PatientID": "PT-LAy4cf",
+      "CellLineName": "C10",
+      "WRN (7486)": -0.0036223435,
+      "BRAF (673)": 0.0010159904,
+      "KRAS (3845)": -0.7165593184,
+      "PCNA (5111)": -2.7961070731,
+      "RPL4 (6124)": -2.4352023455,
+      "MSIScore": 4.57
+    },
+    {
+      "ModelID": "ACH-001456",
+      "PatientID": "PT-pBU2pM",
+      "CellLineName": "C125PM",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 4.35
+    },
+    {
+      "ModelID": "ACH-001458",
+      "PatientID": "PT-gDrzwl",
+      "CellLineName": "C75",
+      "WRN (7486)": -0.0989847827,
+      "BRAF (673)": -0.8097885625,
+      "KRAS (3845)": -0.9585562881,
+      "PCNA (5111)": -2.6976566298,
+      "RPL4 (6124)": -1.9620668773,
+      "MSIScore": 4.8
+    },
+    {
+      "ModelID": "ACH-001459",
+      "PatientID": "PT-4HbM7P",
+      "CellLineName": "C80",
+      "WRN (7486)": -0.115479095,
+      "BRAF (673)": -0.484235789,
+      "KRAS (3845)": -1.2668872588,
+      "PCNA (5111)": -2.8381007132,
+      "RPL4 (6124)": -2.1880475039,
+      "MSIScore": 4.66
+    },
+    {
+      "ModelID": "ACH-001460",
+      "PatientID": "PT-7da898",
+      "CellLineName": "C84",
+      "WRN (7486)": 0.0046886934,
+      "BRAF (673)": -0.0864325858,
+      "KRAS (3845)": -2.2138997305,
+      "PCNA (5111)": -3.4952522827,
+      "RPL4 (6124)": -2.8201211837,
+      "MSIScore": 5.54
+    },
+    {
+      "ModelID": "ACH-001461",
+      "PatientID": "PT-3wMRZS",
+      "CellLineName": "C99",
+      "WRN (7486)": -0.2056429265,
+      "BRAF (673)": -0.2260500884,
+      "KRAS (3845)": -1.0040030346,
+      "PCNA (5111)": -2.5539264089,
+      "RPL4 (6124)": -2.2982769746,
+      "MSIScore": 3.62
+    },
+    {
+      "ModelID": "ACH-001786",
+      "PatientID": "PT-LbUj3S",
+      "CellLineName": "SNU-1544",
+      "WRN (7486)": -0.4893722569,
+      "BRAF (673)": 0.0280266414,
+      "KRAS (3845)": -0.571978141,
+      "PCNA (5111)": -3.0842280382,
+      "RPL4 (6124)": -2.7686460359,
+      "MSIScore": 88.0
+    },
+    {
+      "ModelID": "ACH-001825",
+      "PatientID": "PT-IPboWn",
+      "CellLineName": "SW527",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": null
+    },
+    {
+      "ModelID": "ACH-002024",
+      "PatientID": "PT-2Stxl0",
+      "CellLineName": "ECC4",
+      "WRN (7486)": 0.0408809411,
+      "BRAF (673)": -0.3775797255,
+      "KRAS (3845)": -1.037226577,
+      "PCNA (5111)": -2.7066834102,
+      "RPL4 (6124)": -2.0773997082,
+      "MSIScore": 3.13
+    },
+    {
+      "ModelID": "ACH-002025",
+      "PatientID": "PT-mIVrGc",
+      "CellLineName": "TT1TKB",
+      "WRN (7486)": -0.0805503335,
+      "BRAF (673)": 0.0339310504,
+      "KRAS (3845)": -1.0577775282,
+      "PCNA (5111)": -2.7418551185,
+      "RPL4 (6124)": -2.1603962901,
+      "MSIScore": 2.55
+    },
+    {
+      "ModelID": "ACH-002219",
+      "PatientID": "PT-UB7otW",
+      "CellLineName": "COLO-320-HSR",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": null
+    },
+    {
+      "ModelID": "ACH-002233",
+      "PatientID": "PT-E7CRZu",
+      "CellLineName": "DIFI",
+      "WRN (7486)": 0.1866649183,
+      "BRAF (673)": -0.1818612629,
+      "KRAS (3845)": -1.7443424164,
+      "PCNA (5111)": -3.2523377526,
+      "RPL4 (6124)": -1.5202535204,
+      "MSIScore": 0.95
+    },
+    {
+      "ModelID": "ACH-002287",
+      "PatientID": "PT-3ANo8s",
+      "CellLineName": "NCI-H630",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 80.38
+    },
+    {
+      "ModelID": "ACH-002345",
+      "PatientID": "PT-ORM06p",
+      "CellLineName": "CaR-1",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 2.75
+    },
+    {
+      "ModelID": "ACH-002530",
+      "PatientID": "PT-RYQaF6",
+      "CellLineName": "SNU-977",
+      "WRN (7486)": 0.0653632366,
+      "BRAF (673)": -0.3561233371,
+      "KRAS (3845)": -0.6664855171,
+      "PCNA (5111)": -2.8782803799,
+      "RPL4 (6124)": -2.1702283152,
+      "MSIScore": 2.74
+    },
+    {
+      "ModelID": "ACH-002532",
+      "PatientID": "PT-IT0tKB",
+      "CellLineName": "SNU-1411",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 2.78
+    },
+    {
+      "ModelID": "ACH-002535",
+      "PatientID": "PT-W0h0s9",
+      "CellLineName": "SNU-254",
+      "WRN (7486)": -0.0567203293,
+      "BRAF (673)": -0.0162913752,
+      "KRAS (3845)": -2.3230136805,
+      "PCNA (5111)": -3.1501408913,
+      "RPL4 (6124)": -2.1485270206,
+      "MSIScore": 3.51
+    },
+    {
+      "ModelID": "ACH-002538",
+      "PatientID": "PT-WkPESC",
+      "CellLineName": "SNU-1235",
+      "WRN (7486)": -0.1834074913,
+      "BRAF (673)": -0.9971717546,
+      "KRAS (3845)": -0.0927234524,
+      "PCNA (5111)": -1.4552856105,
+      "RPL4 (6124)": -2.8099231276,
+      "MSIScore": 3.13
+    },
+    {
+      "ModelID": "ACH-002539",
+      "PatientID": "PT-PWtOWn",
+      "CellLineName": "SNU-1460",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 2.91
+    },
+    {
+      "ModelID": "ACH-002543",
+      "PatientID": "PT-dKUyPL",
+      "CellLineName": "SNU-1406",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 2.36
+    },
+    {
+      "ModelID": "ACH-002654",
+      "PatientID": "PT-anuBoi",
+      "CellLineName": "JVE-015",
+      "WRN (7486)": 0.1614155442,
+      "BRAF (673)": -0.059155045,
+      "KRAS (3845)": -2.1408669623,
+      "PCNA (5111)": -3.2821509879,
+      "RPL4 (6124)": -2.1753001513,
+      "MSIScore": 2.18
+    },
+    {
+      "ModelID": "ACH-002659",
+      "PatientID": "PT-btmPL5",
+      "CellLineName": "JVE-127",
+      "WRN (7486)": -0.0955887435,
+      "BRAF (673)": -1.0112906576,
+      "KRAS (3845)": -0.1971811497,
+      "PCNA (5111)": -2.9666237633,
+      "RPL4 (6124)": -2.3817984014,
+      "MSIScore": 2.39
+    },
+    {
+      "ModelID": "ACH-002660",
+      "PatientID": "PT-iZtOKB",
+      "CellLineName": "JVE-187",
+      "WRN (7486)": 0.1166822828,
+      "BRAF (673)": -0.2380447358,
+      "KRAS (3845)": -1.2199597392,
+      "PCNA (5111)": -2.9569838246,
+      "RPL4 (6124)": -2.0307595506,
+      "MSIScore": 2.76
+    },
+    {
+      "ModelID": "ACH-002662",
+      "PatientID": "PT-iwSeHI",
+      "CellLineName": "JVE-207",
+      "WRN (7486)": 0.2904329911,
+      "BRAF (673)": -0.7308311651,
+      "KRAS (3845)": -0.7334841437,
+      "PCNA (5111)": -3.2120789762,
+      "RPL4 (6124)": -1.8153946425,
+      "MSIScore": 2.52
+    },
+    {
+      "ModelID": "ACH-002664",
+      "PatientID": "PT-FT4DA3",
+      "CellLineName": "JVE-253",
+      "WRN (7486)": 0.0329733697,
+      "BRAF (673)": 0.0473223194,
+      "KRAS (3845)": -1.0110978289,
+      "PCNA (5111)": -3.4860235822,
+      "RPL4 (6124)": -1.9375438,
+      "MSIScore": 2.49
+    },
+    {
+      "ModelID": "ACH-002667",
+      "PatientID": "PT-KCNAWx",
+      "CellLineName": "JVE-528",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 4.6
+    },
+    {
+      "ModelID": "ACH-002669",
+      "PatientID": "PT-53ZOQS",
+      "CellLineName": "KP-363T",
+      "WRN (7486)": -0.1190450921,
+      "BRAF (673)": -0.8885680697,
+      "KRAS (3845)": -0.1378961864,
+      "PCNA (5111)": -3.2168911051,
+      "RPL4 (6124)": -2.6135369717,
+      "MSIScore": 2.24
+    },
+    {
+      "ModelID": "ACH-002839",
+      "PatientID": "PT-aXPS8n",
+      "CellLineName": "CCLF_CORE_0002_T",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": null
+    },
+    {
+      "ModelID": "ACH-002886",
+      "PatientID": "PT-MF3WjU",
+      "CellLineName": "VACO 432",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 82.96
+    },
+    {
+      "ModelID": "ACH-002932",
+      "PatientID": "PT-G1Vi03",
+      "CellLineName": "CCLF_NEURO_0001_T",
+      "WRN (7486)": null,
+      "BRAF (673)": null,
+      "KRAS (3845)": null,
+      "PCNA (5111)": null,
+      "RPL4 (6124)": null,
+      "MSIScore": 4.61
+    }
+  ],
+  "coverage": {
+    "models": 96,
+    "pairedWRNAndMSI": 63,
+    "unpaired": 33
+  },
+  "wrnSummary": {
+    "spearmanRho": -0.6031010730681383,
+    "n": 63,
+    "inference": "Descriptive association in this model cohort; no categorical classification or causal estimate."
+  },
+  "sources": [
+    {
+      "name": "DepMap 24Q4 Public v1",
+      "url": "https://doi.org/10.25452/figshare.plus.27993248.v1",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "DepMap, Broad (2024). DepMap 24Q4 Public. Figshare+. Dataset. https://doi.org/10.25452/figshare.plus.27993248.v1"
+    }
+  ],
+  "sourceManifest": [
+    {
+      "file": "Model-24Q4.csv",
+      "source": "https://ndownloader.figshare.com/files/51065297",
+      "md5": "675210d17675f3517b0ce39a3c274f16",
+      "bytes": 645696,
+      "license": "CC BY 4.0",
+      "release": "DepMap 24Q4 Public"
+    },
+    {
+      "file": "CRISPRGeneEffect-24Q4.csv",
+      "source": "https://ndownloader.figshare.com/files/51064667",
+      "md5": "6edf7ade09b9b34199210b559d4745d3",
+      "bytes": 428678699,
+      "license": "CC BY 4.0",
+      "release": "DepMap 24Q4 Public"
+    },
+    {
+      "file": "OmicsSignatures-24Q4.csv",
+      "source": "https://ndownloader.figshare.com/files/51065726",
+      "md5": "14bdb13656a584dab52e2959a1e11c5a",
+      "bytes": 131912,
+      "license": "CC BY 4.0",
+      "release": "DepMap 24Q4 Public"
+    },
+    {
+      "file": "README-24Q4.txt",
+      "source": "https://ndownloader.figshare.com/files/51065795",
+      "md5": "54628c15a10b9ff6536db245cfed5231",
+      "bytes": 43103,
+      "license": "CC BY 4.0",
+      "release": "DepMap 24Q4 Public"
+    }
+  ],
+  "limits": [
+    "Continuous MSI scores are not converted into MSI/MSS categories.",
+    "Missing scores remain missing, not zero.",
+    "This is a related analysis of the same cell models, not independent replication.",
+    "Association does not establish clinical efficacy or treatment selection.",
+    "Historical manuscript annotations and group contrasts are absent from this dataset."
+  ],
+  "donorSensitivity": {
+    "method": "Select complete MSI/gene-effect pairs, then take each measurement median within source donor.",
+    "modelLevel": {
+      "spearmanRho": -0.6031010730681383,
+      "n": 63,
+      "status": "available"
+    },
+    "donorLevel": {
+      "spearmanRho": -0.6038234751839835,
+      "n": 61,
+      "status": "available"
+    },
+    "donors": [
+      {
+        "donorId": "PT-04KbrE",
+        "modelIds": [
+          "ACH-000722"
+        ],
+        "modelNames": [
+          "SNU-C1"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 1.73,
+        "geneEffect": -0.4202551121068195,
+        "msiRange": [
+          1.73,
+          1.73
+        ],
+        "effectRange": [
+          -0.4202551121068195,
+          -0.4202551121068195
+        ]
+      },
+      {
+        "donorId": "PT-2RDjdA",
+        "modelIds": [
+          "ACH-000467"
+        ],
+        "modelNames": [
+          "HCC-56"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 1.08,
+        "geneEffect": 0.1152378109102595,
+        "msiRange": [
+          1.08,
+          1.08
+        ],
+        "effectRange": [
+          0.1152378109102595,
+          0.1152378109102595
+        ]
+      },
+      {
+        "donorId": "PT-2Roqq2",
+        "modelIds": [
+          "ACH-000971"
+        ],
+        "modelNames": [
+          "HCT 116"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 89.11,
+        "geneEffect": -2.212944537331724,
+        "msiRange": [
+          89.11,
+          89.11
+        ],
+        "effectRange": [
+          -2.212944537331724,
+          -2.212944537331724
+        ]
+      },
+      {
+        "donorId": "PT-2Stxl0",
+        "modelIds": [
+          "ACH-002024"
+        ],
+        "modelNames": [
+          "ECC4"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 3.13,
+        "geneEffect": 0.0408809410690005,
+        "msiRange": [
+          3.13,
+          3.13
+        ],
+        "effectRange": [
+          0.0408809410690005,
+          0.0408809410690005
+        ]
+      },
+      {
+        "donorId": "PT-3aeu41",
+        "modelIds": [
+          "ACH-000381"
+        ],
+        "modelNames": [
+          "T84"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.27,
+        "geneEffect": -0.1059112632865877,
+        "msiRange": [
+          2.27,
+          2.27
+        ],
+        "effectRange": [
+          -0.1059112632865877,
+          -0.1059112632865877
+        ]
+      },
+      {
+        "donorId": "PT-3wMRZS",
+        "modelIds": [
+          "ACH-001461"
+        ],
+        "modelNames": [
+          "C99"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 3.62,
+        "geneEffect": -0.2056429264809289,
+        "msiRange": [
+          3.62,
+          3.62
+        ],
+        "effectRange": [
+          -0.2056429264809289,
+          -0.2056429264809289
+        ]
+      },
+      {
+        "donorId": "PT-4HbM7P",
+        "modelIds": [
+          "ACH-001459"
+        ],
+        "modelNames": [
+          "C80"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 4.66,
+        "geneEffect": -0.1154790949702799,
+        "msiRange": [
+          4.66,
+          4.66
+        ],
+        "effectRange": [
+          -0.1154790949702799,
+          -0.1154790949702799
+        ]
+      },
+      {
+        "donorId": "PT-53ZOQS",
+        "modelIds": [
+          "ACH-002669"
+        ],
+        "modelNames": [
+          "KP-363T"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.24,
+        "geneEffect": -0.1190450921386667,
+        "msiRange": [
+          2.24,
+          2.24
+        ],
+        "effectRange": [
+          -0.1190450921386667,
+          -0.1190450921386667
+        ]
+      },
+      {
+        "donorId": "PT-5GhHA6",
+        "modelIds": [
+          "ACH-000491"
+        ],
+        "modelNames": [
+          "NCI-H716"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 1.25,
+        "geneEffect": 0.1597141696997562,
+        "msiRange": [
+          1.25,
+          1.25
+        ],
+        "effectRange": [
+          0.1597141696997562,
+          0.1597141696997562
+        ]
+      },
+      {
+        "donorId": "PT-663aNr",
+        "modelIds": [
+          "ACH-000532"
+        ],
+        "modelNames": [
+          "SNU-61"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.58,
+        "geneEffect": 0.0296403193655914,
+        "msiRange": [
+          2.58,
+          2.58
+        ],
+        "effectRange": [
+          0.0296403193655914,
+          0.0296403193655914
+        ]
+      },
+      {
+        "donorId": "PT-6USEGU",
+        "modelIds": [
+          "ACH-000950"
+        ],
+        "modelNames": [
+          "LoVo"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 88.59,
+        "geneEffect": -0.7750164758130806,
+        "msiRange": [
+          88.59,
+          88.59
+        ],
+        "effectRange": [
+          -0.7750164758130806,
+          -0.7750164758130806
+        ]
+      },
+      {
+        "donorId": "PT-7da898",
+        "modelIds": [
+          "ACH-001460"
+        ],
+        "modelNames": [
+          "C84"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 5.54,
+        "geneEffect": 0.00468869335331,
+        "msiRange": [
+          5.54,
+          5.54
+        ],
+        "effectRange": [
+          0.00468869335331,
+          0.00468869335331
+        ]
+      },
+      {
+        "donorId": "PT-9E5O4L",
+        "modelIds": [
+          "ACH-000943"
+        ],
+        "modelNames": [
+          "RKO"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 90.46,
+        "geneEffect": -2.2928714131596086,
+        "msiRange": [
+          90.46,
+          90.46
+        ],
+        "effectRange": [
+          -2.2928714131596086,
+          -2.2928714131596086
+        ]
+      },
+      {
+        "donorId": "PT-B2n6IN",
+        "modelIds": [
+          "ACH-000970"
+        ],
+        "modelNames": [
+          "SNU-C5"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 87.97,
+        "geneEffect": -2.1048350915076575,
+        "msiRange": [
+          87.97,
+          87.97
+        ],
+        "effectRange": [
+          -2.1048350915076575,
+          -2.1048350915076575
+        ]
+      },
+      {
+        "donorId": "PT-BLAWlD",
+        "modelIds": [
+          "ACH-000253",
+          "ACH-001039"
+        ],
+        "modelNames": [
+          "COLO 201",
+          "COLO 205"
+        ],
+        "pairedModelCount": 2,
+        "msiScore": 1.455,
+        "geneEffect": 0.1038247540332262,
+        "msiRange": [
+          1.14,
+          1.77
+        ],
+        "effectRange": [
+          0.0211525717162238,
+          0.1864969363502286
+        ]
+      },
+      {
+        "donorId": "PT-E7CRZu",
+        "modelIds": [
+          "ACH-002233"
+        ],
+        "modelNames": [
+          "DIFI"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 0.95,
+        "geneEffect": 0.1866649183015695,
+        "msiRange": [
+          0.95,
+          0.95
+        ],
+        "effectRange": [
+          0.1866649183015695,
+          0.1866649183015695
+        ]
+      },
+      {
+        "donorId": "PT-EB6qeM",
+        "modelIds": [
+          "ACH-000958"
+        ],
+        "modelNames": [
+          "SW48"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 84.58,
+        "geneEffect": -2.469853752607064,
+        "msiRange": [
+          84.58,
+          84.58
+        ],
+        "effectRange": [
+          -2.469853752607064,
+          -2.469853752607064
+        ]
+      },
+      {
+        "donorId": "PT-EoHcfh",
+        "modelIds": [
+          "ACH-000986"
+        ],
+        "modelNames": [
+          "HT115"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.85,
+        "geneEffect": -0.0769163740786937,
+        "msiRange": [
+          2.85,
+          2.85
+        ],
+        "effectRange": [
+          -0.0769163740786937,
+          -0.0769163740786937
+        ]
+      },
+      {
+        "donorId": "PT-EtFrRG",
+        "modelIds": [
+          "ACH-000489"
+        ],
+        "modelNames": [
+          "SW1116"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 1.21,
+        "geneEffect": -0.0835672791832219,
+        "msiRange": [
+          1.21,
+          1.21
+        ],
+        "effectRange": [
+          -0.0835672791832219,
+          -0.0835672791832219
+        ]
+      },
+      {
+        "donorId": "PT-EteVig",
+        "modelIds": [
+          "ACH-000820"
+        ],
+        "modelNames": [
+          "SW403"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.99,
+        "geneEffect": -0.015025162433694,
+        "msiRange": [
+          2.99,
+          2.99
+        ],
+        "effectRange": [
+          -0.015025162433694,
+          -0.015025162433694
+        ]
+      },
+      {
+        "donorId": "PT-FT4DA3",
+        "modelIds": [
+          "ACH-002664"
+        ],
+        "modelNames": [
+          "JVE-253"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.49,
+        "geneEffect": 0.0329733696508016,
+        "msiRange": [
+          2.49,
+          2.49
+        ],
+        "effectRange": [
+          0.0329733696508016,
+          0.0329733696508016
+        ]
+      },
+      {
+        "donorId": "PT-FXUrcz",
+        "modelIds": [
+          "ACH-000957"
+        ],
+        "modelNames": [
+          "LS 180"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 88.39,
+        "geneEffect": -1.4034440716030907,
+        "msiRange": [
+          88.39,
+          88.39
+        ],
+        "effectRange": [
+          -1.4034440716030907,
+          -1.4034440716030907
+        ]
+      },
+      {
+        "donorId": "PT-GezIUF",
+        "modelIds": [
+          "ACH-000296"
+        ],
+        "modelNames": [
+          "OUMS-23"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 4.2,
+        "geneEffect": -0.0693515390960308,
+        "msiRange": [
+          4.2,
+          4.2
+        ],
+        "effectRange": [
+          -0.0693515390960308,
+          -0.0693515390960308
+        ]
+      },
+      {
+        "donorId": "PT-IPboWn",
+        "modelIds": [
+          "ACH-000651"
+        ],
+        "modelNames": [
+          "SW 620"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 3.2,
+        "geneEffect": 0.1493374970093555,
+        "msiRange": [
+          3.2,
+          3.2
+        ],
+        "effectRange": [
+          0.1493374970093555,
+          0.1493374970093555
+        ]
+      },
+      {
+        "donorId": "PT-JITDXL",
+        "modelIds": [
+          "ACH-001081"
+        ],
+        "modelNames": [
+          "HCC2998"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.15,
+        "geneEffect": -0.0730131791441714,
+        "msiRange": [
+          2.15,
+          2.15
+        ],
+        "effectRange": [
+          -0.0730131791441714,
+          -0.0730131791441714
+        ]
+      },
+      {
+        "donorId": "PT-KI0Di1",
+        "modelIds": [
+          "ACH-000985"
+        ],
+        "modelNames": [
+          "LS411N"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 88.71,
+        "geneEffect": -2.593048838050624,
+        "msiRange": [
+          88.71,
+          88.71
+        ],
+        "effectRange": [
+          -2.593048838050624,
+          -2.593048838050624
+        ]
+      },
+      {
+        "donorId": "PT-LAy4cf",
+        "modelIds": [
+          "ACH-001454"
+        ],
+        "modelNames": [
+          "C10"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 4.57,
+        "geneEffect": -0.0036223435264259,
+        "msiRange": [
+          4.57,
+          4.57
+        ],
+        "effectRange": [
+          -0.0036223435264259,
+          -0.0036223435264259
+        ]
+      },
+      {
+        "donorId": "PT-LbUj3S",
+        "modelIds": [
+          "ACH-001786"
+        ],
+        "modelNames": [
+          "SNU-1544"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 88.0,
+        "geneEffect": -0.4893722568732663,
+        "msiRange": [
+          88.0,
+          88.0
+        ],
+        "effectRange": [
+          -0.4893722568732663,
+          -0.4893722568732663
+        ]
+      },
+      {
+        "donorId": "PT-M67oxD",
+        "modelIds": [
+          "ACH-000421"
+        ],
+        "modelNames": [
+          "SW837"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.22,
+        "geneEffect": -0.006243343769079,
+        "msiRange": [
+          2.22,
+          2.22
+        ],
+        "effectRange": [
+          -0.006243343769079,
+          -0.006243343769079
+        ]
+      },
+      {
+        "donorId": "PT-NOXwpH",
+        "modelIds": [
+          "ACH-000007"
+        ],
+        "modelNames": [
+          "LS513"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 3.36,
+        "geneEffect": -0.3480631488667096,
+        "msiRange": [
+          3.36,
+          3.36
+        ],
+        "effectRange": [
+          -0.3480631488667096,
+          -0.3480631488667096
+        ]
+      },
+      {
+        "donorId": "PT-O04gFy",
+        "modelIds": [
+          "ACH-000683"
+        ],
+        "modelNames": [
+          "SNU-503"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 3.28,
+        "geneEffect": 0.0991233662078102,
+        "msiRange": [
+          3.28,
+          3.28
+        ],
+        "effectRange": [
+          0.0991233662078102,
+          0.0991233662078102
+        ]
+      },
+      {
+        "donorId": "PT-RYQaF6",
+        "modelIds": [
+          "ACH-002530"
+        ],
+        "modelNames": [
+          "SNU-977"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.74,
+        "geneEffect": 0.0653632366086613,
+        "msiRange": [
+          2.74,
+          2.74
+        ],
+        "effectRange": [
+          0.0653632366086613,
+          0.0653632366086613
+        ]
+      },
+      {
+        "donorId": "PT-UB7otW",
+        "modelIds": [
+          "ACH-000202"
+        ],
+        "modelNames": [
+          "COLO-320"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.34,
+        "geneEffect": -0.0354213165889028,
+        "msiRange": [
+          2.34,
+          2.34
+        ],
+        "effectRange": [
+          -0.0354213165889028,
+          -0.0354213165889028
+        ]
+      },
+      {
+        "donorId": "PT-V8yAFO",
+        "modelIds": [
+          "ACH-001399"
+        ],
+        "modelNames": [
+          "SW 626"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.99,
+        "geneEffect": -0.0682519669059169,
+        "msiRange": [
+          2.99,
+          2.99
+        ],
+        "effectRange": [
+          -0.0682519669059169,
+          -0.0682519669059169
+        ]
+      },
+      {
+        "donorId": "PT-W0h0s9",
+        "modelIds": [
+          "ACH-002535"
+        ],
+        "modelNames": [
+          "SNU-254"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 3.51,
+        "geneEffect": -0.0567203293113488,
+        "msiRange": [
+          3.51,
+          3.51
+        ],
+        "effectRange": [
+          -0.0567203293113488,
+          -0.0567203293113488
+        ]
+      },
+      {
+        "donorId": "PT-WkPESC",
+        "modelIds": [
+          "ACH-002538"
+        ],
+        "modelNames": [
+          "SNU-1235"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 3.13,
+        "geneEffect": -0.1834074913237768,
+        "msiRange": [
+          3.13,
+          3.13
+        ],
+        "effectRange": [
+          -0.1834074913237768,
+          -0.1834074913237768
+        ]
+      },
+      {
+        "donorId": "PT-XIcCcb",
+        "modelIds": [
+          "ACH-000565"
+        ],
+        "modelNames": [
+          "RCM-1"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 1.52,
+        "geneEffect": -0.3692609956394078,
+        "msiRange": [
+          1.52,
+          1.52
+        ],
+        "effectRange": [
+          -0.3692609956394078,
+          -0.3692609956394078
+        ]
+      },
+      {
+        "donorId": "PT-XPa83T",
+        "modelIds": [
+          "ACH-000470"
+        ],
+        "modelNames": [
+          "SW1463"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 1.72,
+        "geneEffect": -0.0602051882019311,
+        "msiRange": [
+          1.72,
+          1.72
+        ],
+        "effectRange": [
+          -0.0602051882019311,
+          -0.0602051882019311
+        ]
+      },
+      {
+        "donorId": "PT-XQHvQF",
+        "modelIds": [
+          "ACH-000252"
+        ],
+        "modelNames": [
+          "LS1034"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 1.36,
+        "geneEffect": 0.0146971824061043,
+        "msiRange": [
+          1.36,
+          1.36
+        ],
+        "effectRange": [
+          0.0146971824061043,
+          0.0146971824061043
+        ]
+      },
+      {
+        "donorId": "PT-anuBoi",
+        "modelIds": [
+          "ACH-002654"
+        ],
+        "modelNames": [
+          "JVE-015"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.18,
+        "geneEffect": 0.1614155442349693,
+        "msiRange": [
+          2.18,
+          2.18
+        ],
+        "effectRange": [
+          0.1614155442349693,
+          0.1614155442349693
+        ]
+      },
+      {
+        "donorId": "PT-btmPL5",
+        "modelIds": [
+          "ACH-002659"
+        ],
+        "modelNames": [
+          "JVE-127"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.39,
+        "geneEffect": -0.0955887435028454,
+        "msiRange": [
+          2.39,
+          2.39
+        ],
+        "effectRange": [
+          -0.0955887435028454,
+          -0.0955887435028454
+        ]
+      },
+      {
+        "donorId": "PT-c4ZGOD",
+        "modelIds": [
+          "ACH-000963"
+        ],
+        "modelNames": [
+          "CCK-81"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 91.78,
+        "geneEffect": -0.3699265773973085,
+        "msiRange": [
+          91.78,
+          91.78
+        ],
+        "effectRange": [
+          -0.3699265773973085,
+          -0.3699265773973085
+        ]
+      },
+      {
+        "donorId": "PT-cabct5",
+        "modelIds": [
+          "ACH-000403"
+        ],
+        "modelNames": [
+          "NCI-H747"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 1.17,
+        "geneEffect": 0.0724263738238867,
+        "msiRange": [
+          1.17,
+          1.17
+        ],
+        "effectRange": [
+          0.0724263738238867,
+          0.0724263738238867
+        ]
+      },
+      {
+        "donorId": "PT-eQWzKj",
+        "modelIds": [
+          "ACH-000286"
+        ],
+        "modelNames": [
+          "SNU-1033"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.42,
+        "geneEffect": 0.0425735451129778,
+        "msiRange": [
+          2.42,
+          2.42
+        ],
+        "effectRange": [
+          0.0425735451129778,
+          0.0425735451129778
+        ]
+      },
+      {
+        "donorId": "PT-gDrzwl",
+        "modelIds": [
+          "ACH-001458"
+        ],
+        "modelNames": [
+          "C75"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 4.8,
+        "geneEffect": -0.0989847826586267,
+        "msiRange": [
+          4.8,
+          4.8
+        ],
+        "effectRange": [
+          -0.0989847826586267,
+          -0.0989847826586267
+        ]
+      },
+      {
+        "donorId": "PT-hYUBUD",
+        "modelIds": [
+          "ACH-000249"
+        ],
+        "modelNames": [
+          "CL-11"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.38,
+        "geneEffect": 0.2191420018764938,
+        "msiRange": [
+          2.38,
+          2.38
+        ],
+        "effectRange": [
+          0.2191420018764938,
+          0.2191420018764938
+        ]
+      },
+      {
+        "donorId": "PT-i0VYNQ",
+        "modelIds": [
+          "ACH-000997",
+          "ACH-001061"
+        ],
+        "modelNames": [
+          "HCT-15",
+          "DLD-1"
+        ],
+        "pairedModelCount": 2,
+        "msiScore": 64.975,
+        "geneEffect": -0.1068410169187026,
+        "msiRange": [
+          64.95,
+          65.0
+        ],
+        "effectRange": [
+          -0.2173938795103647,
+          0.0037118456729595
+        ]
+      },
+      {
+        "donorId": "PT-iZtOKB",
+        "modelIds": [
+          "ACH-002660"
+        ],
+        "modelNames": [
+          "JVE-187"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.76,
+        "geneEffect": 0.1166822827591247,
+        "msiRange": [
+          2.76,
+          2.76
+        ],
+        "effectRange": [
+          0.1166822827591247,
+          0.1166822827591247
+        ]
+      },
+      {
+        "donorId": "PT-iwSeHI",
+        "modelIds": [
+          "ACH-002662"
+        ],
+        "modelNames": [
+          "JVE-207"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.52,
+        "geneEffect": 0.290432991142454,
+        "msiRange": [
+          2.52,
+          2.52
+        ],
+        "effectRange": [
+          0.290432991142454,
+          0.290432991142454
+        ]
+      },
+      {
+        "donorId": "PT-j0XD5z",
+        "modelIds": [
+          "ACH-000350"
+        ],
+        "modelNames": [
+          "COLO-678"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 1.56,
+        "geneEffect": 0.0625608642483867,
+        "msiRange": [
+          1.56,
+          1.56
+        ],
+        "effectRange": [
+          0.0625608642483867,
+          0.0625608642483867
+        ]
+      },
+      {
+        "donorId": "PT-kCvNaO",
+        "modelIds": [
+          "ACH-000501"
+        ],
+        "modelNames": [
+          "LS123"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 1.19,
+        "geneEffect": 0.1994366362458289,
+        "msiRange": [
+          1.19,
+          1.19
+        ],
+        "effectRange": [
+          0.1994366362458289,
+          0.1994366362458289
+        ]
+      },
+      {
+        "donorId": "PT-mIVrGc",
+        "modelIds": [
+          "ACH-002025"
+        ],
+        "modelNames": [
+          "TT1TKB"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.55,
+        "geneEffect": -0.0805503334718151,
+        "msiRange": [
+          2.55,
+          2.55
+        ],
+        "effectRange": [
+          -0.0805503334718151,
+          -0.0805503334718151
+        ]
+      },
+      {
+        "donorId": "PT-maJywx",
+        "modelIds": [
+          "ACH-000798"
+        ],
+        "modelNames": [
+          "CL-40"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 1.7,
+        "geneEffect": -0.2364080513956481,
+        "msiRange": [
+          1.7,
+          1.7
+        ],
+        "effectRange": [
+          -0.2364080513956481,
+          -0.2364080513956481
+        ]
+      },
+      {
+        "donorId": "PT-pBOr7s",
+        "modelIds": [
+          "ACH-000991"
+        ],
+        "modelNames": [
+          "SNU-81"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 2.67,
+        "geneEffect": -0.1755089507897725,
+        "msiRange": [
+          2.67,
+          2.67
+        ],
+        "effectRange": [
+          -0.1755089507897725,
+          -0.1755089507897725
+        ]
+      },
+      {
+        "donorId": "PT-puKIyc",
+        "modelIds": [
+          "ACH-000009"
+        ],
+        "modelNames": [
+          "C2BBe1"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 1.0,
+        "geneEffect": 0.018596488986665,
+        "msiRange": [
+          1.0,
+          1.0
+        ],
+        "effectRange": [
+          0.018596488986665,
+          0.018596488986665
+        ]
+      },
+      {
+        "donorId": "PT-sF39aT",
+        "modelIds": [
+          "ACH-000552"
+        ],
+        "modelNames": [
+          "HT-29"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 1.3,
+        "geneEffect": -0.0175631018849613,
+        "msiRange": [
+          1.3,
+          1.3
+        ],
+        "effectRange": [
+          -0.0175631018849613,
+          -0.0175631018849613
+        ]
+      },
+      {
+        "donorId": "PT-sGJOXH",
+        "modelIds": [
+          "ACH-001345"
+        ],
+        "modelNames": [
+          "GP5d"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 89.33,
+        "geneEffect": -1.745732002900284,
+        "msiRange": [
+          89.33,
+          89.33
+        ],
+        "effectRange": [
+          -1.745732002900284,
+          -1.745732002900284
+        ]
+      },
+      {
+        "donorId": "PT-snQqpb",
+        "modelIds": [
+          "ACH-000935"
+        ],
+        "modelNames": [
+          "MDST8"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 0.83,
+        "geneEffect": -0.1071120210441943,
+        "msiRange": [
+          0.83,
+          0.83
+        ],
+        "effectRange": [
+          -0.1071120210441943,
+          -0.1071120210441943
+        ]
+      },
+      {
+        "donorId": "PT-ue72rD",
+        "modelIds": [
+          "ACH-000969"
+        ],
+        "modelNames": [
+          "KM12"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 89.35,
+        "geneEffect": -2.8485778215085533,
+        "msiRange": [
+          89.35,
+          89.35
+        ],
+        "effectRange": [
+          -2.8485778215085533,
+          -2.8485778215085533
+        ]
+      },
+      {
+        "donorId": "PT-ulmNPq",
+        "modelIds": [
+          "ACH-000959"
+        ],
+        "modelNames": [
+          "SNU-C4"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 89.04,
+        "geneEffect": -0.7831418416535635,
+        "msiRange": [
+          89.04,
+          89.04
+        ],
+        "effectRange": [
+          -0.7831418416535635,
+          -0.7831418416535635
+        ]
+      },
+      {
+        "donorId": "PT-vAncSZ",
+        "modelIds": [
+          "ACH-000926"
+        ],
+        "modelNames": [
+          "HT-55"
+        ],
+        "pairedModelCount": 1,
+        "msiScore": 1.65,
+        "geneEffect": 0.2245338415575201,
+        "msiRange": [
+          1.65,
+          1.65
+        ],
+        "effectRange": [
+          0.2245338415575201,
+          0.2245338415575201
+        ]
+      }
+    ],
+    "relatedDonors": 2,
+    "unpairedModels": 33,
+    "limits": [
+      "Aggregation reduces repeated representation of known source donors; it does not control other confounders.",
+      "Medians summarize distinct models; the median pair is not necessarily an observed single model.",
+      "Donor identity comes from the pinned DepMap release. This is a sensitivity analysis, not independent validation."
+    ]
+  }
+}

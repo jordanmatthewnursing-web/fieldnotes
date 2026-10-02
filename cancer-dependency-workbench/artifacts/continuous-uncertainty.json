@@ -1,0 +1,399 @@
+{
+  "unit": "source donor; medians of complete measurement pairs",
+  "point": {
+    "spearmanRho": -0.6038234751839835,
+    "n": 61,
+    "status": "available"
+  },
+  "seed": 20260929,
+  "resamples": 9999,
+  "method": "paired BCa bootstrap",
+  "confidenceLevel": 0.95,
+  "interval": [
+    -0.7619058837179299,
+    -0.38350442392315454
+  ],
+  "status": "available",
+  "undefinedResamples": 0,
+  "leaveOneDonorOut": [
+    {
+      "omittedDonorId": "PT-04KbrE",
+      "spearmanRho": -0.6263580540915856,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-2RDjdA",
+      "spearmanRho": -0.5947928536014765,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-2Roqq2",
+      "spearmanRho": -0.585178804860651,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-2Stxl0",
+      "spearmanRho": -0.6134289168265906,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-3aeu41",
+      "spearmanRho": -0.6146044627119059,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-3wMRZS",
+      "spearmanRho": -0.594181555704661,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-4HbM7P",
+      "spearmanRho": -0.5948206398695136,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-53ZOQS",
+      "spearmanRho": -0.6163272113302042,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-5GhHA6",
+      "spearmanRho": -0.59295895991103,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-663aNr",
+      "spearmanRho": -0.6098807971456044,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-6USEGU",
+      "spearmanRho": -0.585178804860651,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-7da898",
+      "spearmanRho": -0.613826447206868,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-9E5O4L",
+      "spearmanRho": -0.5852343773967251,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-B2n6IN",
+      "spearmanRho": -0.5857901027574665,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-BLAWlD",
+      "spearmanRho": -0.5971269001165903,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-E7CRZu",
+      "spearmanRho": -0.5894023176022853,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-EB6qeM",
+      "spearmanRho": -0.5866236907985786,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-EoHcfh",
+      "spearmanRho": -0.6055461393318218,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-EtFrRG",
+      "spearmanRho": -0.6205507240718385,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-EteVig",
+      "spearmanRho": -0.6086219592412755,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-FT4DA3",
+      "spearmanRho": -0.6099919422177527,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-FXUrcz",
+      "spearmanRho": -0.5852899499327994,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-GezIUF",
+      "spearmanRho": -0.6049904139710803,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-IPboWn",
+      "spearmanRho": -0.622023396277803,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-JITDXL",
+      "spearmanRho": -0.6141598824233129,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-KI0Di1",
+      "spearmanRho": -0.5853455224688735,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-LAy4cf",
+      "spearmanRho": -0.6120481260524957,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-LbUj3S",
+      "spearmanRho": -0.5850676597885027,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-M67oxD",
+      "spearmanRho": -0.6090472091044923,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-NOXwpH",
+      "spearmanRho": -0.5936814028799938,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-O04gFy",
+      "spearmanRho": -0.6181888912886877,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-RYQaF6",
+      "spearmanRho": -0.6124093475369775,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-UB7otW",
+      "spearmanRho": -0.6106865989186794,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-V8yAFO",
+      "spearmanRho": -0.6057877992776795,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-W0h0s9",
+      "spearmanRho": -0.606018505888452,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-WkPESC",
+      "spearmanRho": -0.5994804040645781,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-XIcCcb",
+      "spearmanRho": -0.6294701161117373,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-XPa83T",
+      "spearmanRho": -0.6106310263826052,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-XQHvQF",
+      "spearmanRho": -0.6036011005692271,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-anuBoi",
+      "spearmanRho": -0.6046847650226727,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-btmPL5",
+      "spearmanRho": -0.610936675331013,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-c4ZGOD",
+      "spearmanRho": -0.5897913253548043,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-cabct5",
+      "spearmanRho": -0.5970713275805161,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-eQWzKj",
+      "spearmanRho": -0.6094084305889742,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-gDrzwl",
+      "spearmanRho": -0.5985439997864808,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-hYUBUD",
+      "spearmanRho": -0.6127427827534223,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-i0VYNQ",
+      "spearmanRho": -0.5962655258074412,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-iZtOKB",
+      "spearmanRho": -0.6162438525260929,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-iwSeHI",
+      "spearmanRho": -0.6168551504229085,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-j0XD5z",
+      "spearmanRho": -0.6012948403221504,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-kCvNaO",
+      "spearmanRho": -0.5909583486123611,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-mIVrGc",
+      "spearmanRho": -0.6082136210633804,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-maJywx",
+      "spearmanRho": -0.6237461448961013,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-pBOr7s",
+      "spearmanRho": -0.605990719620415,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-puKIyc",
+      "spearmanRho": -0.6051015590432287,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-sF39aT",
+      "spearmanRho": -0.6096307207332708,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-sGJOXH",
+      "spearmanRho": -0.5855122400770958,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-snQqpb",
+      "spearmanRho": -0.6348884383789656,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-ue72rD",
+      "spearmanRho": -0.5845119344277614,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-ulmNPq",
+      "spearmanRho": -0.5855678126131699,
+      "n": 60,
+      "status": "available"
+    },
+    {
+      "omittedDonorId": "PT-vAncSZ",
+      "spearmanRho": -0.5979049156216282,
+      "n": 60,
+      "status": "available"
+    }
+  ],
+  "warnings": [],
+  "input": {
+    "path": "data/derived/continuous-evidence.json",
+    "sha256": "fe9e69a73bc083b90216c6773399756aae0535ec9c73c765a1d99dc48101f4c9",
+    "release": "10.25452/figshare.plus.27993248.v1"
+  },
+  "limits": [
+    "Resampling assumes source donors are independent and exchangeable within this selected cohort.",
+    "A nominal 95% interval is conditional on these assumptions; it does not establish coverage for tumors or patients.",
+    "This convenience cohort is not a random clinical sample. Missing measurements, selection and unmeasured confounding remain.",
+    "Donor medians change the estimand; this interval belongs to the donor-level correlation, not the model-level estimate.",
+    "Leave-one-donor-out values describe influence, not independent validation or confidence bounds."
+  ]
+}

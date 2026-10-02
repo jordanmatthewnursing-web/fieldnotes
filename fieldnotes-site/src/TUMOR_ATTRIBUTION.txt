@@ -1,0 +1,17 @@
+Tumor-context derivative database: TCGA PanCancer Atlas colorectal cohort via cBioPortal.
+Study: coadread_tcga_pan_can_atlas_2018 (TCGA, Cell 2018).
+https://www.cbioportal.org/study/summary?id=coadread_tcga_pan_can_atlas_2018
+cBioPortal: Cerami et al., Cancer Discovery 2012; Gao et al., Science Signaling 2013.
+
+The tumor-context derivative database is made available under the Open Database
+License (ODbL) v1.0: https://opendatacommons.org/licenses/odbl/1-0/
+Source terms: https://docs.cbioportal.org/user-guide/faq/
+The study metadata records no additional restriction. This notice applies to the
+tumor database, not to the code or separate CC BY 4.0 DepMap dataset.
+
+Changes: six selected fields, retained missing values, log2(RSEM + 1) transform,
+and coverage counts. Snapshot: 2026-09-28. 594 samples; 555 paired observations.
+The complete derivative database is available at tumor-evidence.json and through
+Export dossier. Original snapshot filenames and SHA-256 hashes are in its manifest.
+No endorsement by TCGA or cBioPortal is implied. No individual-level linking to
+DepMap cell models is performed. Expression is not dependency or treatment response.

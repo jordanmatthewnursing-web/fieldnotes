@@ -1,0 +1,18 @@
+Fieldnotes: continuous-score evidence view
+
+Data: DepMap, Broad Institute. DepMap 24Q4 Public, version 1.
+https://doi.org/10.25452/figshare.plus.27993248.v1
+License: Creative Commons Attribution 4.0 International (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/
+
+Adaptations: subset to models annotated Colorectal Adenocarcinoma; join model metadata,
+five gene-effect columns (WRN, BRAF, KRAS, PCNA, RPL4), and continuous MSIScore by
+ModelID; calculate descriptive WRN Spearman correlation. Retain missing observations.
+Full source download URLs, provider MD5 checksums and byte sizes are included in
+continuous-evidence.json and in exported dossiers. No endorsement is implied.
+
+Historical manuscript MSI labels, manuscript-derived group contrasts, and TCGA data
+are not included in this Site. Cell-model association is not clinical efficacy.
+
+Additional adaptation: WRN sensitivity using complete measurement pairs aggregated
+by source donor, with separate medians for MSI score and gene effect.

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "research/tcga-samples.json",
+    "sha256": "ce29d0dac02c57e72679d8efe442ed83cc2a2b83aebf870fbd6a0997ee42a1d8",
+    "bytes": 242367
+  },
+  {
+    "file": "research/tcga-sample-clinical.json",
+    "sha256": "5d49adc3132d9df6c37c5d1d34030f97d0c1975fe84787aa38431458a5a9d112",
+    "bytes": 3973089
+  },
+  {
+    "file": "research/tcga-wrn-expression.json",
+    "sha256": "73a8ad46c77b4bd8b443421fd6b375dabf601894c94b83ac14b2f750d48be256",
+    "bytes": 321588
+  },
+  {
+    "file": "research/tcga-study.json",
+    "sha256": "4e75f8e25222cf7654cfe5b7314bffbc1e8a8bf059d4859e94e0c73b14b99706",
+    "bytes": 2007
+  },
+  {
+    "file": "research/tcga-profiles.json",
+    "sha256": "68aadb12cbf29f0d48b0a455cdfcfae5bd71edfc609b99cd76edaf87130ba183",
+    "bytes": 7818
+  },
+  {
+    "file": "research/tcga-clinical-attributes.json",
+    "sha256": "0a126242657a430e53880609782e146ae2add18147df65a1a36ce3425a8478d8",
+    "bytes": 20642
+  }
+]

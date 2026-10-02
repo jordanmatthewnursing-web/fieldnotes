@@ -1,0 +1,4826 @@
+{
+  "schemaVersion": 1,
+  "evidenceMode": "tcga-tumor-context",
+  "coverage": {
+    "study": "coadread_tcga_pan_can_atlas_2018",
+    "profile": "coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna",
+    "retrieved_date": "2026-09-28",
+    "samples": 594,
+    "patients": 594,
+    "sample_types": {
+      "Primary Solid Tumor": 594
+    },
+    "observed_measurements": {
+      "MSI_SCORE_MANTIS": 557,
+      "MSI_SENSOR_SCORE": 584,
+      "MUTATION_COUNT": 534,
+      "WRN_RSEM": 592
+    },
+    "paired_MANTIS_and_WRN": 555,
+    "missing_MANTIS_or_WRN": 39,
+    "expression_transform": "log2(batch-normalized RSEM + 1); not a dependency score",
+    "limits": [
+      "This curated PanCancer Atlas cohort is distinct from the initial 633-case GDC catalog query.",
+      "Tumor expression is observational context, not evidence that WRN knockout or a drug benefits people.",
+      "MSI scores are retained continuously; no patient MSI categories are inferred.",
+      "Source MSIsensor description overlaps MSS and indeterminate ranges; it is not used to classify tumors.",
+      "Missing measurements remain missing, never zero or MSS.",
+      "No individual-level join exists between TCGA tumors and DepMap cell lines."
+    ]
+  },
+  "records": [
+    {
+      "sampleId": "TCGA-3L-AA1B-01",
+      "patientId": "TCGA-3L-AA1B",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3057,
+      "WRN_RSEM": 546.412,
+      "WRN_log2_RSEM_plus_1": 9.0964832506
+    },
+    {
+      "sampleId": "TCGA-4N-A93T-01",
+      "patientId": "TCGA-4N-A93T",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3317,
+      "WRN_RSEM": 164.49,
+      "WRN_log2_RSEM_plus_1": 7.3706002323
+    },
+    {
+      "sampleId": "TCGA-4T-AA8H-01",
+      "patientId": "TCGA-4T-AA8H",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3144,
+      "WRN_RSEM": 621.459,
+      "WRN_log2_RSEM_plus_1": 9.2818350029
+    },
+    {
+      "sampleId": "TCGA-5M-AAT4-01",
+      "patientId": "TCGA-5M-AAT4",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3232,
+      "WRN_RSEM": 325.301,
+      "WRN_log2_RSEM_plus_1": 8.3500595986
+    },
+    {
+      "sampleId": "TCGA-5M-AAT5-01",
+      "patientId": "TCGA-5M-AAT5",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3131,
+      "WRN_RSEM": 169.158,
+      "WRN_log2_RSEM_plus_1": 7.4107311712
+    },
+    {
+      "sampleId": "TCGA-5M-AAT6-01",
+      "patientId": "TCGA-5M-AAT6",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.66,
+      "WRN_RSEM": 218.526,
+      "WRN_log2_RSEM_plus_1": 7.7782480081
+    },
+    {
+      "sampleId": "TCGA-5M-AATA-01",
+      "patientId": "TCGA-5M-AATA",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3123,
+      "WRN_RSEM": 209.543,
+      "WRN_log2_RSEM_plus_1": 7.7179711003
+    },
+    {
+      "sampleId": "TCGA-5M-AATE-01",
+      "patientId": "TCGA-5M-AATE",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3252,
+      "WRN_RSEM": 430.423,
+      "WRN_log2_RSEM_plus_1": 8.7529592812
+    },
+    {
+      "sampleId": "TCGA-A6-2671-01",
+      "patientId": "TCGA-A6-2671",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.35,
+      "WRN_RSEM": 99.4381,
+      "WRN_log2_RSEM_plus_1": 6.6501628321
+    },
+    {
+      "sampleId": "TCGA-A6-2672-01",
+      "patientId": "TCGA-A6-2672",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.9618,
+      "WRN_RSEM": 198.9856,
+      "WRN_log2_RSEM_plus_1": 7.643752312
+    },
+    {
+      "sampleId": "TCGA-A6-2674-01",
+      "patientId": "TCGA-A6-2674",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.4577,
+      "WRN_RSEM": 314.644,
+      "WRN_log2_RSEM_plus_1": 8.3021545173
+    },
+    {
+      "sampleId": "TCGA-A6-2675-01",
+      "patientId": "TCGA-A6-2675",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.363,
+      "WRN_RSEM": 161.834,
+      "WRN_log2_RSEM_plus_1": 7.3472581579
+    },
+    {
+      "sampleId": "TCGA-A6-2676-01",
+      "patientId": "TCGA-A6-2676",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 206.1329,
+      "WRN_log2_RSEM_plus_1": 7.6944129123
+    },
+    {
+      "sampleId": "TCGA-A6-2677-01",
+      "patientId": "TCGA-A6-2677",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.319,
+      "WRN_RSEM": 811.0155,
+      "WRN_log2_RSEM_plus_1": 9.6653634561
+    },
+    {
+      "sampleId": "TCGA-A6-2678-01",
+      "patientId": "TCGA-A6-2678",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.36,
+      "WRN_RSEM": 280.2175,
+      "WRN_log2_RSEM_plus_1": 8.135542565
+    },
+    {
+      "sampleId": "TCGA-A6-2679-01",
+      "patientId": "TCGA-A6-2679",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3403,
+      "WRN_RSEM": 16.8658,
+      "WRN_log2_RSEM_plus_1": 4.1591286117
+    },
+    {
+      "sampleId": "TCGA-A6-2680-01",
+      "patientId": "TCGA-A6-2680",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3468,
+      "WRN_RSEM": 150.5657,
+      "WRN_log2_RSEM_plus_1": 7.2437994918
+    },
+    {
+      "sampleId": "TCGA-A6-2681-01",
+      "patientId": "TCGA-A6-2681",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3456,
+      "WRN_RSEM": 197.0427,
+      "WRN_log2_RSEM_plus_1": 7.6296677132
+    },
+    {
+      "sampleId": "TCGA-A6-2682-01",
+      "patientId": "TCGA-A6-2682",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3444,
+      "WRN_RSEM": 323.253,
+      "WRN_log2_RSEM_plus_1": 8.3409761122
+    },
+    {
+      "sampleId": "TCGA-A6-2683-01",
+      "patientId": "TCGA-A6-2683",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3644,
+      "WRN_RSEM": 79.7913,
+      "WRN_log2_RSEM_plus_1": 6.3361280398
+    },
+    {
+      "sampleId": "TCGA-A6-2684-01",
+      "patientId": "TCGA-A6-2684",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.4665,
+      "WRN_RSEM": 319.952,
+      "WRN_log2_RSEM_plus_1": 8.3262137409
+    },
+    {
+      "sampleId": "TCGA-A6-2685-01",
+      "patientId": "TCGA-A6-2685",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3571,
+      "WRN_RSEM": 290.37,
+      "WRN_log2_RSEM_plus_1": 8.1867085322
+    },
+    {
+      "sampleId": "TCGA-A6-2686-01",
+      "patientId": "TCGA-A6-2686",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.2375,
+      "WRN_RSEM": 360.312,
+      "WRN_log2_RSEM_plus_1": 8.4971013606
+    },
+    {
+      "sampleId": "TCGA-A6-3807-01",
+      "patientId": "TCGA-A6-3807",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.4215,
+      "WRN_RSEM": 176.5163,
+      "WRN_log2_RSEM_plus_1": 7.4718076924
+    },
+    {
+      "sampleId": "TCGA-A6-3808-01",
+      "patientId": "TCGA-A6-3808",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.406,
+      "WRN_RSEM": 334.2546,
+      "WRN_log2_RSEM_plus_1": 8.3891133171
+    },
+    {
+      "sampleId": "TCGA-A6-3809-01",
+      "patientId": "TCGA-A6-3809",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.9595,
+      "WRN_RSEM": 355.0422,
+      "WRN_log2_RSEM_plus_1": 8.4759044369
+    },
+    {
+      "sampleId": "TCGA-A6-3810-01",
+      "patientId": "TCGA-A6-3810",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3137,
+      "WRN_RSEM": 164.2688,
+      "WRN_log2_RSEM_plus_1": 7.3686705833
+    },
+    {
+      "sampleId": "TCGA-A6-4105-01",
+      "patientId": "TCGA-A6-4105",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3528,
+      "WRN_RSEM": 357.811,
+      "WRN_log2_RSEM_plus_1": 8.4870803091
+    },
+    {
+      "sampleId": "TCGA-A6-4107-01",
+      "patientId": "TCGA-A6-4107",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3809,
+      "WRN_RSEM": 278.2565,
+      "WRN_log2_RSEM_plus_1": 8.1254470512
+    },
+    {
+      "sampleId": "TCGA-A6-5656-01",
+      "patientId": "TCGA-A6-5656",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3197,
+      "WRN_RSEM": 200.774,
+      "WRN_log2_RSEM_plus_1": 7.6565964748
+    },
+    {
+      "sampleId": "TCGA-A6-5657-01",
+      "patientId": "TCGA-A6-5657",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3201,
+      "WRN_RSEM": 216.273,
+      "WRN_log2_RSEM_plus_1": 7.7633650951
+    },
+    {
+      "sampleId": "TCGA-A6-5659-01",
+      "patientId": "TCGA-A6-5659",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.4614,
+      "WRN_RSEM": 237.244,
+      "WRN_log2_RSEM_plus_1": 7.8962960712
+    },
+    {
+      "sampleId": "TCGA-A6-5660-01",
+      "patientId": "TCGA-A6-5660",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3322,
+      "WRN_RSEM": 167.096,
+      "WRN_log2_RSEM_plus_1": 7.3931415845
+    },
+    {
+      "sampleId": "TCGA-A6-5661-01",
+      "patientId": "TCGA-A6-5661",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 403.767,
+      "WRN_log2_RSEM_plus_1": 8.660947864
+    },
+    {
+      "sampleId": "TCGA-A6-5662-01",
+      "patientId": "TCGA-A6-5662",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 222.511,
+      "WRN_log2_RSEM_plus_1": 7.8042020246
+    },
+    {
+      "sampleId": "TCGA-A6-5664-01",
+      "patientId": "TCGA-A6-5664",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.4019,
+      "WRN_RSEM": 410.975,
+      "WRN_log2_RSEM_plus_1": 8.6864129824
+    },
+    {
+      "sampleId": "TCGA-A6-5665-01",
+      "patientId": "TCGA-A6-5665",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.1824,
+      "WRN_RSEM": 406.235,
+      "WRN_log2_RSEM_plus_1": 8.6697177496
+    },
+    {
+      "sampleId": "TCGA-A6-5666-01",
+      "patientId": "TCGA-A6-5666",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3139,
+      "WRN_RSEM": 493.632,
+      "WRN_log2_RSEM_plus_1": 8.950211767
+    },
+    {
+      "sampleId": "TCGA-A6-5667-01",
+      "patientId": "TCGA-A6-5667",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3604,
+      "WRN_RSEM": 282.353,
+      "WRN_log2_RSEM_plus_1": 8.1464566668
+    },
+    {
+      "sampleId": "TCGA-A6-6137-01",
+      "patientId": "TCGA-A6-6137",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3386,
+      "WRN_RSEM": 614.746,
+      "WRN_log2_RSEM_plus_1": 9.2661915405
+    },
+    {
+      "sampleId": "TCGA-A6-6138-01",
+      "patientId": "TCGA-A6-6138",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3495,
+      "WRN_RSEM": 432.065,
+      "WRN_log2_RSEM_plus_1": 8.7584397693
+    },
+    {
+      "sampleId": "TCGA-A6-6140-01",
+      "patientId": "TCGA-A6-6140",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3659,
+      "WRN_RSEM": 188.071,
+      "WRN_log2_RSEM_plus_1": 7.5627842873
+    },
+    {
+      "sampleId": "TCGA-A6-6141-01",
+      "patientId": "TCGA-A6-6141",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3495,
+      "WRN_RSEM": 326.618,
+      "WRN_log2_RSEM_plus_1": 8.3558708135
+    },
+    {
+      "sampleId": "TCGA-A6-6142-01",
+      "patientId": "TCGA-A6-6142",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3596,
+      "WRN_RSEM": 192.785,
+      "WRN_log2_RSEM_plus_1": 7.5983130925
+    },
+    {
+      "sampleId": "TCGA-A6-6648-01",
+      "patientId": "TCGA-A6-6648",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3926,
+      "WRN_RSEM": 237.357,
+      "WRN_log2_RSEM_plus_1": 7.8969801845
+    },
+    {
+      "sampleId": "TCGA-A6-6649-01",
+      "patientId": "TCGA-A6-6649",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.4012,
+      "WRN_RSEM": 445.507,
+      "WRN_log2_RSEM_plus_1": 8.8025389828
+    },
+    {
+      "sampleId": "TCGA-A6-6650-01",
+      "patientId": "TCGA-A6-6650",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.466,
+      "WRN_RSEM": 210.383,
+      "WRN_log2_RSEM_plus_1": 7.7237155457
+    },
+    {
+      "sampleId": "TCGA-A6-6651-01",
+      "patientId": "TCGA-A6-6651",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3785,
+      "WRN_RSEM": 506.753,
+      "WRN_log2_RSEM_plus_1": 8.9879830483
+    },
+    {
+      "sampleId": "TCGA-A6-6652-01",
+      "patientId": "TCGA-A6-6652",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3866,
+      "WRN_RSEM": 181.659,
+      "WRN_log2_RSEM_plus_1": 7.5130090299
+    },
+    {
+      "sampleId": "TCGA-A6-6653-01",
+      "patientId": "TCGA-A6-6653",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.0708,
+      "WRN_RSEM": 192.759,
+      "WRN_log2_RSEM_plus_1": 7.5981195141
+    },
+    {
+      "sampleId": "TCGA-A6-6654-01",
+      "patientId": "TCGA-A6-6654",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3351,
+      "WRN_RSEM": 283.092,
+      "WRN_log2_RSEM_plus_1": 8.1502143957
+    },
+    {
+      "sampleId": "TCGA-A6-6780-01",
+      "patientId": "TCGA-A6-6780",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.1071,
+      "WRN_RSEM": 248.146,
+      "WRN_log2_RSEM_plus_1": 7.9608476017
+    },
+    {
+      "sampleId": "TCGA-A6-6781-01",
+      "patientId": "TCGA-A6-6781",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.771,
+      "WRN_RSEM": 246.294,
+      "WRN_log2_RSEM_plus_1": 7.9500834264
+    },
+    {
+      "sampleId": "TCGA-A6-6782-01",
+      "patientId": "TCGA-A6-6782",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3922,
+      "WRN_RSEM": 256.173,
+      "WRN_log2_RSEM_plus_1": 8.0065953752
+    },
+    {
+      "sampleId": "TCGA-A6-A565-01",
+      "patientId": "TCGA-A6-A565",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3972,
+      "WRN_RSEM": 364.51,
+      "WRN_log2_RSEM_plus_1": 8.5137670672
+    },
+    {
+      "sampleId": "TCGA-A6-A566-01",
+      "patientId": "TCGA-A6-A566",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2956,
+      "WRN_RSEM": 312.396,
+      "WRN_log2_RSEM_plus_1": 8.291842956
+    },
+    {
+      "sampleId": "TCGA-A6-A567-01",
+      "patientId": "TCGA-A6-A567",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2929,
+      "WRN_RSEM": 319.628,
+      "WRN_log2_RSEM_plus_1": 8.3247566093
+    },
+    {
+      "sampleId": "TCGA-A6-A56B-01",
+      "patientId": "TCGA-A6-A56B",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3073,
+      "WRN_RSEM": 126.04,
+      "WRN_log2_RSEM_plus_1": 6.9891390074
+    },
+    {
+      "sampleId": "TCGA-A6-A5ZU-01",
+      "patientId": "TCGA-A6-A5ZU",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 108.325,
+      "WRN_log2_RSEM_plus_1": 6.7724795382
+    },
+    {
+      "sampleId": "TCGA-AA-3488-01",
+      "patientId": "TCGA-AA-3488",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3711,
+      "WRN_RSEM": 100.0035,
+      "WRN_log2_RSEM_plus_1": 6.6582614763
+    },
+    {
+      "sampleId": "TCGA-AA-3489-01",
+      "patientId": "TCGA-AA-3489",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3996,
+      "WRN_RSEM": 436.635,
+      "WRN_log2_RSEM_plus_1": 8.7735843125
+    },
+    {
+      "sampleId": "TCGA-AA-3492-01",
+      "patientId": "TCGA-AA-3492",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.2602,
+      "WRN_RSEM": 410.462,
+      "WRN_log2_RSEM_plus_1": 8.6846153885
+    },
+    {
+      "sampleId": "TCGA-AA-3494-01",
+      "patientId": "TCGA-AA-3494",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3581,
+      "WRN_RSEM": 197.9589,
+      "WRN_log2_RSEM_plus_1": 7.6363266261
+    },
+    {
+      "sampleId": "TCGA-AA-3495-01",
+      "patientId": "TCGA-AA-3495",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3588,
+      "WRN_RSEM": 149.039,
+      "WRN_log2_RSEM_plus_1": 7.2291937425
+    },
+    {
+      "sampleId": "TCGA-AA-3496-01",
+      "patientId": "TCGA-AA-3496",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.4517,
+      "WRN_RSEM": 234.722,
+      "WRN_log2_RSEM_plus_1": 7.8809426018
+    },
+    {
+      "sampleId": "TCGA-AA-3502-01",
+      "patientId": "TCGA-AA-3502",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3387,
+      "WRN_RSEM": 812.077,
+      "WRN_log2_RSEM_plus_1": 9.6672481746
+    },
+    {
+      "sampleId": "TCGA-AA-3506-01",
+      "patientId": "TCGA-AA-3506",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3453,
+      "WRN_RSEM": 298.011,
+      "WRN_log2_RSEM_plus_1": 8.224054749
+    },
+    {
+      "sampleId": "TCGA-AA-3510-01",
+      "patientId": "TCGA-AA-3510",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.341,
+      "WRN_RSEM": 334.3814,
+      "WRN_log2_RSEM_plus_1": 8.3896588701
+    },
+    {
+      "sampleId": "TCGA-AA-3511-01",
+      "patientId": "TCGA-AA-3511",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.391,
+      "WRN_RSEM": 350.87,
+      "WRN_log2_RSEM_plus_1": 8.4588987067
+    },
+    {
+      "sampleId": "TCGA-AA-3514-01",
+      "patientId": "TCGA-AA-3514",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3123,
+      "WRN_RSEM": 186.2723,
+      "WRN_log2_RSEM_plus_1": 7.5489937118
+    },
+    {
+      "sampleId": "TCGA-AA-3517-01",
+      "patientId": "TCGA-AA-3517",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3204,
+      "WRN_RSEM": 305.2532,
+      "WRN_log2_RSEM_plus_1": 8.2585811085
+    },
+    {
+      "sampleId": "TCGA-AA-3518-01",
+      "patientId": "TCGA-AA-3518",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 290.9911,
+      "WRN_log2_RSEM_plus_1": 8.1897805857
+    },
+    {
+      "sampleId": "TCGA-AA-3519-01",
+      "patientId": "TCGA-AA-3519",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3647,
+      "WRN_RSEM": 365.8496,
+      "WRN_log2_RSEM_plus_1": 8.5190449019
+    },
+    {
+      "sampleId": "TCGA-AA-3520-01",
+      "patientId": "TCGA-AA-3520",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3835,
+      "WRN_RSEM": 177.1411,
+      "WRN_log2_RSEM_plus_1": 7.4768765974
+    },
+    {
+      "sampleId": "TCGA-AA-3521-01",
+      "patientId": "TCGA-AA-3521",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3496,
+      "WRN_RSEM": 313.435,
+      "WRN_log2_RSEM_plus_1": 8.2966180038
+    },
+    {
+      "sampleId": "TCGA-AA-3522-01",
+      "patientId": "TCGA-AA-3522",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3234,
+      "WRN_RSEM": 418.4753,
+      "WRN_log2_RSEM_plus_1": 8.7124420526
+    },
+    {
+      "sampleId": "TCGA-AA-3524-01",
+      "patientId": "TCGA-AA-3524",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3154,
+      "WRN_RSEM": 442.4015,
+      "WRN_log2_RSEM_plus_1": 8.7924698405
+    },
+    {
+      "sampleId": "TCGA-AA-3525-01",
+      "patientId": "TCGA-AA-3525",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 249.7528,
+      "WRN_log2_RSEM_plus_1": 7.9701220004
+    },
+    {
+      "sampleId": "TCGA-AA-3526-01",
+      "patientId": "TCGA-AA-3526",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3851,
+      "WRN_RSEM": 549.244,
+      "WRN_log2_RSEM_plus_1": 9.1039276985
+    },
+    {
+      "sampleId": "TCGA-AA-3527-01",
+      "patientId": "TCGA-AA-3527",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3161,
+      "WRN_RSEM": 106.0585,
+      "WRN_log2_RSEM_plus_1": 6.742255534
+    },
+    {
+      "sampleId": "TCGA-AA-3529-01",
+      "patientId": "TCGA-AA-3529",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.4301,
+      "WRN_RSEM": 226.9892,
+      "WRN_log2_RSEM_plus_1": 7.8328216744
+    },
+    {
+      "sampleId": "TCGA-AA-3530-01",
+      "patientId": "TCGA-AA-3530",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3164,
+      "WRN_RSEM": 482.5375,
+      "WRN_log2_RSEM_plus_1": 8.9174839698
+    },
+    {
+      "sampleId": "TCGA-AA-3531-01",
+      "patientId": "TCGA-AA-3531",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3268,
+      "WRN_RSEM": 165.4653,
+      "WRN_log2_RSEM_plus_1": 7.379077666
+    },
+    {
+      "sampleId": "TCGA-AA-3532-01",
+      "patientId": "TCGA-AA-3532",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3244,
+      "WRN_RSEM": 215.3923,
+      "WRN_log2_RSEM_plus_1": 7.7575053537
+    },
+    {
+      "sampleId": "TCGA-AA-3534-01",
+      "patientId": "TCGA-AA-3534",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3252,
+      "WRN_RSEM": 599.3036,
+      "WRN_log2_RSEM_plus_1": 9.2295485096
+    },
+    {
+      "sampleId": "TCGA-AA-3538-01",
+      "patientId": "TCGA-AA-3538",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3368,
+      "WRN_RSEM": 230.5785,
+      "WRN_log2_RSEM_plus_1": 7.8553575079
+    },
+    {
+      "sampleId": "TCGA-AA-3542-01",
+      "patientId": "TCGA-AA-3542",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 117.358,
+      "WRN_log2_RSEM_plus_1": 6.8870134131
+    },
+    {
+      "sampleId": "TCGA-AA-3543-01",
+      "patientId": "TCGA-AA-3543",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 152.6371,
+      "WRN_log2_RSEM_plus_1": 7.2633828272
+    },
+    {
+      "sampleId": "TCGA-AA-3544-01",
+      "patientId": "TCGA-AA-3544",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3291,
+      "WRN_RSEM": 111.1604,
+      "WRN_log2_RSEM_plus_1": 6.8094195894
+    },
+    {
+      "sampleId": "TCGA-AA-3548-01",
+      "patientId": "TCGA-AA-3548",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3218,
+      "WRN_RSEM": 109.7258,
+      "WRN_log2_RSEM_plus_1": 6.7908476106
+    },
+    {
+      "sampleId": "TCGA-AA-3549-01",
+      "patientId": "TCGA-AA-3549",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2966,
+      "WRN_RSEM": 163.1645,
+      "WRN_log2_RSEM_plus_1": 7.3589983729
+    },
+    {
+      "sampleId": "TCGA-AA-3552-01",
+      "patientId": "TCGA-AA-3552",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 121.9406,
+      "WRN_log2_RSEM_plus_1": 6.9418176209
+    },
+    {
+      "sampleId": "TCGA-AA-3553-01",
+      "patientId": "TCGA-AA-3553",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 550.2403,
+      "WRN_log2_RSEM_plus_1": 9.106537554
+    },
+    {
+      "sampleId": "TCGA-AA-3555-01",
+      "patientId": "TCGA-AA-3555",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 614.6286,
+      "WRN_log2_RSEM_plus_1": 9.2659164457
+    },
+    {
+      "sampleId": "TCGA-AA-3558-01",
+      "patientId": "TCGA-AA-3558",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3523,
+      "WRN_RSEM": null,
+      "WRN_log2_RSEM_plus_1": null
+    },
+    {
+      "sampleId": "TCGA-AA-3560-01",
+      "patientId": "TCGA-AA-3560",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3648,
+      "WRN_RSEM": 165.6678,
+      "WRN_log2_RSEM_plus_1": 7.3808315942
+    },
+    {
+      "sampleId": "TCGA-AA-3561-01",
+      "patientId": "TCGA-AA-3561",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3413,
+      "WRN_RSEM": 276.0237,
+      "WRN_log2_RSEM_plus_1": 8.1138655971
+    },
+    {
+      "sampleId": "TCGA-AA-3655-01",
+      "patientId": "TCGA-AA-3655",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3473,
+      "WRN_RSEM": 350.487,
+      "WRN_log2_RSEM_plus_1": 8.4573275209
+    },
+    {
+      "sampleId": "TCGA-AA-3660-01",
+      "patientId": "TCGA-AA-3660",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3366,
+      "WRN_RSEM": 143.478,
+      "WRN_log2_RSEM_plus_1": 7.1747060167
+    },
+    {
+      "sampleId": "TCGA-AA-3663-01",
+      "patientId": "TCGA-AA-3663",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.2565,
+      "WRN_RSEM": 335.714,
+      "WRN_log2_RSEM_plus_1": 8.395379897
+    },
+    {
+      "sampleId": "TCGA-AA-3664-01",
+      "patientId": "TCGA-AA-3664",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2631,
+      "WRN_RSEM": 665.6718,
+      "WRN_log2_RSEM_plus_1": 9.3808328926
+    },
+    {
+      "sampleId": "TCGA-AA-3666-01",
+      "patientId": "TCGA-AA-3666",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2807,
+      "WRN_RSEM": 188.4336,
+      "WRN_log2_RSEM_plus_1": 7.5655484353
+    },
+    {
+      "sampleId": "TCGA-AA-3667-01",
+      "patientId": "TCGA-AA-3667",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2649,
+      "WRN_RSEM": 236.3526,
+      "WRN_log2_RSEM_plus_1": 7.8908880432
+    },
+    {
+      "sampleId": "TCGA-AA-3673-01",
+      "patientId": "TCGA-AA-3673",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.284,
+      "WRN_RSEM": 682.9352,
+      "WRN_log2_RSEM_plus_1": 9.417715832
+    },
+    {
+      "sampleId": "TCGA-AA-3675-01",
+      "patientId": "TCGA-AA-3675",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2618,
+      "WRN_RSEM": 324.618,
+      "WRN_log2_RSEM_plus_1": 8.347036643
+    },
+    {
+      "sampleId": "TCGA-AA-3678-01",
+      "patientId": "TCGA-AA-3678",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2741,
+      "WRN_RSEM": 248.1172,
+      "WRN_log2_RSEM_plus_1": 7.960680824
+    },
+    {
+      "sampleId": "TCGA-AA-3679-01",
+      "patientId": "TCGA-AA-3679",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2575,
+      "WRN_RSEM": 135.1759,
+      "WRN_log2_RSEM_plus_1": 7.0893275919
+    },
+    {
+      "sampleId": "TCGA-AA-3680-01",
+      "patientId": "TCGA-AA-3680",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2615,
+      "WRN_RSEM": 312.8898,
+      "WRN_log2_RSEM_plus_1": 8.2941143384
+    },
+    {
+      "sampleId": "TCGA-AA-3681-01",
+      "patientId": "TCGA-AA-3681",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.263,
+      "WRN_RSEM": 212.9826,
+      "WRN_log2_RSEM_plus_1": 7.7413496784
+    },
+    {
+      "sampleId": "TCGA-AA-3684-01",
+      "patientId": "TCGA-AA-3684",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2513,
+      "WRN_RSEM": 102.7293,
+      "WRN_log2_RSEM_plus_1": 6.6966796538
+    },
+    {
+      "sampleId": "TCGA-AA-3685-01",
+      "patientId": "TCGA-AA-3685",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2703,
+      "WRN_RSEM": 126.209,
+      "WRN_log2_RSEM_plus_1": 6.9910569343
+    },
+    {
+      "sampleId": "TCGA-AA-3688-01",
+      "patientId": "TCGA-AA-3688",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3017,
+      "WRN_RSEM": 209.5703,
+      "WRN_log2_RSEM_plus_1": 7.7181581548
+    },
+    {
+      "sampleId": "TCGA-AA-3692-01",
+      "patientId": "TCGA-AA-3692",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2721,
+      "WRN_RSEM": 206.9813,
+      "WRN_log2_RSEM_plus_1": 7.7003100085
+    },
+    {
+      "sampleId": "TCGA-AA-3693-01",
+      "patientId": "TCGA-AA-3693",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2829,
+      "WRN_RSEM": 403.7535,
+      "WRN_log2_RSEM_plus_1": 8.6608997457
+    },
+    {
+      "sampleId": "TCGA-AA-3695-01",
+      "patientId": "TCGA-AA-3695",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2817,
+      "WRN_RSEM": 318.3151,
+      "WRN_log2_RSEM_plus_1": 8.3188369675
+    },
+    {
+      "sampleId": "TCGA-AA-3696-01",
+      "patientId": "TCGA-AA-3696",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2665,
+      "WRN_RSEM": 418.8802,
+      "WRN_log2_RSEM_plus_1": 8.7138339474
+    },
+    {
+      "sampleId": "TCGA-AA-3710-01",
+      "patientId": "TCGA-AA-3710",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.8652,
+      "WRN_RSEM": 300.5017,
+      "WRN_log2_RSEM_plus_1": 8.2360223265
+    },
+    {
+      "sampleId": "TCGA-AA-3712-01",
+      "patientId": "TCGA-AA-3712",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3407,
+      "WRN_RSEM": 697.375,
+      "WRN_log2_RSEM_plus_1": 9.447858105
+    },
+    {
+      "sampleId": "TCGA-AA-3713-01",
+      "patientId": "TCGA-AA-3713",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.8168,
+      "WRN_RSEM": 957.832,
+      "WRN_log2_RSEM_plus_1": 9.905134248
+    },
+    {
+      "sampleId": "TCGA-AA-3715-01",
+      "patientId": "TCGA-AA-3715",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.092,
+      "WRN_RSEM": 165.4917,
+      "WRN_log2_RSEM_plus_1": 7.3793064471
+    },
+    {
+      "sampleId": "TCGA-AA-3811-01",
+      "patientId": "TCGA-AA-3811",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.1337,
+      "WRN_RSEM": 528.9373,
+      "WRN_log2_RSEM_plus_1": 9.0496778658
+    },
+    {
+      "sampleId": "TCGA-AA-3812-01",
+      "patientId": "TCGA-AA-3812",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2659,
+      "WRN_RSEM": 103.9487,
+      "WRN_log2_RSEM_plus_1": 6.7135404858
+    },
+    {
+      "sampleId": "TCGA-AA-3814-01",
+      "patientId": "TCGA-AA-3814",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2754,
+      "WRN_RSEM": 312.7342,
+      "WRN_log2_RSEM_plus_1": 8.293398995
+    },
+    {
+      "sampleId": "TCGA-AA-3818-01",
+      "patientId": "TCGA-AA-3818",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.268,
+      "WRN_RSEM": 353.7544,
+      "WRN_log2_RSEM_plus_1": 8.4706767678
+    },
+    {
+      "sampleId": "TCGA-AA-3819-01",
+      "patientId": "TCGA-AA-3819",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.261,
+      "WRN_RSEM": 321.8018,
+      "WRN_log2_RSEM_plus_1": 8.3345048131
+    },
+    {
+      "sampleId": "TCGA-AA-3821-01",
+      "patientId": "TCGA-AA-3821",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.942,
+      "WRN_RSEM": 418.8629,
+      "WRN_log2_RSEM_plus_1": 8.7137745039
+    },
+    {
+      "sampleId": "TCGA-AA-3831-01",
+      "patientId": "TCGA-AA-3831",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.276,
+      "WRN_RSEM": 338.0001,
+      "WRN_log2_RSEM_plus_1": 8.4051418887
+    },
+    {
+      "sampleId": "TCGA-AA-3833-01",
+      "patientId": "TCGA-AA-3833",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.9553,
+      "WRN_RSEM": 228.743,
+      "WRN_log2_RSEM_plus_1": 7.8438770947
+    },
+    {
+      "sampleId": "TCGA-AA-3837-01",
+      "patientId": "TCGA-AA-3837",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2784,
+      "WRN_RSEM": 380.6192,
+      "WRN_log2_RSEM_plus_1": 8.5759899477
+    },
+    {
+      "sampleId": "TCGA-AA-3841-01",
+      "patientId": "TCGA-AA-3841",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2896,
+      "WRN_RSEM": 130.7058,
+      "WRN_log2_RSEM_plus_1": 7.0411750695
+    },
+    {
+      "sampleId": "TCGA-AA-3842-01",
+      "patientId": "TCGA-AA-3842",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3246,
+      "WRN_RSEM": 347.8063,
+      "WRN_log2_RSEM_plus_1": 8.4462822875
+    },
+    {
+      "sampleId": "TCGA-AA-3844-01",
+      "patientId": "TCGA-AA-3844",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3264,
+      "WRN_RSEM": 333.7727,
+      "WRN_log2_RSEM_plus_1": 8.3870380738
+    },
+    {
+      "sampleId": "TCGA-AA-3845-01",
+      "patientId": "TCGA-AA-3845",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.9169,
+      "WRN_RSEM": 368.775,
+      "WRN_log2_RSEM_plus_1": 8.5305038791
+    },
+    {
+      "sampleId": "TCGA-AA-3846-01",
+      "patientId": "TCGA-AA-3846",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3293,
+      "WRN_RSEM": 626.4866,
+      "WRN_log2_RSEM_plus_1": 9.2934408404
+    },
+    {
+      "sampleId": "TCGA-AA-3848-01",
+      "patientId": "TCGA-AA-3848",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2571,
+      "WRN_RSEM": 116.565,
+      "WRN_log2_RSEM_plus_1": 6.8773148125
+    },
+    {
+      "sampleId": "TCGA-AA-3850-01",
+      "patientId": "TCGA-AA-3850",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3018,
+      "WRN_RSEM": 329.8661,
+      "WRN_log2_RSEM_plus_1": 8.3701036728
+    },
+    {
+      "sampleId": "TCGA-AA-3851-01",
+      "patientId": "TCGA-AA-3851",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3204,
+      "WRN_RSEM": 240.2544,
+      "WRN_log2_RSEM_plus_1": 7.9144114443
+    },
+    {
+      "sampleId": "TCGA-AA-3852-01",
+      "patientId": "TCGA-AA-3852",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2731,
+      "WRN_RSEM": 641.1992,
+      "WRN_log2_RSEM_plus_1": 9.3268770576
+    },
+    {
+      "sampleId": "TCGA-AA-3854-01",
+      "patientId": "TCGA-AA-3854",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2733,
+      "WRN_RSEM": 854.631,
+      "WRN_log2_RSEM_plus_1": 9.7408449429
+    },
+    {
+      "sampleId": "TCGA-AA-3855-01",
+      "patientId": "TCGA-AA-3855",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3187,
+      "WRN_RSEM": 372.4754,
+      "WRN_log2_RSEM_plus_1": 8.5448694088
+    },
+    {
+      "sampleId": "TCGA-AA-3856-01",
+      "patientId": "TCGA-AA-3856",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2645,
+      "WRN_RSEM": 421.6014,
+      "WRN_log2_RSEM_plus_1": 8.7231537364
+    },
+    {
+      "sampleId": "TCGA-AA-3858-01",
+      "patientId": "TCGA-AA-3858",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2586,
+      "WRN_RSEM": 214.2283,
+      "WRN_log2_RSEM_plus_1": 7.7497239776
+    },
+    {
+      "sampleId": "TCGA-AA-3864-01",
+      "patientId": "TCGA-AA-3864",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.8915,
+      "WRN_RSEM": 418.3968,
+      "WRN_log2_RSEM_plus_1": 8.7121720435
+    },
+    {
+      "sampleId": "TCGA-AA-3866-01",
+      "patientId": "TCGA-AA-3866",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3267,
+      "WRN_RSEM": 248.8763,
+      "WRN_log2_RSEM_plus_1": 7.9650702625
+    },
+    {
+      "sampleId": "TCGA-AA-3867-01",
+      "patientId": "TCGA-AA-3867",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3148,
+      "WRN_RSEM": 254.693,
+      "WRN_log2_RSEM_plus_1": 7.9982688548
+    },
+    {
+      "sampleId": "TCGA-AA-3869-01",
+      "patientId": "TCGA-AA-3869",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.4048,
+      "WRN_RSEM": 207.1563,
+      "WRN_log2_RSEM_plus_1": 7.7015234131
+    },
+    {
+      "sampleId": "TCGA-AA-3870-01",
+      "patientId": "TCGA-AA-3870",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3807,
+      "WRN_RSEM": 184.6565,
+      "WRN_log2_RSEM_plus_1": 7.5364920159
+    },
+    {
+      "sampleId": "TCGA-AA-3872-01",
+      "patientId": "TCGA-AA-3872",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3976,
+      "WRN_RSEM": 249.6583,
+      "WRN_log2_RSEM_plus_1": 7.9695781964
+    },
+    {
+      "sampleId": "TCGA-AA-3875-01",
+      "patientId": "TCGA-AA-3875",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2689,
+      "WRN_RSEM": 417.0034,
+      "WRN_log2_RSEM_plus_1": 8.7073708669
+    },
+    {
+      "sampleId": "TCGA-AA-3877-01",
+      "patientId": "TCGA-AA-3877",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.8655,
+      "WRN_RSEM": 243.5597,
+      "WRN_log2_RSEM_plus_1": 7.9340428774
+    },
+    {
+      "sampleId": "TCGA-AA-3930-01",
+      "patientId": "TCGA-AA-3930",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3672,
+      "WRN_RSEM": 231.2107,
+      "WRN_log2_RSEM_plus_1": 7.8592906412
+    },
+    {
+      "sampleId": "TCGA-AA-3939-01",
+      "patientId": "TCGA-AA-3939",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.36,
+      "WRN_RSEM": 412.2683,
+      "WRN_log2_RSEM_plus_1": 8.6909348949
+    },
+    {
+      "sampleId": "TCGA-AA-3941-01",
+      "patientId": "TCGA-AA-3941",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3682,
+      "WRN_RSEM": 308.8421,
+      "WRN_log2_RSEM_plus_1": 8.2753893744
+    },
+    {
+      "sampleId": "TCGA-AA-3947-01",
+      "patientId": "TCGA-AA-3947",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.2515,
+      "WRN_RSEM": 588.1641,
+      "WRN_log2_RSEM_plus_1": 9.202525714
+    },
+    {
+      "sampleId": "TCGA-AA-3949-01",
+      "patientId": "TCGA-AA-3949",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.751,
+      "WRN_RSEM": 300.8774,
+      "WRN_log2_RSEM_plus_1": 8.2378189436
+    },
+    {
+      "sampleId": "TCGA-AA-3950-01",
+      "patientId": "TCGA-AA-3950",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.75,
+      "WRN_RSEM": 278.8764,
+      "WRN_log2_RSEM_plus_1": 8.1286460295
+    },
+    {
+      "sampleId": "TCGA-AA-3952-01",
+      "patientId": "TCGA-AA-3952",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3274,
+      "WRN_RSEM": 205.3293,
+      "WRN_log2_RSEM_plus_1": 7.6888048969
+    },
+    {
+      "sampleId": "TCGA-AA-3955-01",
+      "patientId": "TCGA-AA-3955",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3279,
+      "WRN_RSEM": 336.5752,
+      "WRN_log2_RSEM_plus_1": 8.39906511
+    },
+    {
+      "sampleId": "TCGA-AA-3956-01",
+      "patientId": "TCGA-AA-3956",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3246,
+      "WRN_RSEM": 197.3753,
+      "WRN_log2_RSEM_plus_1": 7.6320885946
+    },
+    {
+      "sampleId": "TCGA-AA-3966-01",
+      "patientId": "TCGA-AA-3966",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.296,
+      "WRN_RSEM": 266.451,
+      "WRN_log2_RSEM_plus_1": 8.0631307877
+    },
+    {
+      "sampleId": "TCGA-AA-3968-01",
+      "patientId": "TCGA-AA-3968",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.331,
+      "WRN_RSEM": 590.4319,
+      "WRN_log2_RSEM_plus_1": 9.2080682498
+    },
+    {
+      "sampleId": "TCGA-AA-3971-01",
+      "patientId": "TCGA-AA-3971",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3362,
+      "WRN_RSEM": 168.7395,
+      "WRN_log2_RSEM_plus_1": 7.4071785226
+    },
+    {
+      "sampleId": "TCGA-AA-3973-01",
+      "patientId": "TCGA-AA-3973",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3291,
+      "WRN_RSEM": 504.6717,
+      "WRN_log2_RSEM_plus_1": 8.9820572298
+    },
+    {
+      "sampleId": "TCGA-AA-3975-01",
+      "patientId": "TCGA-AA-3975",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3404,
+      "WRN_RSEM": 200.97,
+      "WRN_log2_RSEM_plus_1": 7.6579972052
+    },
+    {
+      "sampleId": "TCGA-AA-3976-01",
+      "patientId": "TCGA-AA-3976",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3308,
+      "WRN_RSEM": 237.1242,
+      "WRN_log2_RSEM_plus_1": 7.8955704355
+    },
+    {
+      "sampleId": "TCGA-AA-3977-01",
+      "patientId": "TCGA-AA-3977",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3545,
+      "WRN_RSEM": 344.1367,
+      "WRN_log2_RSEM_plus_1": 8.4310240802
+    },
+    {
+      "sampleId": "TCGA-AA-3979-01",
+      "patientId": "TCGA-AA-3979",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3186,
+      "WRN_RSEM": 177.316,
+      "WRN_log2_RSEM_plus_1": 7.4782923492
+    },
+    {
+      "sampleId": "TCGA-AA-3980-01",
+      "patientId": "TCGA-AA-3980",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3103,
+      "WRN_RSEM": 263.5986,
+      "WRN_log2_RSEM_plus_1": 8.0476616181
+    },
+    {
+      "sampleId": "TCGA-AA-3982-01",
+      "patientId": "TCGA-AA-3982",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3356,
+      "WRN_RSEM": 180.4125,
+      "WRN_log2_RSEM_plus_1": 7.5031300562
+    },
+    {
+      "sampleId": "TCGA-AA-3984-01",
+      "patientId": "TCGA-AA-3984",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3334,
+      "WRN_RSEM": 343.5902,
+      "WRN_log2_RSEM_plus_1": 8.4287378623
+    },
+    {
+      "sampleId": "TCGA-AA-3986-01",
+      "patientId": "TCGA-AA-3986",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3248,
+      "WRN_RSEM": 364.3852,
+      "WRN_log2_RSEM_plus_1": 8.5132743883
+    },
+    {
+      "sampleId": "TCGA-AA-3989-01",
+      "patientId": "TCGA-AA-3989",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3311,
+      "WRN_RSEM": 272.08,
+      "WRN_log2_RSEM_plus_1": 8.0931798468
+    },
+    {
+      "sampleId": "TCGA-AA-3994-01",
+      "patientId": "TCGA-AA-3994",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2838,
+      "WRN_RSEM": 331.4234,
+      "WRN_log2_RSEM_plus_1": 8.3768781299
+    },
+    {
+      "sampleId": "TCGA-AA-A004-01",
+      "patientId": "TCGA-AA-A004",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2846,
+      "WRN_RSEM": 0.1306,
+      "WRN_log2_RSEM_plus_1": 0.1770886021
+    },
+    {
+      "sampleId": "TCGA-AA-A00A-01",
+      "patientId": "TCGA-AA-A00A",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 272.3818,
+      "WRN_log2_RSEM_plus_1": 8.0947733906
+    },
+    {
+      "sampleId": "TCGA-AA-A00D-01",
+      "patientId": "TCGA-AA-A00D",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 299.4023,
+      "WRN_log2_RSEM_plus_1": 8.2307520485
+    },
+    {
+      "sampleId": "TCGA-AA-A00E-01",
+      "patientId": "TCGA-AA-A00E",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 322.7643,
+      "WRN_log2_RSEM_plus_1": 8.3388001048
+    },
+    {
+      "sampleId": "TCGA-AA-A00F-01",
+      "patientId": "TCGA-AA-A00F",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 216.6611,
+      "WRN_log2_RSEM_plus_1": 7.7659397845
+    },
+    {
+      "sampleId": "TCGA-AA-A00J-01",
+      "patientId": "TCGA-AA-A00J",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 564.7661,
+      "WRN_log2_RSEM_plus_1": 9.1440619246
+    },
+    {
+      "sampleId": "TCGA-AA-A00K-01",
+      "patientId": "TCGA-AA-A00K",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 452.5222,
+      "WRN_log2_RSEM_plus_1": 8.8250293625
+    },
+    {
+      "sampleId": "TCGA-AA-A00L-01",
+      "patientId": "TCGA-AA-A00L",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 162.5847,
+      "WRN_log2_RSEM_plus_1": 7.3538940098
+    },
+    {
+      "sampleId": "TCGA-AA-A00N-01",
+      "patientId": "TCGA-AA-A00N",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3279,
+      "WRN_RSEM": 354.4277,
+      "WRN_log2_RSEM_plus_1": 8.4734123109
+    },
+    {
+      "sampleId": "TCGA-AA-A00O-01",
+      "patientId": "TCGA-AA-A00O",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2697,
+      "WRN_RSEM": 398.0708,
+      "WRN_log2_RSEM_plus_1": 8.6405009105
+    },
+    {
+      "sampleId": "TCGA-AA-A00Q-01",
+      "patientId": "TCGA-AA-A00Q",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 449.2236,
+      "WRN_log2_RSEM_plus_1": 8.8144978723
+    },
+    {
+      "sampleId": "TCGA-AA-A00R-01",
+      "patientId": "TCGA-AA-A00R",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 507.6414,
+      "WRN_log2_RSEM_plus_1": 8.9905050823
+    },
+    {
+      "sampleId": "TCGA-AA-A00U-01",
+      "patientId": "TCGA-AA-A00U",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 203.6728,
+      "WRN_log2_RSEM_plus_1": 7.6771755779
+    },
+    {
+      "sampleId": "TCGA-AA-A00W-01",
+      "patientId": "TCGA-AA-A00W",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 332.5105,
+      "WRN_log2_RSEM_plus_1": 8.3815883727
+    },
+    {
+      "sampleId": "TCGA-AA-A00Z-01",
+      "patientId": "TCGA-AA-A00Z",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3206,
+      "WRN_RSEM": 411.1528,
+      "WRN_log2_RSEM_plus_1": 8.6870354858
+    },
+    {
+      "sampleId": "TCGA-AA-A010-01",
+      "patientId": "TCGA-AA-A010",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3765,
+      "WRN_RSEM": 449.8605,
+      "WRN_log2_RSEM_plus_1": 8.8165373104
+    },
+    {
+      "sampleId": "TCGA-AA-A017-01",
+      "patientId": "TCGA-AA-A017",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.28,
+      "WRN_RSEM": 178.7187,
+      "WRN_log2_RSEM_plus_1": 7.489596721
+    },
+    {
+      "sampleId": "TCGA-AA-A01C-01",
+      "patientId": "TCGA-AA-A01C",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2539,
+      "WRN_RSEM": 255.3784,
+      "WRN_log2_RSEM_plus_1": 8.0021309091
+    },
+    {
+      "sampleId": "TCGA-AA-A01D-01",
+      "patientId": "TCGA-AA-A01D",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2695,
+      "WRN_RSEM": 304.3566,
+      "WRN_log2_RSEM_plus_1": 8.2543512178
+    },
+    {
+      "sampleId": "TCGA-AA-A01F-01",
+      "patientId": "TCGA-AA-A01F",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 350.2494,
+      "WRN_log2_RSEM_plus_1": 8.4563519507
+    },
+    {
+      "sampleId": "TCGA-AA-A01G-01",
+      "patientId": "TCGA-AA-A01G",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 179.6151,
+      "WRN_log2_RSEM_plus_1": 7.4967747016
+    },
+    {
+      "sampleId": "TCGA-AA-A01I-01",
+      "patientId": "TCGA-AA-A01I",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2695,
+      "WRN_RSEM": 441.5997,
+      "WRN_log2_RSEM_plus_1": 8.789858663
+    },
+    {
+      "sampleId": "TCGA-AA-A01K-01",
+      "patientId": "TCGA-AA-A01K",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2795,
+      "WRN_RSEM": 284.9025,
+      "WRN_log2_RSEM_plus_1": 8.1593794251
+    },
+    {
+      "sampleId": "TCGA-AA-A01P-01",
+      "patientId": "TCGA-AA-A01P",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.6789,
+      "WRN_RSEM": 239.18,
+      "WRN_log2_RSEM_plus_1": 7.9079722113
+    },
+    {
+      "sampleId": "TCGA-AA-A01Q-01",
+      "patientId": "TCGA-AA-A01Q",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 310.0211,
+      "WRN_log2_RSEM_plus_1": 8.2808686474
+    },
+    {
+      "sampleId": "TCGA-AA-A01R-01",
+      "patientId": "TCGA-AA-A01R",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.7418,
+      "WRN_RSEM": 201.1772,
+      "WRN_log2_RSEM_plus_1": 7.6594765001
+    },
+    {
+      "sampleId": "TCGA-AA-A01S-01",
+      "patientId": "TCGA-AA-A01S",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.325,
+      "WRN_RSEM": 114.1246,
+      "WRN_log2_RSEM_plus_1": 6.8470523335
+    },
+    {
+      "sampleId": "TCGA-AA-A01T-01",
+      "patientId": "TCGA-AA-A01T",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3369,
+      "WRN_RSEM": 73.5737,
+      "WRN_log2_RSEM_plus_1": 6.220595018
+    },
+    {
+      "sampleId": "TCGA-AA-A01V-01",
+      "patientId": "TCGA-AA-A01V",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3163,
+      "WRN_RSEM": 253.7163,
+      "WRN_log2_RSEM_plus_1": 7.9927474744
+    },
+    {
+      "sampleId": "TCGA-AA-A01X-01",
+      "patientId": "TCGA-AA-A01X",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3184,
+      "WRN_RSEM": 356.07,
+      "WRN_log2_RSEM_plus_1": 8.4800631177
+    },
+    {
+      "sampleId": "TCGA-AA-A01Z-01",
+      "patientId": "TCGA-AA-A01Z",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3259,
+      "WRN_RSEM": 200.0,
+      "WRN_log2_RSEM_plus_1": 7.6510516912
+    },
+    {
+      "sampleId": "TCGA-AA-A022-01",
+      "patientId": "TCGA-AA-A022",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.1662,
+      "WRN_RSEM": 188.9664,
+      "WRN_log2_RSEM_plus_1": 7.5696004565
+    },
+    {
+      "sampleId": "TCGA-AA-A024-01",
+      "patientId": "TCGA-AA-A024",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2567,
+      "WRN_RSEM": 249.1435,
+      "WRN_log2_RSEM_plus_1": 7.966612154
+    },
+    {
+      "sampleId": "TCGA-AA-A029-01",
+      "patientId": "TCGA-AA-A029",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2837,
+      "WRN_RSEM": 495.5564,
+      "WRN_log2_RSEM_plus_1": 8.9558137814
+    },
+    {
+      "sampleId": "TCGA-AA-A02E-01",
+      "patientId": "TCGA-AA-A02E",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2544,
+      "WRN_RSEM": 208.2902,
+      "WRN_log2_RSEM_plus_1": 7.7093609488
+    },
+    {
+      "sampleId": "TCGA-AA-A02F-01",
+      "patientId": "TCGA-AA-A02F",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2783,
+      "WRN_RSEM": 537.5568,
+      "WRN_log2_RSEM_plus_1": 9.0729546994
+    },
+    {
+      "sampleId": "TCGA-AA-A02H-01",
+      "patientId": "TCGA-AA-A02H",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2874,
+      "WRN_RSEM": 560.8765,
+      "WRN_log2_RSEM_plus_1": 9.1341092519
+    },
+    {
+      "sampleId": "TCGA-AA-A02J-01",
+      "patientId": "TCGA-AA-A02J",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2836,
+      "WRN_RSEM": 179.7934,
+      "WRN_log2_RSEM_plus_1": 7.4981982018
+    },
+    {
+      "sampleId": "TCGA-AA-A02O-01",
+      "patientId": "TCGA-AA-A02O",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3293,
+      "WRN_RSEM": 316.5516,
+      "WRN_log2_RSEM_plus_1": 8.310847229
+    },
+    {
+      "sampleId": "TCGA-AA-A02R-01",
+      "patientId": "TCGA-AA-A02R",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.2923,
+      "WRN_RSEM": 394.6557,
+      "WRN_log2_RSEM_plus_1": 8.6281017313
+    },
+    {
+      "sampleId": "TCGA-AA-A02W-01",
+      "patientId": "TCGA-AA-A02W",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2652,
+      "WRN_RSEM": 270.4912,
+      "WRN_log2_RSEM_plus_1": 8.0847616257
+    },
+    {
+      "sampleId": "TCGA-AA-A02Y-01",
+      "patientId": "TCGA-AA-A02Y",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3389,
+      "WRN_RSEM": 231.66,
+      "WRN_log2_RSEM_plus_1": 7.8620793869
+    },
+    {
+      "sampleId": "TCGA-AA-A03F-01",
+      "patientId": "TCGA-AA-A03F",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3075,
+      "WRN_RSEM": 138.6483,
+      "WRN_log2_RSEM_plus_1": 7.1256542009
+    },
+    {
+      "sampleId": "TCGA-AA-A03J-01",
+      "patientId": "TCGA-AA-A03J",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3238,
+      "WRN_RSEM": 179.6151,
+      "WRN_log2_RSEM_plus_1": 7.4967747016
+    },
+    {
+      "sampleId": "TCGA-AD-5900-01",
+      "patientId": "TCGA-AD-5900",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.9101,
+      "WRN_RSEM": 386.93,
+      "WRN_log2_RSEM_plus_1": 8.5996525387
+    },
+    {
+      "sampleId": "TCGA-AD-6548-01",
+      "patientId": "TCGA-AD-6548",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.4334,
+      "WRN_RSEM": 296.19,
+      "WRN_log2_RSEM_plus_1": 8.2152417619
+    },
+    {
+      "sampleId": "TCGA-AD-6888-01",
+      "patientId": "TCGA-AD-6888",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3466,
+      "WRN_RSEM": 202.005,
+      "WRN_log2_RSEM_plus_1": 7.6653714511
+    },
+    {
+      "sampleId": "TCGA-AD-6889-01",
+      "patientId": "TCGA-AD-6889",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.3414,
+      "WRN_RSEM": 226.831,
+      "WRN_log2_RSEM_plus_1": 7.8318202516
+    },
+    {
+      "sampleId": "TCGA-AD-6890-01",
+      "patientId": "TCGA-AD-6890",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3483,
+      "WRN_RSEM": 265.366,
+      "WRN_log2_RSEM_plus_1": 8.0572661327
+    },
+    {
+      "sampleId": "TCGA-AD-6895-01",
+      "patientId": "TCGA-AD-6895",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.8416,
+      "WRN_RSEM": 209.221,
+      "WRN_log2_RSEM_plus_1": 7.7157629841
+    },
+    {
+      "sampleId": "TCGA-AD-6899-01",
+      "patientId": "TCGA-AD-6899",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.355,
+      "WRN_RSEM": 276.058,
+      "WRN_log2_RSEM_plus_1": 8.114044215
+    },
+    {
+      "sampleId": "TCGA-AD-6901-01",
+      "patientId": "TCGA-AD-6901",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3533,
+      "WRN_RSEM": 160.175,
+      "WRN_log2_RSEM_plus_1": 7.3324841733
+    },
+    {
+      "sampleId": "TCGA-AD-6963-01",
+      "patientId": "TCGA-AD-6963",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3442,
+      "WRN_RSEM": 556.336,
+      "WRN_log2_RSEM_plus_1": 9.1224035342
+    },
+    {
+      "sampleId": "TCGA-AD-6964-01",
+      "patientId": "TCGA-AD-6964",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.7365,
+      "WRN_RSEM": 290.469,
+      "WRN_log2_RSEM_plus_1": 8.1871986395
+    },
+    {
+      "sampleId": "TCGA-AD-6965-01",
+      "patientId": "TCGA-AD-6965",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3643,
+      "WRN_RSEM": 278.926,
+      "WRN_log2_RSEM_plus_1": 8.1289016829
+    },
+    {
+      "sampleId": "TCGA-AD-A5EJ-01",
+      "patientId": "TCGA-AD-A5EJ",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.0934,
+      "WRN_RSEM": 380.117,
+      "WRN_log2_RSEM_plus_1": 8.5740901518
+    },
+    {
+      "sampleId": "TCGA-AD-A5EK-01",
+      "patientId": "TCGA-AD-A5EK",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2808,
+      "WRN_RSEM": 519.923,
+      "WRN_log2_RSEM_plus_1": 9.0249263267
+    },
+    {
+      "sampleId": "TCGA-AF-2687-01",
+      "patientId": "TCGA-AF-2687",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3529,
+      "WRN_RSEM": 480.63,
+      "WRN_log2_RSEM_plus_1": 8.911781448
+    },
+    {
+      "sampleId": "TCGA-AF-2689-01",
+      "patientId": "TCGA-AF-2689",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3486,
+      "WRN_RSEM": null,
+      "WRN_log2_RSEM_plus_1": null
+    },
+    {
+      "sampleId": "TCGA-AF-2690-01",
+      "patientId": "TCGA-AF-2690",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3412,
+      "WRN_RSEM": 218.905,
+      "WRN_log2_RSEM_plus_1": 7.780736597
+    },
+    {
+      "sampleId": "TCGA-AF-2691-01",
+      "patientId": "TCGA-AF-2691",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3267,
+      "WRN_RSEM": 254.1183,
+      "WRN_log2_RSEM_plus_1": 7.995022579
+    },
+    {
+      "sampleId": "TCGA-AF-2692-01",
+      "patientId": "TCGA-AF-2692",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3259,
+      "WRN_RSEM": 340.6124,
+      "WRN_log2_RSEM_plus_1": 8.4162165333
+    },
+    {
+      "sampleId": "TCGA-AF-2693-01",
+      "patientId": "TCGA-AF-2693",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.339,
+      "WRN_RSEM": 158.39,
+      "WRN_log2_RSEM_plus_1": 7.3164173084
+    },
+    {
+      "sampleId": "TCGA-AF-3400-01",
+      "patientId": "TCGA-AF-3400",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3156,
+      "WRN_RSEM": 262.4985,
+      "WRN_log2_RSEM_plus_1": 8.0416509389
+    },
+    {
+      "sampleId": "TCGA-AF-3911-01",
+      "patientId": "TCGA-AF-3911",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3559,
+      "WRN_RSEM": 161.392,
+      "WRN_log2_RSEM_plus_1": 7.3433367518
+    },
+    {
+      "sampleId": "TCGA-AF-4110-01",
+      "patientId": "TCGA-AF-4110",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3522,
+      "WRN_RSEM": 332.189,
+      "WRN_log2_RSEM_plus_1": 8.3801969617
+    },
+    {
+      "sampleId": "TCGA-AF-5654-01",
+      "patientId": "TCGA-AF-5654",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3231,
+      "WRN_RSEM": 327.53,
+      "WRN_log2_RSEM_plus_1": 8.3598813073
+    },
+    {
+      "sampleId": "TCGA-AF-6136-01",
+      "patientId": "TCGA-AF-6136",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3329,
+      "WRN_RSEM": 258.794,
+      "WRN_log2_RSEM_plus_1": 8.0212243016
+    },
+    {
+      "sampleId": "TCGA-AF-6655-01",
+      "patientId": "TCGA-AF-6655",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3465,
+      "WRN_RSEM": 202.037,
+      "WRN_log2_RSEM_plus_1": 7.6655988475
+    },
+    {
+      "sampleId": "TCGA-AF-6672-01",
+      "patientId": "TCGA-AF-6672",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3345,
+      "WRN_RSEM": 321.053,
+      "WRN_log2_RSEM_plus_1": 8.3311543208
+    },
+    {
+      "sampleId": "TCGA-AF-A56K-01",
+      "patientId": "TCGA-AF-A56K",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3197,
+      "WRN_RSEM": 473.85,
+      "WRN_log2_RSEM_plus_1": 8.8913280434
+    },
+    {
+      "sampleId": "TCGA-AF-A56L-01",
+      "patientId": "TCGA-AF-A56L",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3287,
+      "WRN_RSEM": 225.66,
+      "WRN_log2_RSEM_plus_1": 7.8243860026
+    },
+    {
+      "sampleId": "TCGA-AF-A56N-01",
+      "patientId": "TCGA-AF-A56N",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3275,
+      "WRN_RSEM": 385.362,
+      "WRN_log2_RSEM_plus_1": 8.593809397
+    },
+    {
+      "sampleId": "TCGA-AG-3574-01",
+      "patientId": "TCGA-AG-3574",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3356,
+      "WRN_RSEM": 514.6093,
+      "WRN_log2_RSEM_plus_1": 9.0101344755
+    },
+    {
+      "sampleId": "TCGA-AG-3575-01",
+      "patientId": "TCGA-AG-3575",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3841,
+      "WRN_RSEM": 316.3268,
+      "WRN_log2_RSEM_plus_1": 8.3098255597
+    },
+    {
+      "sampleId": "TCGA-AG-3578-01",
+      "patientId": "TCGA-AG-3578",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 384.84,
+      "WRN_log2_RSEM_plus_1": 8.591858905
+    },
+    {
+      "sampleId": "TCGA-AG-3580-01",
+      "patientId": "TCGA-AG-3580",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3094,
+      "WRN_RSEM": 425.0321,
+      "WRN_log2_RSEM_plus_1": 8.7348183262
+    },
+    {
+      "sampleId": "TCGA-AG-3581-01",
+      "patientId": "TCGA-AG-3581",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3144,
+      "WRN_RSEM": 264.6688,
+      "WRN_log2_RSEM_plus_1": 8.0534849982
+    },
+    {
+      "sampleId": "TCGA-AG-3582-01",
+      "patientId": "TCGA-AG-3582",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 329.2747,
+      "WRN_log2_RSEM_plus_1": 8.367522649
+    },
+    {
+      "sampleId": "TCGA-AG-3583-01",
+      "patientId": "TCGA-AG-3583",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3724,
+      "WRN_RSEM": 389.5211,
+      "WRN_log2_RSEM_plus_1": 8.6092566896
+    },
+    {
+      "sampleId": "TCGA-AG-3584-01",
+      "patientId": "TCGA-AG-3584",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3271,
+      "WRN_RSEM": 185.2619,
+      "WRN_log2_RSEM_plus_1": 7.54118879
+    },
+    {
+      "sampleId": "TCGA-AG-3586-01",
+      "patientId": "TCGA-AG-3586",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 145.449,
+      "WRN_log2_RSEM_plus_1": 7.1942545318
+    },
+    {
+      "sampleId": "TCGA-AG-3587-01",
+      "patientId": "TCGA-AG-3587",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 239.0877,
+      "WRN_log2_RSEM_plus_1": 7.9074176841
+    },
+    {
+      "sampleId": "TCGA-AG-3591-01",
+      "patientId": "TCGA-AG-3591",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3455,
+      "WRN_RSEM": 239.675,
+      "WRN_log2_RSEM_plus_1": 7.9109424801
+    },
+    {
+      "sampleId": "TCGA-AG-3592-01",
+      "patientId": "TCGA-AG-3592",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3478,
+      "WRN_RSEM": 108.619,
+      "WRN_log2_RSEM_plus_1": 6.7763540686
+    },
+    {
+      "sampleId": "TCGA-AG-3593-01",
+      "patientId": "TCGA-AG-3593",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 218.8187,
+      "WRN_log2_RSEM_plus_1": 7.7801703115
+    },
+    {
+      "sampleId": "TCGA-AG-3594-01",
+      "patientId": "TCGA-AG-3594",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3367,
+      "WRN_RSEM": 225.125,
+      "WRN_log2_RSEM_plus_1": 7.8209766926
+    },
+    {
+      "sampleId": "TCGA-AG-3598-01",
+      "patientId": "TCGA-AG-3598",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3443,
+      "WRN_RSEM": 264.8532,
+      "WRN_log2_RSEM_plus_1": 8.0544860216
+    },
+    {
+      "sampleId": "TCGA-AG-3599-01",
+      "patientId": "TCGA-AG-3599",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3477,
+      "WRN_RSEM": 293.2578,
+      "WRN_log2_RSEM_plus_1": 8.2009368476
+    },
+    {
+      "sampleId": "TCGA-AG-3600-01",
+      "patientId": "TCGA-AG-3600",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 311.3154,
+      "WRN_log2_RSEM_plus_1": 8.2868598989
+    },
+    {
+      "sampleId": "TCGA-AG-3601-01",
+      "patientId": "TCGA-AG-3601",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 188.3058,
+      "WRN_log2_RSEM_plus_1": 7.5645748032
+    },
+    {
+      "sampleId": "TCGA-AG-3602-01",
+      "patientId": "TCGA-AG-3602",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.341,
+      "WRN_RSEM": 119.9509,
+      "WRN_log2_RSEM_plus_1": 6.9182776943
+    },
+    {
+      "sampleId": "TCGA-AG-3605-01",
+      "patientId": "TCGA-AG-3605",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.33,
+      "WRN_RSEM": 136.6982,
+      "WRN_log2_RSEM_plus_1": 7.1053658904
+    },
+    {
+      "sampleId": "TCGA-AG-3608-01",
+      "patientId": "TCGA-AG-3608",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 265.6953,
+      "WRN_log2_RSEM_plus_1": 8.0590485901
+    },
+    {
+      "sampleId": "TCGA-AG-3609-01",
+      "patientId": "TCGA-AG-3609",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 164.7624,
+      "WRN_log2_RSEM_plus_1": 7.3729729862
+    },
+    {
+      "sampleId": "TCGA-AG-3725-01",
+      "patientId": "TCGA-AG-3725",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3507,
+      "WRN_RSEM": 357.264,
+      "WRN_log2_RSEM_plus_1": 8.484879272
+    },
+    {
+      "sampleId": "TCGA-AG-3726-01",
+      "patientId": "TCGA-AG-3726",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.293,
+      "WRN_RSEM": 56.5992,
+      "WRN_log2_RSEM_plus_1": 5.847976869
+    },
+    {
+      "sampleId": "TCGA-AG-3727-01",
+      "patientId": "TCGA-AG-3727",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2939,
+      "WRN_RSEM": 26.8451,
+      "WRN_log2_RSEM_plus_1": 4.7993515687
+    },
+    {
+      "sampleId": "TCGA-AG-3728-01",
+      "patientId": "TCGA-AG-3728",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3413,
+      "WRN_RSEM": 93.9503,
+      "WRN_log2_RSEM_plus_1": 6.5691006535
+    },
+    {
+      "sampleId": "TCGA-AG-3731-01",
+      "patientId": "TCGA-AG-3731",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3516,
+      "WRN_RSEM": 804.74,
+      "WRN_log2_RSEM_plus_1": 9.654170568
+    },
+    {
+      "sampleId": "TCGA-AG-3732-01",
+      "patientId": "TCGA-AG-3732",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3066,
+      "WRN_RSEM": 287.075,
+      "WRN_log2_RSEM_plus_1": 8.1703006544
+    },
+    {
+      "sampleId": "TCGA-AG-3742-01",
+      "patientId": "TCGA-AG-3742",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3199,
+      "WRN_RSEM": 290.039,
+      "WRN_log2_RSEM_plus_1": 8.1850686808
+    },
+    {
+      "sampleId": "TCGA-AG-3878-01",
+      "patientId": "TCGA-AG-3878",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2791,
+      "WRN_RSEM": 118.0741,
+      "WRN_log2_RSEM_plus_1": 6.8957158342
+    },
+    {
+      "sampleId": "TCGA-AG-3881-01",
+      "patientId": "TCGA-AG-3881",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2842,
+      "WRN_RSEM": 203.4795,
+      "WRN_log2_RSEM_plus_1": 7.6758124035
+    },
+    {
+      "sampleId": "TCGA-AG-3882-01",
+      "patientId": "TCGA-AG-3882",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2963,
+      "WRN_RSEM": 99.6465,
+      "WRN_log2_RSEM_plus_1": 6.6531531929
+    },
+    {
+      "sampleId": "TCGA-AG-3883-01",
+      "patientId": "TCGA-AG-3883",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2889,
+      "WRN_RSEM": 60.3423,
+      "WRN_log2_RSEM_plus_1": 5.9388103557
+    },
+    {
+      "sampleId": "TCGA-AG-3885-01",
+      "patientId": "TCGA-AG-3885",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3285,
+      "WRN_RSEM": 24.9434,
+      "WRN_log2_RSEM_plus_1": 4.6972956586
+    },
+    {
+      "sampleId": "TCGA-AG-3887-01",
+      "patientId": "TCGA-AG-3887",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2587,
+      "WRN_RSEM": 383.9335,
+      "WRN_log2_RSEM_plus_1": 8.5884654213
+    },
+    {
+      "sampleId": "TCGA-AG-3890-01",
+      "patientId": "TCGA-AG-3890",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2774,
+      "WRN_RSEM": 268.9498,
+      "WRN_log2_RSEM_plus_1": 8.0765473377
+    },
+    {
+      "sampleId": "TCGA-AG-3892-01",
+      "patientId": "TCGA-AG-3892",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.5876,
+      "WRN_RSEM": 278.4524,
+      "WRN_log2_RSEM_plus_1": 8.126458755
+    },
+    {
+      "sampleId": "TCGA-AG-3893-01",
+      "patientId": "TCGA-AG-3893",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2849,
+      "WRN_RSEM": 184.8786,
+      "WRN_log2_RSEM_plus_1": 7.5382168737
+    },
+    {
+      "sampleId": "TCGA-AG-3894-01",
+      "patientId": "TCGA-AG-3894",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2675,
+      "WRN_RSEM": 267.8254,
+      "WRN_log2_RSEM_plus_1": 8.0705256475
+    },
+    {
+      "sampleId": "TCGA-AG-3896-01",
+      "patientId": "TCGA-AG-3896",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2715,
+      "WRN_RSEM": 359.0904,
+      "WRN_log2_RSEM_plus_1": 8.4922153276
+    },
+    {
+      "sampleId": "TCGA-AG-3898-01",
+      "patientId": "TCGA-AG-3898",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2685,
+      "WRN_RSEM": 516.5727,
+      "WRN_log2_RSEM_plus_1": 9.0156177124
+    },
+    {
+      "sampleId": "TCGA-AG-3901-01",
+      "patientId": "TCGA-AG-3901",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2547,
+      "WRN_RSEM": 397.0062,
+      "WRN_log2_RSEM_plus_1": 8.6366470945
+    },
+    {
+      "sampleId": "TCGA-AG-3902-01",
+      "patientId": "TCGA-AG-3902",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2705,
+      "WRN_RSEM": 188.805,
+      "WRN_log2_RSEM_plus_1": 7.5683741873
+    },
+    {
+      "sampleId": "TCGA-AG-3909-01",
+      "patientId": "TCGA-AG-3909",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2612,
+      "WRN_RSEM": 152.468,
+      "WRN_log2_RSEM_plus_1": 7.2617940567
+    },
+    {
+      "sampleId": "TCGA-AG-3999-01",
+      "patientId": "TCGA-AG-3999",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3504,
+      "WRN_RSEM": 96.679,
+      "WRN_log2_RSEM_plus_1": 6.6099765255
+    },
+    {
+      "sampleId": "TCGA-AG-4001-01",
+      "patientId": "TCGA-AG-4001",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2809,
+      "WRN_RSEM": 147.7226,
+      "WRN_log2_RSEM_plus_1": 7.2164800869
+    },
+    {
+      "sampleId": "TCGA-AG-4005-01",
+      "patientId": "TCGA-AG-4005",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3323,
+      "WRN_RSEM": 190.687,
+      "WRN_log2_RSEM_plus_1": 7.5826086881
+    },
+    {
+      "sampleId": "TCGA-AG-4007-01",
+      "patientId": "TCGA-AG-4007",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3394,
+      "WRN_RSEM": 105.0433,
+      "WRN_log2_RSEM_plus_1": 6.7285096615
+    },
+    {
+      "sampleId": "TCGA-AG-4008-01",
+      "patientId": "TCGA-AG-4008",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2652,
+      "WRN_RSEM": 279.388,
+      "WRN_log2_RSEM_plus_1": 8.1312807962
+    },
+    {
+      "sampleId": "TCGA-AG-4015-01",
+      "patientId": "TCGA-AG-4015",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2981,
+      "WRN_RSEM": 208.0968,
+      "WRN_log2_RSEM_plus_1": 7.708027173
+    },
+    {
+      "sampleId": "TCGA-AG-4021-01",
+      "patientId": "TCGA-AG-4021",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.346,
+      "WRN_RSEM": 205.281,
+      "WRN_log2_RSEM_plus_1": 7.6884671343
+    },
+    {
+      "sampleId": "TCGA-AG-4022-01",
+      "patientId": "TCGA-AG-4022",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3436,
+      "WRN_RSEM": 409.553,
+      "WRN_log2_RSEM_plus_1": 8.6814246673
+    },
+    {
+      "sampleId": "TCGA-AG-A002-01",
+      "patientId": "TCGA-AG-A002",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3178,
+      "WRN_RSEM": 576.4538,
+      "WRN_log2_RSEM_plus_1": 9.1735617161
+    },
+    {
+      "sampleId": "TCGA-AG-A008-01",
+      "patientId": "TCGA-AG-A008",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.6176,
+      "WRN_RSEM": 519.83,
+      "WRN_log2_RSEM_plus_1": 9.0246687404
+    },
+    {
+      "sampleId": "TCGA-AG-A00C-01",
+      "patientId": "TCGA-AG-A00C",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.5582,
+      "WRN_RSEM": 284.1558,
+      "WRN_log2_RSEM_plus_1": 8.1556065668
+    },
+    {
+      "sampleId": "TCGA-AG-A00Y-01",
+      "patientId": "TCGA-AG-A00Y",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2637,
+      "WRN_RSEM": 165.3606,
+      "WRN_log2_RSEM_plus_1": 7.3781699831
+    },
+    {
+      "sampleId": "TCGA-AG-A011-01",
+      "patientId": "TCGA-AG-A011",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2669,
+      "WRN_RSEM": 163.811,
+      "WRN_log2_RSEM_plus_1": 7.3646687255
+    },
+    {
+      "sampleId": "TCGA-AG-A015-01",
+      "patientId": "TCGA-AG-A015",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.5815,
+      "WRN_RSEM": 389.3608,
+      "WRN_log2_RSEM_plus_1": 8.6086643746
+    },
+    {
+      "sampleId": "TCGA-AG-A016-01",
+      "patientId": "TCGA-AG-A016",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.282,
+      "WRN_RSEM": 233.5829,
+      "WRN_log2_RSEM_plus_1": 7.8739540412
+    },
+    {
+      "sampleId": "TCGA-AG-A01J-01",
+      "patientId": "TCGA-AG-A01J",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2531,
+      "WRN_RSEM": 164.8636,
+      "WRN_log2_RSEM_plus_1": 7.3738535007
+    },
+    {
+      "sampleId": "TCGA-AG-A01L-01",
+      "patientId": "TCGA-AG-A01L",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2594,
+      "WRN_RSEM": 274.6849,
+      "WRN_log2_RSEM_plus_1": 8.106876439
+    },
+    {
+      "sampleId": "TCGA-AG-A01N-01",
+      "patientId": "TCGA-AG-A01N",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2832,
+      "WRN_RSEM": 129.017,
+      "WRN_log2_RSEM_plus_1": 7.0225564608
+    },
+    {
+      "sampleId": "TCGA-AG-A01W-01",
+      "patientId": "TCGA-AG-A01W",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2895,
+      "WRN_RSEM": 547.338,
+      "WRN_log2_RSEM_plus_1": 9.0989216461
+    },
+    {
+      "sampleId": "TCGA-AG-A01Y-01",
+      "patientId": "TCGA-AG-A01Y",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3053,
+      "WRN_RSEM": 963.3303,
+      "WRN_log2_RSEM_plus_1": 9.9133835692
+    },
+    {
+      "sampleId": "TCGA-AG-A020-01",
+      "patientId": "TCGA-AG-A020",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3111,
+      "WRN_RSEM": 433.6831,
+      "WRN_log2_RSEM_plus_1": 8.7638201961
+    },
+    {
+      "sampleId": "TCGA-AG-A025-01",
+      "patientId": "TCGA-AG-A025",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2593,
+      "WRN_RSEM": 358.8875,
+      "WRN_log2_RSEM_plus_1": 8.4914021837
+    },
+    {
+      "sampleId": "TCGA-AG-A026-01",
+      "patientId": "TCGA-AG-A026",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3214,
+      "WRN_RSEM": 250.0016,
+      "WRN_log2_RSEM_plus_1": 7.9715527504
+    },
+    {
+      "sampleId": "TCGA-AG-A02G-01",
+      "patientId": "TCGA-AG-A02G",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2752,
+      "WRN_RSEM": 132.8902,
+      "WRN_log2_RSEM_plus_1": 7.0649065572
+    },
+    {
+      "sampleId": "TCGA-AG-A02N-01",
+      "patientId": "TCGA-AG-A02N",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.2673,
+      "WRN_RSEM": 653.0852,
+      "WRN_log2_RSEM_plus_1": 9.3533347607
+    },
+    {
+      "sampleId": "TCGA-AG-A02X-01",
+      "patientId": "TCGA-AG-A02X",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2853,
+      "WRN_RSEM": 227.0871,
+      "WRN_log2_RSEM_plus_1": 7.8334410437
+    },
+    {
+      "sampleId": "TCGA-AG-A032-01",
+      "patientId": "TCGA-AG-A032",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2539,
+      "WRN_RSEM": 349.8378,
+      "WRN_log2_RSEM_plus_1": 8.4546603849
+    },
+    {
+      "sampleId": "TCGA-AH-6544-01",
+      "patientId": "TCGA-AH-6544",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3308,
+      "WRN_RSEM": 372.193,
+      "WRN_log2_RSEM_plus_1": 8.5437781155
+    },
+    {
+      "sampleId": "TCGA-AH-6547-01",
+      "patientId": "TCGA-AH-6547",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3524,
+      "WRN_RSEM": 315.443,
+      "WRN_log2_RSEM_plus_1": 8.3058018442
+    },
+    {
+      "sampleId": "TCGA-AH-6643-01",
+      "patientId": "TCGA-AH-6643",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3494,
+      "WRN_RSEM": 561.665,
+      "WRN_log2_RSEM_plus_1": 9.1361324146
+    },
+    {
+      "sampleId": "TCGA-AH-6644-01",
+      "patientId": "TCGA-AH-6644",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3448,
+      "WRN_RSEM": 384.097,
+      "WRN_log2_RSEM_plus_1": 8.589078074
+    },
+    {
+      "sampleId": "TCGA-AH-6897-01",
+      "patientId": "TCGA-AH-6897",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.344,
+      "WRN_RSEM": 410.722,
+      "WRN_log2_RSEM_plus_1": 8.6855267296
+    },
+    {
+      "sampleId": "TCGA-AH-6903-01",
+      "patientId": "TCGA-AH-6903",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3374,
+      "WRN_RSEM": 448.712,
+      "WRN_log2_RSEM_plus_1": 8.8128575708
+    },
+    {
+      "sampleId": "TCGA-AM-5820-01",
+      "patientId": "TCGA-AM-5820",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3465,
+      "WRN_RSEM": 227.975,
+      "WRN_log2_RSEM_plus_1": 7.83904628
+    },
+    {
+      "sampleId": "TCGA-AM-5821-01",
+      "patientId": "TCGA-AM-5821",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.8795,
+      "WRN_RSEM": 266.632,
+      "WRN_log2_RSEM_plus_1": 8.064106815
+    },
+    {
+      "sampleId": "TCGA-AU-3779-01",
+      "patientId": "TCGA-AU-3779",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3365,
+      "WRN_RSEM": 391.973,
+      "WRN_log2_RSEM_plus_1": 8.6182863824
+    },
+    {
+      "sampleId": "TCGA-AU-6004-01",
+      "patientId": "TCGA-AU-6004",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.8424,
+      "WRN_RSEM": 404.504,
+      "WRN_log2_RSEM_plus_1": 8.6635723354
+    },
+    {
+      "sampleId": "TCGA-AY-4070-01",
+      "patientId": "TCGA-AY-4070",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2687,
+      "WRN_RSEM": 168.1344,
+      "WRN_log2_RSEM_plus_1": 7.402026307
+    },
+    {
+      "sampleId": "TCGA-AY-4071-01",
+      "patientId": "TCGA-AY-4071",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2716,
+      "WRN_RSEM": 287.0826,
+      "WRN_log2_RSEM_plus_1": 8.1703387151
+    },
+    {
+      "sampleId": "TCGA-AY-5543-01",
+      "patientId": "TCGA-AY-5543",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3374,
+      "WRN_RSEM": 124.211,
+      "WRN_log2_RSEM_plus_1": 6.9682175008
+    },
+    {
+      "sampleId": "TCGA-AY-6196-01",
+      "patientId": "TCGA-AY-6196",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3602,
+      "WRN_RSEM": 281.513,
+      "WRN_log2_RSEM_plus_1": 8.1421734453
+    },
+    {
+      "sampleId": "TCGA-AY-6197-01",
+      "patientId": "TCGA-AY-6197",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.965,
+      "WRN_RSEM": 455.437,
+      "WRN_log2_RSEM_plus_1": 8.8342719348
+    },
+    {
+      "sampleId": "TCGA-AY-6386-01",
+      "patientId": "TCGA-AY-6386",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.327,
+      "WRN_RSEM": 274.741,
+      "WRN_log2_RSEM_plus_1": 8.1071699878
+    },
+    {
+      "sampleId": "TCGA-AY-A54L-01",
+      "patientId": "TCGA-AY-A54L",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2932,
+      "WRN_RSEM": 596.692,
+      "WRN_log2_RSEM_plus_1": 9.2232584225
+    },
+    {
+      "sampleId": "TCGA-AY-A69D-01",
+      "patientId": "TCGA-AY-A69D",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3161,
+      "WRN_RSEM": 420.137,
+      "WRN_log2_RSEM_plus_1": 8.7181458223
+    },
+    {
+      "sampleId": "TCGA-AY-A71X-01",
+      "patientId": "TCGA-AY-A71X",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3062,
+      "WRN_RSEM": 394.312,
+      "WRN_log2_RSEM_plus_1": 8.6268479397
+    },
+    {
+      "sampleId": "TCGA-AY-A8YK-01",
+      "patientId": "TCGA-AY-A8YK",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3268,
+      "WRN_RSEM": 272.131,
+      "WRN_log2_RSEM_plus_1": 8.0934492571
+    },
+    {
+      "sampleId": "TCGA-AZ-4308-01",
+      "patientId": "TCGA-AZ-4308",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.363,
+      "WRN_RSEM": 37.5925,
+      "WRN_log2_RSEM_plus_1": 5.2702485988
+    },
+    {
+      "sampleId": "TCGA-AZ-4313-01",
+      "patientId": "TCGA-AZ-4313",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.7225,
+      "WRN_RSEM": 192.435,
+      "WRN_log2_RSEM_plus_1": 7.5957050485
+    },
+    {
+      "sampleId": "TCGA-AZ-4315-01",
+      "patientId": "TCGA-AZ-4315",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3429,
+      "WRN_RSEM": 353.11,
+      "WRN_log2_RSEM_plus_1": 8.4680537755
+    },
+    {
+      "sampleId": "TCGA-AZ-4323-01",
+      "patientId": "TCGA-AZ-4323",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.426,
+      "WRN_RSEM": 399.448,
+      "WRN_log2_RSEM_plus_1": 8.645471104
+    },
+    {
+      "sampleId": "TCGA-AZ-4614-01",
+      "patientId": "TCGA-AZ-4614",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3773,
+      "WRN_RSEM": 190.768,
+      "WRN_log2_RSEM_plus_1": 7.5832181901
+    },
+    {
+      "sampleId": "TCGA-AZ-4615-01",
+      "patientId": "TCGA-AZ-4615",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.0327,
+      "WRN_RSEM": 420.681,
+      "WRN_log2_RSEM_plus_1": 8.7200082083
+    },
+    {
+      "sampleId": "TCGA-AZ-4616-01",
+      "patientId": "TCGA-AZ-4616",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3171,
+      "WRN_RSEM": 286.995,
+      "WRN_log2_RSEM_plus_1": 8.1698999544
+    },
+    {
+      "sampleId": "TCGA-AZ-4681-01",
+      "patientId": "TCGA-AZ-4681",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3537,
+      "WRN_RSEM": 85.0474,
+      "WRN_log2_RSEM_plus_1": 6.4270596955
+    },
+    {
+      "sampleId": "TCGA-AZ-4682-01",
+      "patientId": "TCGA-AZ-4682",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.367,
+      "WRN_RSEM": 330.501,
+      "WRN_log2_RSEM_plus_1": 8.3728694121
+    },
+    {
+      "sampleId": "TCGA-AZ-4684-01",
+      "patientId": "TCGA-AZ-4684",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3572,
+      "WRN_RSEM": 287.309,
+      "WRN_log2_RSEM_plus_1": 8.1714720632
+    },
+    {
+      "sampleId": "TCGA-AZ-5403-01",
+      "patientId": "TCGA-AZ-5403",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3101,
+      "WRN_RSEM": 170.754,
+      "WRN_log2_RSEM_plus_1": 7.4241998883
+    },
+    {
+      "sampleId": "TCGA-AZ-5407-01",
+      "patientId": "TCGA-AZ-5407",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3611,
+      "WRN_RSEM": 513.026,
+      "WRN_log2_RSEM_plus_1": 9.0056975241
+    },
+    {
+      "sampleId": "TCGA-AZ-6598-01",
+      "patientId": "TCGA-AZ-6598",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.3777,
+      "WRN_RSEM": 442.765,
+      "WRN_log2_RSEM_plus_1": 8.7936520756
+    },
+    {
+      "sampleId": "TCGA-AZ-6599-01",
+      "patientId": "TCGA-AZ-6599",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3766,
+      "WRN_RSEM": 541.587,
+      "WRN_log2_RSEM_plus_1": 9.0837106719
+    },
+    {
+      "sampleId": "TCGA-AZ-6600-01",
+      "patientId": "TCGA-AZ-6600",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3613,
+      "WRN_RSEM": 211.71,
+      "WRN_log2_RSEM_plus_1": 7.7327440492
+    },
+    {
+      "sampleId": "TCGA-AZ-6603-01",
+      "patientId": "TCGA-AZ-6603",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3686,
+      "WRN_RSEM": 309.717,
+      "WRN_log2_RSEM_plus_1": 8.2794573664
+    },
+    {
+      "sampleId": "TCGA-AZ-6605-01",
+      "patientId": "TCGA-AZ-6605",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3467,
+      "WRN_RSEM": 206.693,
+      "WRN_log2_RSEM_plus_1": 7.6983087828
+    },
+    {
+      "sampleId": "TCGA-AZ-6606-01",
+      "patientId": "TCGA-AZ-6606",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3623,
+      "WRN_RSEM": 141.387,
+      "WRN_log2_RSEM_plus_1": 7.1536736234
+    },
+    {
+      "sampleId": "TCGA-AZ-6607-01",
+      "patientId": "TCGA-AZ-6607",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.354,
+      "WRN_RSEM": 280.591,
+      "WRN_log2_RSEM_plus_1": 8.1374574142
+    },
+    {
+      "sampleId": "TCGA-CA-5254-01",
+      "patientId": "TCGA-CA-5254",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3896,
+      "WRN_RSEM": 432.617,
+      "WRN_log2_RSEM_plus_1": 8.7602775086
+    },
+    {
+      "sampleId": "TCGA-CA-5255-01",
+      "patientId": "TCGA-CA-5255",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3805,
+      "WRN_RSEM": 319.09,
+      "WRN_log2_RSEM_plus_1": 8.3223337958
+    },
+    {
+      "sampleId": "TCGA-CA-5256-01",
+      "patientId": "TCGA-CA-5256",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3522,
+      "WRN_RSEM": 406.815,
+      "WRN_log2_RSEM_plus_1": 8.6717710304
+    },
+    {
+      "sampleId": "TCGA-CA-5796-01",
+      "patientId": "TCGA-CA-5796",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3604,
+      "WRN_RSEM": 400.639,
+      "WRN_log2_RSEM_plus_1": 8.6497555546
+    },
+    {
+      "sampleId": "TCGA-CA-5797-01",
+      "patientId": "TCGA-CA-5797",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3554,
+      "WRN_RSEM": 119.464,
+      "WRN_log2_RSEM_plus_1": 6.9124582592
+    },
+    {
+      "sampleId": "TCGA-CA-6715-01",
+      "patientId": "TCGA-CA-6715",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3669,
+      "WRN_RSEM": 444.198,
+      "WRN_log2_RSEM_plus_1": 8.7983033013
+    },
+    {
+      "sampleId": "TCGA-CA-6716-01",
+      "patientId": "TCGA-CA-6716",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3773,
+      "WRN_RSEM": 406.068,
+      "WRN_log2_RSEM_plus_1": 8.6691260041
+    },
+    {
+      "sampleId": "TCGA-CA-6717-01",
+      "patientId": "TCGA-CA-6717",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3653,
+      "WRN_RSEM": 637.1,
+      "WRN_log2_RSEM_plus_1": 9.3176387238
+    },
+    {
+      "sampleId": "TCGA-CA-6718-01",
+      "patientId": "TCGA-CA-6718",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3722,
+      "WRN_RSEM": 278.997,
+      "WRN_log2_RSEM_plus_1": 8.1292675594
+    },
+    {
+      "sampleId": "TCGA-CA-6719-01",
+      "patientId": "TCGA-CA-6719",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3645,
+      "WRN_RSEM": 198.887,
+      "WRN_log2_RSEM_plus_1": 7.6430408367
+    },
+    {
+      "sampleId": "TCGA-CI-6619-01",
+      "patientId": "TCGA-CI-6619",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3407,
+      "WRN_RSEM": 616.69,
+      "WRN_log2_RSEM_plus_1": 9.2707391644
+    },
+    {
+      "sampleId": "TCGA-CI-6620-01",
+      "patientId": "TCGA-CI-6620",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3445,
+      "WRN_RSEM": 522.574,
+      "WRN_log2_RSEM_plus_1": 9.0322496465
+    },
+    {
+      "sampleId": "TCGA-CI-6621-01",
+      "patientId": "TCGA-CI-6621",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3389,
+      "WRN_RSEM": 232.048,
+      "WRN_log2_RSEM_plus_1": 7.8644833216
+    },
+    {
+      "sampleId": "TCGA-CI-6622-01",
+      "patientId": "TCGA-CI-6622",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3223,
+      "WRN_RSEM": 238.237,
+      "WRN_log2_RSEM_plus_1": 7.9022967214
+    },
+    {
+      "sampleId": "TCGA-CI-6623-01",
+      "patientId": "TCGA-CI-6623",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3617,
+      "WRN_RSEM": 704.096,
+      "WRN_log2_RSEM_plus_1": 9.461675886
+    },
+    {
+      "sampleId": "TCGA-CI-6624-01",
+      "patientId": "TCGA-CI-6624",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3402,
+      "WRN_RSEM": 487.558,
+      "WRN_log2_RSEM_plus_1": 8.9323860341
+    },
+    {
+      "sampleId": "TCGA-CK-4947-01",
+      "patientId": "TCGA-CK-4947",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3269,
+      "WRN_RSEM": 543.111,
+      "WRN_log2_RSEM_plus_1": 9.0877571847
+    },
+    {
+      "sampleId": "TCGA-CK-4948-01",
+      "patientId": "TCGA-CK-4948",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3486,
+      "WRN_RSEM": 200.0,
+      "WRN_log2_RSEM_plus_1": 7.6510516912
+    },
+    {
+      "sampleId": "TCGA-CK-4950-01",
+      "patientId": "TCGA-CK-4950",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3697,
+      "WRN_RSEM": 323.882,
+      "WRN_log2_RSEM_plus_1": 8.3437720035
+    },
+    {
+      "sampleId": "TCGA-CK-4951-01",
+      "patientId": "TCGA-CK-4951",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.7849,
+      "WRN_RSEM": 212.301,
+      "WRN_log2_RSEM_plus_1": 7.7367469191
+    },
+    {
+      "sampleId": "TCGA-CK-4952-01",
+      "patientId": "TCGA-CK-4952",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3926,
+      "WRN_RSEM": 961.523,
+      "WRN_log2_RSEM_plus_1": 9.9106772048
+    },
+    {
+      "sampleId": "TCGA-CK-5912-01",
+      "patientId": "TCGA-CK-5912",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3783,
+      "WRN_RSEM": 281.936,
+      "WRN_log2_RSEM_plus_1": 8.1443319427
+    },
+    {
+      "sampleId": "TCGA-CK-5913-01",
+      "patientId": "TCGA-CK-5913",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.9213,
+      "WRN_RSEM": 423.643,
+      "WRN_log2_RSEM_plus_1": 8.7301066579
+    },
+    {
+      "sampleId": "TCGA-CK-5914-01",
+      "patientId": "TCGA-CK-5914",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3446,
+      "WRN_RSEM": 368.57,
+      "WRN_log2_RSEM_plus_1": 8.5297038399
+    },
+    {
+      "sampleId": "TCGA-CK-5915-01",
+      "patientId": "TCGA-CK-5915",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3162,
+      "WRN_RSEM": 668.739,
+      "WRN_log2_RSEM_plus_1": 9.3874551708
+    },
+    {
+      "sampleId": "TCGA-CK-5916-01",
+      "patientId": "TCGA-CK-5916",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.9208,
+      "WRN_RSEM": 400.725,
+      "WRN_log2_RSEM_plus_1": 8.6500644352
+    },
+    {
+      "sampleId": "TCGA-CK-6746-01",
+      "patientId": "TCGA-CK-6746",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.1685,
+      "WRN_RSEM": 456.204,
+      "WRN_log2_RSEM_plus_1": 8.8366942153
+    },
+    {
+      "sampleId": "TCGA-CK-6747-01",
+      "patientId": "TCGA-CK-6747",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3727,
+      "WRN_RSEM": 382.036,
+      "WRN_log2_RSEM_plus_1": 8.5813361814
+    },
+    {
+      "sampleId": "TCGA-CK-6748-01",
+      "patientId": "TCGA-CK-6748",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3564,
+      "WRN_RSEM": 412.111,
+      "WRN_log2_RSEM_plus_1": 8.6903856654
+    },
+    {
+      "sampleId": "TCGA-CK-6751-01",
+      "patientId": "TCGA-CK-6751",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3583,
+      "WRN_RSEM": 320.931,
+      "WRN_log2_RSEM_plus_1": 8.330607696
+    },
+    {
+      "sampleId": "TCGA-CL-4957-01",
+      "patientId": "TCGA-CL-4957",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3362,
+      "WRN_RSEM": 142.663,
+      "WRN_log2_RSEM_plus_1": 7.1665447374
+    },
+    {
+      "sampleId": "TCGA-CL-5917-01",
+      "patientId": "TCGA-CL-5917",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.359,
+      "WRN_RSEM": 274.988,
+      "WRN_log2_RSEM_plus_1": 8.1084617295
+    },
+    {
+      "sampleId": "TCGA-CL-5918-01",
+      "patientId": "TCGA-CL-5918",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3446,
+      "WRN_RSEM": 378.757,
+      "WRN_log2_RSEM_plus_1": 8.5689327477
+    },
+    {
+      "sampleId": "TCGA-CM-4743-01",
+      "patientId": "TCGA-CM-4743",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.8182,
+      "WRN_RSEM": 155.044,
+      "WRN_log2_RSEM_plus_1": 7.2858090755
+    },
+    {
+      "sampleId": "TCGA-CM-4744-01",
+      "patientId": "TCGA-CM-4744",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3613,
+      "WRN_RSEM": 381.468,
+      "WRN_log2_RSEM_plus_1": 8.5791952365
+    },
+    {
+      "sampleId": "TCGA-CM-4746-01",
+      "patientId": "TCGA-CM-4746",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.8512,
+      "WRN_RSEM": 370.71,
+      "WRN_log2_RSEM_plus_1": 8.5380336909
+    },
+    {
+      "sampleId": "TCGA-CM-4747-01",
+      "patientId": "TCGA-CM-4747",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3787,
+      "WRN_RSEM": 341.029,
+      "WRN_log2_RSEM_plus_1": 8.4179748435
+    },
+    {
+      "sampleId": "TCGA-CM-4748-01",
+      "patientId": "TCGA-CM-4748",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.365,
+      "WRN_RSEM": 46.7936,
+      "WRN_log2_RSEM_plus_1": 5.578745536
+    },
+    {
+      "sampleId": "TCGA-CM-4750-01",
+      "patientId": "TCGA-CM-4750",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3583,
+      "WRN_RSEM": 287.6668,
+      "WRN_log2_RSEM_plus_1": 8.1732613804
+    },
+    {
+      "sampleId": "TCGA-CM-4751-01",
+      "patientId": "TCGA-CM-4751",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3606,
+      "WRN_RSEM": 234.004,
+      "WRN_log2_RSEM_plus_1": 7.8765415029
+    },
+    {
+      "sampleId": "TCGA-CM-4752-01",
+      "patientId": "TCGA-CM-4752",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3498,
+      "WRN_RSEM": 156.7962,
+      "WRN_log2_RSEM_plus_1": 7.301918653
+    },
+    {
+      "sampleId": "TCGA-CM-5341-01",
+      "patientId": "TCGA-CM-5341",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3524,
+      "WRN_RSEM": 365.9742,
+      "WRN_log2_RSEM_plus_1": 8.5195348282
+    },
+    {
+      "sampleId": "TCGA-CM-5344-01",
+      "patientId": "TCGA-CM-5344",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3396,
+      "WRN_RSEM": 108.001,
+      "WRN_log2_RSEM_plus_1": 6.7681975605
+    },
+    {
+      "sampleId": "TCGA-CM-5348-01",
+      "patientId": "TCGA-CM-5348",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3321,
+      "WRN_RSEM": 691.003,
+      "WRN_log2_RSEM_plus_1": 9.4346344821
+    },
+    {
+      "sampleId": "TCGA-CM-5349-01",
+      "patientId": "TCGA-CM-5349",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3249,
+      "WRN_RSEM": 134.539,
+      "WRN_log2_RSEM_plus_1": 7.0825642222
+    },
+    {
+      "sampleId": "TCGA-CM-5860-01",
+      "patientId": "TCGA-CM-5860",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3393,
+      "WRN_RSEM": 136.551,
+      "WRN_log2_RSEM_plus_1": 7.1038228179
+    },
+    {
+      "sampleId": "TCGA-CM-5861-01",
+      "patientId": "TCGA-CM-5861",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.9692,
+      "WRN_RSEM": 312.368,
+      "WRN_log2_RSEM_plus_1": 8.2917140543
+    },
+    {
+      "sampleId": "TCGA-CM-5862-01",
+      "patientId": "TCGA-CM-5862",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3545,
+      "WRN_RSEM": 128.105,
+      "WRN_log2_RSEM_plus_1": 7.0124010644
+    },
+    {
+      "sampleId": "TCGA-CM-5863-01",
+      "patientId": "TCGA-CM-5863",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3973,
+      "WRN_RSEM": 484.732,
+      "WRN_log2_RSEM_plus_1": 8.9240167239
+    },
+    {
+      "sampleId": "TCGA-CM-5864-01",
+      "patientId": "TCGA-CM-5864",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3329,
+      "WRN_RSEM": 594.005,
+      "WRN_log2_RSEM_plus_1": 9.2167579816
+    },
+    {
+      "sampleId": "TCGA-CM-5868-01",
+      "patientId": "TCGA-CM-5868",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3403,
+      "WRN_RSEM": 189.247,
+      "WRN_log2_RSEM_plus_1": 7.5717298939
+    },
+    {
+      "sampleId": "TCGA-CM-6161-01",
+      "patientId": "TCGA-CM-6161",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3145,
+      "WRN_RSEM": 685.653,
+      "WRN_log2_RSEM_plus_1": 9.4234374072
+    },
+    {
+      "sampleId": "TCGA-CM-6162-01",
+      "patientId": "TCGA-CM-6162",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.8773,
+      "WRN_RSEM": 433.664,
+      "WRN_log2_RSEM_plus_1": 8.7637568026
+    },
+    {
+      "sampleId": "TCGA-CM-6163-01",
+      "patientId": "TCGA-CM-6163",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3345,
+      "WRN_RSEM": 360.913,
+      "WRN_log2_RSEM_plus_1": 8.4994991204
+    },
+    {
+      "sampleId": "TCGA-CM-6164-01",
+      "patientId": "TCGA-CM-6164",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3277,
+      "WRN_RSEM": 467.927,
+      "WRN_log2_RSEM_plus_1": 8.8732195391
+    },
+    {
+      "sampleId": "TCGA-CM-6165-01",
+      "patientId": "TCGA-CM-6165",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3145,
+      "WRN_RSEM": 580.01,
+      "WRN_log2_RSEM_plus_1": 9.1824191844
+    },
+    {
+      "sampleId": "TCGA-CM-6166-01",
+      "patientId": "TCGA-CM-6166",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3171,
+      "WRN_RSEM": 178.443,
+      "WRN_log2_RSEM_plus_1": 7.4873818351
+    },
+    {
+      "sampleId": "TCGA-CM-6167-01",
+      "patientId": "TCGA-CM-6167",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3157,
+      "WRN_RSEM": 332.803,
+      "WRN_log2_RSEM_plus_1": 8.3828531105
+    },
+    {
+      "sampleId": "TCGA-CM-6168-01",
+      "patientId": "TCGA-CM-6168",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.4083,
+      "WRN_RSEM": 502.633,
+      "WRN_log2_RSEM_plus_1": 8.9762290069
+    },
+    {
+      "sampleId": "TCGA-CM-6169-01",
+      "patientId": "TCGA-CM-6169",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3404,
+      "WRN_RSEM": 334.724,
+      "WRN_log2_RSEM_plus_1": 8.3911318649
+    },
+    {
+      "sampleId": "TCGA-CM-6170-01",
+      "patientId": "TCGA-CM-6170",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3219,
+      "WRN_RSEM": 348.025,
+      "WRN_log2_RSEM_plus_1": 8.4471865674
+    },
+    {
+      "sampleId": "TCGA-CM-6171-01",
+      "patientId": "TCGA-CM-6171",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.1813,
+      "WRN_RSEM": 595.659,
+      "WRN_log2_RSEM_plus_1": 9.2207628339
+    },
+    {
+      "sampleId": "TCGA-CM-6172-01",
+      "patientId": "TCGA-CM-6172",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3388,
+      "WRN_RSEM": 354.939,
+      "WRN_log2_RSEM_plus_1": 8.4754862064
+    },
+    {
+      "sampleId": "TCGA-CM-6674-01",
+      "patientId": "TCGA-CM-6674",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.7398,
+      "WRN_RSEM": 225.734,
+      "WRN_log2_RSEM_plus_1": 7.8248569371
+    },
+    {
+      "sampleId": "TCGA-CM-6675-01",
+      "patientId": "TCGA-CM-6675",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.357,
+      "WRN_RSEM": 202.677,
+      "WRN_log2_RSEM_plus_1": 7.6701392645
+    },
+    {
+      "sampleId": "TCGA-CM-6676-01",
+      "patientId": "TCGA-CM-6676",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.353,
+      "WRN_RSEM": 285.408,
+      "WRN_log2_RSEM_plus_1": 8.1619279806
+    },
+    {
+      "sampleId": "TCGA-CM-6677-01",
+      "patientId": "TCGA-CM-6677",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3529,
+      "WRN_RSEM": 800.271,
+      "WRN_log2_RSEM_plus_1": 9.6461464527
+    },
+    {
+      "sampleId": "TCGA-CM-6678-01",
+      "patientId": "TCGA-CM-6678",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.349,
+      "WRN_RSEM": 269.365,
+      "WRN_log2_RSEM_plus_1": 8.0787645899
+    },
+    {
+      "sampleId": "TCGA-CM-6679-01",
+      "patientId": "TCGA-CM-6679",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3381,
+      "WRN_RSEM": 229.282,
+      "WRN_log2_RSEM_plus_1": 7.847257837
+    },
+    {
+      "sampleId": "TCGA-CM-6680-01",
+      "patientId": "TCGA-CM-6680",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.4575,
+      "WRN_RSEM": 453.7,
+      "WRN_log2_RSEM_plus_1": 8.8287711939
+    },
+    {
+      "sampleId": "TCGA-D5-5537-01",
+      "patientId": "TCGA-D5-5537",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3494,
+      "WRN_RSEM": 373.129,
+      "WRN_log2_RSEM_plus_1": 8.5473919882
+    },
+    {
+      "sampleId": "TCGA-D5-5538-01",
+      "patientId": "TCGA-D5-5538",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3546,
+      "WRN_RSEM": 178.382,
+      "WRN_log2_RSEM_plus_1": 7.4868913208
+    },
+    {
+      "sampleId": "TCGA-D5-5539-01",
+      "patientId": "TCGA-D5-5539",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3573,
+      "WRN_RSEM": 316.134,
+      "WRN_log2_RSEM_plus_1": 8.3089487471
+    },
+    {
+      "sampleId": "TCGA-D5-5540-01",
+      "patientId": "TCGA-D5-5540",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3281,
+      "WRN_RSEM": 297.414,
+      "WRN_log2_RSEM_plus_1": 8.2211714105
+    },
+    {
+      "sampleId": "TCGA-D5-5541-01",
+      "patientId": "TCGA-D5-5541",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.328,
+      "WRN_RSEM": 229.295,
+      "WRN_log2_RSEM_plus_1": 7.8473392785
+    },
+    {
+      "sampleId": "TCGA-D5-6529-01",
+      "patientId": "TCGA-D5-6529",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3658,
+      "WRN_RSEM": 598.712,
+      "WRN_log2_RSEM_plus_1": 9.2281260306
+    },
+    {
+      "sampleId": "TCGA-D5-6530-01",
+      "patientId": "TCGA-D5-6530",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.0856,
+      "WRN_RSEM": 268.571,
+      "WRN_log2_RSEM_plus_1": 8.0745214919
+    },
+    {
+      "sampleId": "TCGA-D5-6531-01",
+      "patientId": "TCGA-D5-6531",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.347,
+      "WRN_RSEM": 417.103,
+      "WRN_log2_RSEM_plus_1": 8.7077145849
+    },
+    {
+      "sampleId": "TCGA-D5-6532-01",
+      "patientId": "TCGA-D5-6532",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3466,
+      "WRN_RSEM": 334.358,
+      "WRN_log2_RSEM_plus_1": 8.3895582079
+    },
+    {
+      "sampleId": "TCGA-D5-6533-01",
+      "patientId": "TCGA-D5-6533",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3337,
+      "WRN_RSEM": 874.145,
+      "WRN_log2_RSEM_plus_1": 9.7733782621
+    },
+    {
+      "sampleId": "TCGA-D5-6534-01",
+      "patientId": "TCGA-D5-6534",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3343,
+      "WRN_RSEM": 212.946,
+      "WRN_log2_RSEM_plus_1": 7.7411028959
+    },
+    {
+      "sampleId": "TCGA-D5-6535-01",
+      "patientId": "TCGA-D5-6535",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.343,
+      "WRN_RSEM": 101.328,
+      "WRN_log2_RSEM_plus_1": 6.6770571534
+    },
+    {
+      "sampleId": "TCGA-D5-6536-01",
+      "patientId": "TCGA-D5-6536",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3522,
+      "WRN_RSEM": 361.362,
+      "WRN_log2_RSEM_plus_1": 8.5012878613
+    },
+    {
+      "sampleId": "TCGA-D5-6537-01",
+      "patientId": "TCGA-D5-6537",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3503,
+      "WRN_RSEM": 440.931,
+      "WRN_log2_RSEM_plus_1": 8.7876773247
+    },
+    {
+      "sampleId": "TCGA-D5-6538-01",
+      "patientId": "TCGA-D5-6538",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3432,
+      "WRN_RSEM": 936.027,
+      "WRN_log2_RSEM_plus_1": 9.8719468088
+    },
+    {
+      "sampleId": "TCGA-D5-6539-01",
+      "patientId": "TCGA-D5-6539",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3265,
+      "WRN_RSEM": 272.13,
+      "WRN_log2_RSEM_plus_1": 8.093443975
+    },
+    {
+      "sampleId": "TCGA-D5-6540-01",
+      "patientId": "TCGA-D5-6540",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.9984,
+      "WRN_RSEM": 223.291,
+      "WRN_log2_RSEM_plus_1": 7.8092279211
+    },
+    {
+      "sampleId": "TCGA-D5-6541-01",
+      "patientId": "TCGA-D5-6541",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3319,
+      "WRN_RSEM": 352.839,
+      "WRN_log2_RSEM_plus_1": 8.4669492599
+    },
+    {
+      "sampleId": "TCGA-D5-6898-01",
+      "patientId": "TCGA-D5-6898",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3407,
+      "WRN_RSEM": 290.646,
+      "WRN_log2_RSEM_plus_1": 8.1880744771
+    },
+    {
+      "sampleId": "TCGA-D5-6920-01",
+      "patientId": "TCGA-D5-6920",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3434,
+      "WRN_RSEM": 356.693,
+      "WRN_log2_RSEM_plus_1": 8.4825780751
+    },
+    {
+      "sampleId": "TCGA-D5-6922-01",
+      "patientId": "TCGA-D5-6922",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3579,
+      "WRN_RSEM": 199.802,
+      "WRN_log2_RSEM_plus_1": 7.6496298285
+    },
+    {
+      "sampleId": "TCGA-D5-6923-01",
+      "patientId": "TCGA-D5-6923",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3476,
+      "WRN_RSEM": 644.528,
+      "WRN_log2_RSEM_plus_1": 9.3343358641
+    },
+    {
+      "sampleId": "TCGA-D5-6924-01",
+      "patientId": "TCGA-D5-6924",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3409,
+      "WRN_RSEM": 753.432,
+      "WRN_log2_RSEM_plus_1": 9.5592470605
+    },
+    {
+      "sampleId": "TCGA-D5-6926-01",
+      "patientId": "TCGA-D5-6926",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3496,
+      "WRN_RSEM": 223.264,
+      "WRN_log2_RSEM_plus_1": 7.80905424
+    },
+    {
+      "sampleId": "TCGA-D5-6927-01",
+      "patientId": "TCGA-D5-6927",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.7283,
+      "WRN_RSEM": 262.304,
+      "WRN_log2_RSEM_plus_1": 8.0405856281
+    },
+    {
+      "sampleId": "TCGA-D5-6928-01",
+      "patientId": "TCGA-D5-6928",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.6559,
+      "WRN_RSEM": 364.991,
+      "WRN_log2_RSEM_plus_1": 8.5156643617
+    },
+    {
+      "sampleId": "TCGA-D5-6929-01",
+      "patientId": "TCGA-D5-6929",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3524,
+      "WRN_RSEM": 283.716,
+      "WRN_log2_RSEM_plus_1": 8.1533797593
+    },
+    {
+      "sampleId": "TCGA-D5-6930-01",
+      "patientId": "TCGA-D5-6930",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.6864,
+      "WRN_RSEM": 258.078,
+      "WRN_log2_RSEM_plus_1": 8.0172427019
+    },
+    {
+      "sampleId": "TCGA-D5-6931-01",
+      "patientId": "TCGA-D5-6931",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3574,
+      "WRN_RSEM": 451.824,
+      "WRN_log2_RSEM_plus_1": 8.8228066139
+    },
+    {
+      "sampleId": "TCGA-D5-6932-01",
+      "patientId": "TCGA-D5-6932",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3444,
+      "WRN_RSEM": 184.956,
+      "WRN_log2_RSEM_plus_1": 7.538817488
+    },
+    {
+      "sampleId": "TCGA-D5-7000-01",
+      "patientId": "TCGA-D5-7000",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3496,
+      "WRN_RSEM": 539.449,
+      "WRN_log2_RSEM_plus_1": 9.0780146728
+    },
+    {
+      "sampleId": "TCGA-DC-4745-01",
+      "patientId": "TCGA-DC-4745",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3391,
+      "WRN_RSEM": 161.496,
+      "WRN_log2_RSEM_plus_1": 7.344260395
+    },
+    {
+      "sampleId": "TCGA-DC-4749-01",
+      "patientId": "TCGA-DC-4749",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3406,
+      "WRN_RSEM": 256.852,
+      "WRN_log2_RSEM_plus_1": 8.0103994255
+    },
+    {
+      "sampleId": "TCGA-DC-5337-01",
+      "patientId": "TCGA-DC-5337",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3191,
+      "WRN_RSEM": 281.587,
+      "WRN_log2_RSEM_plus_1": 8.1425512879
+    },
+    {
+      "sampleId": "TCGA-DC-5869-01",
+      "patientId": "TCGA-DC-5869",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3785,
+      "WRN_RSEM": 418.234,
+      "WRN_log2_RSEM_plus_1": 8.7116119144
+    },
+    {
+      "sampleId": "TCGA-DC-6154-01",
+      "patientId": "TCGA-DC-6154",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.331,
+      "WRN_RSEM": 329.963,
+      "WRN_log2_RSEM_plus_1": 8.3705261298
+    },
+    {
+      "sampleId": "TCGA-DC-6155-01",
+      "patientId": "TCGA-DC-6155",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3493,
+      "WRN_RSEM": 22.0158,
+      "WRN_log2_RSEM_plus_1": 4.5245526846
+    },
+    {
+      "sampleId": "TCGA-DC-6156-01",
+      "patientId": "TCGA-DC-6156",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 297.588,
+      "WRN_log2_RSEM_plus_1": 8.2220123757
+    },
+    {
+      "sampleId": "TCGA-DC-6157-01",
+      "patientId": "TCGA-DC-6157",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.331,
+      "WRN_RSEM": 190.905,
+      "WRN_log2_RSEM_plus_1": 7.5842484906
+    },
+    {
+      "sampleId": "TCGA-DC-6158-01",
+      "patientId": "TCGA-DC-6158",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.339,
+      "WRN_RSEM": 234.707,
+      "WRN_log2_RSEM_plus_1": 7.880850794
+    },
+    {
+      "sampleId": "TCGA-DC-6160-01",
+      "patientId": "TCGA-DC-6160",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.321,
+      "WRN_RSEM": 562.475,
+      "WRN_log2_RSEM_plus_1": 9.1382077928
+    },
+    {
+      "sampleId": "TCGA-DC-6681-01",
+      "patientId": "TCGA-DC-6681",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3433,
+      "WRN_RSEM": 349.414,
+      "WRN_log2_RSEM_plus_1": 8.4529166055
+    },
+    {
+      "sampleId": "TCGA-DC-6682-01",
+      "patientId": "TCGA-DC-6682",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3334,
+      "WRN_RSEM": 411.087,
+      "WRN_log2_RSEM_plus_1": 8.6868051418
+    },
+    {
+      "sampleId": "TCGA-DC-6683-01",
+      "patientId": "TCGA-DC-6683",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3459,
+      "WRN_RSEM": 158.105,
+      "WRN_log2_RSEM_plus_1": 7.313835364
+    },
+    {
+      "sampleId": "TCGA-DM-A0X9-01",
+      "patientId": "TCGA-DM-A0X9",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3503,
+      "WRN_RSEM": 542.563,
+      "WRN_log2_RSEM_plus_1": 9.0863034459
+    },
+    {
+      "sampleId": "TCGA-DM-A0XD-01",
+      "patientId": "TCGA-DM-A0XD",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3301,
+      "WRN_RSEM": 252.597,
+      "WRN_log2_RSEM_plus_1": 7.9863938686
+    },
+    {
+      "sampleId": "TCGA-DM-A0XF-01",
+      "patientId": "TCGA-DM-A0XF",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3334,
+      "WRN_RSEM": 148.512,
+      "WRN_log2_RSEM_plus_1": 7.2241174712
+    },
+    {
+      "sampleId": "TCGA-DM-A1D0-01",
+      "patientId": "TCGA-DM-A1D0",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3358,
+      "WRN_RSEM": 138.907,
+      "WRN_log2_RSEM_plus_1": 7.1283243368
+    },
+    {
+      "sampleId": "TCGA-DM-A1D4-01",
+      "patientId": "TCGA-DM-A1D4",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3544,
+      "WRN_RSEM": 328.985,
+      "WRN_log2_RSEM_plus_1": 8.3662566357
+    },
+    {
+      "sampleId": "TCGA-DM-A1D6-01",
+      "patientId": "TCGA-DM-A1D6",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3534,
+      "WRN_RSEM": 288.861,
+      "WRN_log2_RSEM_plus_1": 8.1792174256
+    },
+    {
+      "sampleId": "TCGA-DM-A1D7-01",
+      "patientId": "TCGA-DM-A1D7",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3316,
+      "WRN_RSEM": 160.122,
+      "WRN_log2_RSEM_plus_1": 7.3320096865
+    },
+    {
+      "sampleId": "TCGA-DM-A1D8-01",
+      "patientId": "TCGA-DM-A1D8",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3468,
+      "WRN_RSEM": 375.95,
+      "WRN_log2_RSEM_plus_1": 8.5582293617
+    },
+    {
+      "sampleId": "TCGA-DM-A1D9-01",
+      "patientId": "TCGA-DM-A1D9",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.335,
+      "WRN_RSEM": 222.185,
+      "WRN_log2_RSEM_plus_1": 7.8020962584
+    },
+    {
+      "sampleId": "TCGA-DM-A1DA-01",
+      "patientId": "TCGA-DM-A1DA",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3952,
+      "WRN_RSEM": 471.842,
+      "WRN_log2_RSEM_plus_1": 8.8852143778
+    },
+    {
+      "sampleId": "TCGA-DM-A1DB-01",
+      "patientId": "TCGA-DM-A1DB",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3441,
+      "WRN_RSEM": 283.011,
+      "WRN_log2_RSEM_plus_1": 8.1498029975
+    },
+    {
+      "sampleId": "TCGA-DM-A1HA-01",
+      "patientId": "TCGA-DM-A1HA",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3507,
+      "WRN_RSEM": 199.641,
+      "WRN_log2_RSEM_plus_1": 7.6484726335
+    },
+    {
+      "sampleId": "TCGA-DM-A1HB-01",
+      "patientId": "TCGA-DM-A1HB",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.0166,
+      "WRN_RSEM": 275.64,
+      "WRN_log2_RSEM_plus_1": 8.1118659639
+    },
+    {
+      "sampleId": "TCGA-DM-A280-01",
+      "patientId": "TCGA-DM-A280",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3888,
+      "WRN_RSEM": 233.726,
+      "WRN_log2_RSEM_plus_1": 7.8748338441
+    },
+    {
+      "sampleId": "TCGA-DM-A282-01",
+      "patientId": "TCGA-DM-A282",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3739,
+      "WRN_RSEM": 211.268,
+      "WRN_log2_RSEM_plus_1": 7.7297430871
+    },
+    {
+      "sampleId": "TCGA-DM-A285-01",
+      "patientId": "TCGA-DM-A285",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3761,
+      "WRN_RSEM": 345.765,
+      "WRN_log2_RSEM_plus_1": 8.4378144803
+    },
+    {
+      "sampleId": "TCGA-DM-A288-01",
+      "patientId": "TCGA-DM-A288",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3948,
+      "WRN_RSEM": 281.114,
+      "WRN_log2_RSEM_plus_1": 8.1401344517
+    },
+    {
+      "sampleId": "TCGA-DM-A28A-01",
+      "patientId": "TCGA-DM-A28A",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3995,
+      "WRN_RSEM": 211.904,
+      "WRN_log2_RSEM_plus_1": 7.7340592449
+    },
+    {
+      "sampleId": "TCGA-DM-A28C-01",
+      "patientId": "TCGA-DM-A28C",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3712,
+      "WRN_RSEM": 302.143,
+      "WRN_log2_RSEM_plus_1": 8.2438546987
+    },
+    {
+      "sampleId": "TCGA-DM-A28E-01",
+      "patientId": "TCGA-DM-A28E",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.379,
+      "WRN_RSEM": 299.955,
+      "WRN_log2_RSEM_plus_1": 8.2334039753
+    },
+    {
+      "sampleId": "TCGA-DM-A28F-01",
+      "patientId": "TCGA-DM-A28F",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3791,
+      "WRN_RSEM": 141.127,
+      "WRN_log2_RSEM_plus_1": 7.1510368405
+    },
+    {
+      "sampleId": "TCGA-DM-A28G-01",
+      "patientId": "TCGA-DM-A28G",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3656,
+      "WRN_RSEM": 223.853,
+      "WRN_log2_RSEM_plus_1": 7.8128383224
+    },
+    {
+      "sampleId": "TCGA-DM-A28H-01",
+      "patientId": "TCGA-DM-A28H",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3898,
+      "WRN_RSEM": 398.419,
+      "WRN_log2_RSEM_plus_1": 8.6417591519
+    },
+    {
+      "sampleId": "TCGA-DM-A28K-01",
+      "patientId": "TCGA-DM-A28K",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.397,
+      "WRN_RSEM": 577.801,
+      "WRN_log2_RSEM_plus_1": 9.1769236042
+    },
+    {
+      "sampleId": "TCGA-DM-A28M-01",
+      "patientId": "TCGA-DM-A28M",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3983,
+      "WRN_RSEM": 140.727,
+      "WRN_log2_RSEM_plus_1": 7.1469708179
+    },
+    {
+      "sampleId": "TCGA-DT-5265-01",
+      "patientId": "TCGA-DT-5265",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3389,
+      "WRN_RSEM": 114.415,
+      "WRN_log2_RSEM_plus_1": 6.8506869269
+    },
+    {
+      "sampleId": "TCGA-DY-A0XA-01",
+      "patientId": "TCGA-DY-A0XA",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3458,
+      "WRN_RSEM": 1439.33,
+      "WRN_log2_RSEM_plus_1": 10.4921836761
+    },
+    {
+      "sampleId": "TCGA-DY-A1DC-01",
+      "patientId": "TCGA-DY-A1DC",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3327,
+      "WRN_RSEM": 100.499,
+      "WRN_log2_RSEM_plus_1": 6.6653217034
+    },
+    {
+      "sampleId": "TCGA-DY-A1DD-01",
+      "patientId": "TCGA-DY-A1DD",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3611,
+      "WRN_RSEM": 573.965,
+      "WRN_log2_RSEM_plus_1": 9.1673303269
+    },
+    {
+      "sampleId": "TCGA-DY-A1DE-01",
+      "patientId": "TCGA-DY-A1DE",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 121.584,
+      "WRN_log2_RSEM_plus_1": 6.9376268766
+    },
+    {
+      "sampleId": "TCGA-DY-A1DF-01",
+      "patientId": "TCGA-DY-A1DF",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3545,
+      "WRN_RSEM": 171.182,
+      "WRN_log2_RSEM_plus_1": 7.4277905203
+    },
+    {
+      "sampleId": "TCGA-DY-A1DG-01",
+      "patientId": "TCGA-DY-A1DG",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.363,
+      "WRN_RSEM": 258.46,
+      "WRN_log2_RSEM_plus_1": 8.0193683305
+    },
+    {
+      "sampleId": "TCGA-DY-A1H8-01",
+      "patientId": "TCGA-DY-A1H8",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3551,
+      "WRN_RSEM": 264.426,
+      "WRN_log2_RSEM_plus_1": 8.0521658877
+    },
+    {
+      "sampleId": "TCGA-EF-5830-01",
+      "patientId": "TCGA-EF-5830",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3447,
+      "WRN_RSEM": 162.121,
+      "WRN_log2_RSEM_plus_1": 7.3497987146
+    },
+    {
+      "sampleId": "TCGA-EF-5831-01",
+      "patientId": "TCGA-EF-5831",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": null,
+      "WRN_RSEM": 120.925,
+      "WRN_log2_RSEM_plus_1": 6.9298501621
+    },
+    {
+      "sampleId": "TCGA-EI-6506-01",
+      "patientId": "TCGA-EI-6506",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3332,
+      "WRN_RSEM": 396.791,
+      "WRN_log2_RSEM_plus_1": 8.6358668254
+    },
+    {
+      "sampleId": "TCGA-EI-6507-01",
+      "patientId": "TCGA-EI-6507",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.6711,
+      "WRN_RSEM": 564.317,
+      "WRN_log2_RSEM_plus_1": 9.1429162716
+    },
+    {
+      "sampleId": "TCGA-EI-6508-01",
+      "patientId": "TCGA-EI-6508",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3488,
+      "WRN_RSEM": 463.401,
+      "WRN_log2_RSEM_plus_1": 8.8592272686
+    },
+    {
+      "sampleId": "TCGA-EI-6509-01",
+      "patientId": "TCGA-EI-6509",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3555,
+      "WRN_RSEM": 457.13,
+      "WRN_log2_RSEM_plus_1": 8.8396132286
+    },
+    {
+      "sampleId": "TCGA-EI-6510-01",
+      "patientId": "TCGA-EI-6510",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3574,
+      "WRN_RSEM": 389.079,
+      "WRN_log2_RSEM_plus_1": 8.6076225224
+    },
+    {
+      "sampleId": "TCGA-EI-6511-01",
+      "patientId": "TCGA-EI-6511",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3537,
+      "WRN_RSEM": 531.227,
+      "WRN_log2_RSEM_plus_1": 9.0558978902
+    },
+    {
+      "sampleId": "TCGA-EI-6512-01",
+      "patientId": "TCGA-EI-6512",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3602,
+      "WRN_RSEM": 339.991,
+      "WRN_log2_RSEM_plus_1": 8.4135898515
+    },
+    {
+      "sampleId": "TCGA-EI-6513-01",
+      "patientId": "TCGA-EI-6513",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3553,
+      "WRN_RSEM": 249.513,
+      "WRN_log2_RSEM_plus_1": 7.9687416617
+    },
+    {
+      "sampleId": "TCGA-EI-6514-01",
+      "patientId": "TCGA-EI-6514",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3382,
+      "WRN_RSEM": 446.458,
+      "WRN_log2_RSEM_plus_1": 8.805608462
+    },
+    {
+      "sampleId": "TCGA-EI-6881-01",
+      "patientId": "TCGA-EI-6881",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3444,
+      "WRN_RSEM": 435.704,
+      "WRN_log2_RSEM_plus_1": 8.7705119354
+    },
+    {
+      "sampleId": "TCGA-EI-6882-01",
+      "patientId": "TCGA-EI-6882",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.9044,
+      "WRN_RSEM": 424.242,
+      "WRN_log2_RSEM_plus_1": 8.7321402848
+    },
+    {
+      "sampleId": "TCGA-EI-6883-01",
+      "patientId": "TCGA-EI-6883",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3433,
+      "WRN_RSEM": 141.83,
+      "WRN_log2_RSEM_plus_1": 7.1581552245
+    },
+    {
+      "sampleId": "TCGA-EI-6884-01",
+      "patientId": "TCGA-EI-6884",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3424,
+      "WRN_RSEM": 247.427,
+      "WRN_log2_RSEM_plus_1": 7.9566781695
+    },
+    {
+      "sampleId": "TCGA-EI-6885-01",
+      "patientId": "TCGA-EI-6885",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3401,
+      "WRN_RSEM": 498.905,
+      "WRN_log2_RSEM_plus_1": 8.9655101466
+    },
+    {
+      "sampleId": "TCGA-EI-6917-01",
+      "patientId": "TCGA-EI-6917",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3457,
+      "WRN_RSEM": 509.18,
+      "WRN_log2_RSEM_plus_1": 8.9948625335
+    },
+    {
+      "sampleId": "TCGA-EI-7002-01",
+      "patientId": "TCGA-EI-7002",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3622,
+      "WRN_RSEM": 290.011,
+      "WRN_log2_RSEM_plus_1": 8.1849298767
+    },
+    {
+      "sampleId": "TCGA-EI-7004-01",
+      "patientId": "TCGA-EI-7004",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.345,
+      "WRN_RSEM": 397.836,
+      "WRN_log2_RSEM_plus_1": 8.6396518269
+    },
+    {
+      "sampleId": "TCGA-F4-6459-01",
+      "patientId": "TCGA-F4-6459",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3642,
+      "WRN_RSEM": 453.652,
+      "WRN_log2_RSEM_plus_1": 8.828618889
+    },
+    {
+      "sampleId": "TCGA-F4-6460-01",
+      "patientId": "TCGA-F4-6460",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3437,
+      "WRN_RSEM": 236.705,
+      "WRN_log2_RSEM_plus_1": 7.8930284397
+    },
+    {
+      "sampleId": "TCGA-F4-6461-01",
+      "patientId": "TCGA-F4-6461",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3699,
+      "WRN_RSEM": 358.774,
+      "WRN_log2_RSEM_plus_1": 8.49094712
+    },
+    {
+      "sampleId": "TCGA-F4-6463-01",
+      "patientId": "TCGA-F4-6463",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3302,
+      "WRN_RSEM": 179.0,
+      "WRN_log2_RSEM_plus_1": 7.4918530963
+    },
+    {
+      "sampleId": "TCGA-F4-6569-01",
+      "patientId": "TCGA-F4-6569",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3647,
+      "WRN_RSEM": 432.844,
+      "WRN_log2_RSEM_plus_1": 8.7610325668
+    },
+    {
+      "sampleId": "TCGA-F4-6570-01",
+      "patientId": "TCGA-F4-6570",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.9787,
+      "WRN_RSEM": 179.215,
+      "WRN_log2_RSEM_plus_1": 7.4935752871
+    },
+    {
+      "sampleId": "TCGA-F4-6703-01",
+      "patientId": "TCGA-F4-6703",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.4396,
+      "WRN_RSEM": 380.48,
+      "WRN_log2_RSEM_plus_1": 8.5754636121
+    },
+    {
+      "sampleId": "TCGA-F4-6704-01",
+      "patientId": "TCGA-F4-6704",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3596,
+      "WRN_RSEM": 428.896,
+      "WRN_log2_RSEM_plus_1": 8.7478438765
+    },
+    {
+      "sampleId": "TCGA-F4-6805-01",
+      "patientId": "TCGA-F4-6805",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3882,
+      "WRN_RSEM": 213.393,
+      "WRN_log2_RSEM_plus_1": 7.7441139919
+    },
+    {
+      "sampleId": "TCGA-F4-6806-01",
+      "patientId": "TCGA-F4-6806",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3957,
+      "WRN_RSEM": 292.699,
+      "WRN_log2_RSEM_plus_1": 8.1981945433
+    },
+    {
+      "sampleId": "TCGA-F4-6807-01",
+      "patientId": "TCGA-F4-6807",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3514,
+      "WRN_RSEM": 501.034,
+      "WRN_log2_RSEM_plus_1": 8.9716412631
+    },
+    {
+      "sampleId": "TCGA-F4-6808-01",
+      "patientId": "TCGA-F4-6808",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3566,
+      "WRN_RSEM": 276.495,
+      "WRN_log2_RSEM_plus_1": 8.1163179665
+    },
+    {
+      "sampleId": "TCGA-F4-6809-01",
+      "patientId": "TCGA-F4-6809",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3476,
+      "WRN_RSEM": 249.153,
+      "WRN_log2_RSEM_plus_1": 7.966666944
+    },
+    {
+      "sampleId": "TCGA-F4-6854-01",
+      "patientId": "TCGA-F4-6854",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3387,
+      "WRN_RSEM": 220.659,
+      "WRN_log2_RSEM_plus_1": 7.7921981311
+    },
+    {
+      "sampleId": "TCGA-F4-6855-01",
+      "patientId": "TCGA-F4-6855",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3419,
+      "WRN_RSEM": 554.41,
+      "WRN_log2_RSEM_plus_1": 9.1174093425
+    },
+    {
+      "sampleId": "TCGA-F4-6856-01",
+      "patientId": "TCGA-F4-6856",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.8729,
+      "WRN_RSEM": 240.416,
+      "WRN_log2_RSEM_plus_1": 7.9153774846
+    },
+    {
+      "sampleId": "TCGA-F5-6464-01",
+      "patientId": "TCGA-F5-6464",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3424,
+      "WRN_RSEM": 221.697,
+      "WRN_log2_RSEM_plus_1": 7.7989383132
+    },
+    {
+      "sampleId": "TCGA-F5-6465-01",
+      "patientId": "TCGA-F5-6465",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3415,
+      "WRN_RSEM": 607.213,
+      "WRN_log2_RSEM_plus_1": 9.2484328428
+    },
+    {
+      "sampleId": "TCGA-F5-6571-01",
+      "patientId": "TCGA-F5-6571",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3388,
+      "WRN_RSEM": 283.009,
+      "WRN_log2_RSEM_plus_1": 8.149792838
+    },
+    {
+      "sampleId": "TCGA-F5-6702-01",
+      "patientId": "TCGA-F5-6702",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.328,
+      "WRN_RSEM": 200.33,
+      "WRN_log2_RSEM_plus_1": 7.6534183527
+    },
+    {
+      "sampleId": "TCGA-F5-6810-01",
+      "patientId": "TCGA-F5-6810",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3292,
+      "WRN_RSEM": 264.389,
+      "WRN_log2_RSEM_plus_1": 8.051964764
+    },
+    {
+      "sampleId": "TCGA-F5-6811-01",
+      "patientId": "TCGA-F5-6811",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3549,
+      "WRN_RSEM": 447.838,
+      "WRN_log2_RSEM_plus_1": 8.8100510139
+    },
+    {
+      "sampleId": "TCGA-F5-6812-01",
+      "patientId": "TCGA-F5-6812",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3556,
+      "WRN_RSEM": 325.3,
+      "WRN_log2_RSEM_plus_1": 8.3500551772
+    },
+    {
+      "sampleId": "TCGA-F5-6813-01",
+      "patientId": "TCGA-F5-6813",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3558,
+      "WRN_RSEM": 198.777,
+      "WRN_log2_RSEM_plus_1": 7.6422466873
+    },
+    {
+      "sampleId": "TCGA-F5-6814-01",
+      "patientId": "TCGA-F5-6814",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3409,
+      "WRN_RSEM": 437.855,
+      "WRN_log2_RSEM_plus_1": 8.7776005342
+    },
+    {
+      "sampleId": "TCGA-F5-6861-01",
+      "patientId": "TCGA-F5-6861",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3338,
+      "WRN_RSEM": 301.424,
+      "WRN_log2_RSEM_plus_1": 8.2404288244
+    },
+    {
+      "sampleId": "TCGA-F5-6863-01",
+      "patientId": "TCGA-F5-6863",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3566,
+      "WRN_RSEM": 170.632,
+      "WRN_log2_RSEM_plus_1": 7.4231747516
+    },
+    {
+      "sampleId": "TCGA-F5-6864-01",
+      "patientId": "TCGA-F5-6864",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3486,
+      "WRN_RSEM": 195.685,
+      "WRN_log2_RSEM_plus_1": 7.6197431258
+    },
+    {
+      "sampleId": "TCGA-G4-6293-01",
+      "patientId": "TCGA-G4-6293",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3277,
+      "WRN_RSEM": 359.491,
+      "WRN_log2_RSEM_plus_1": 8.4938194314
+    },
+    {
+      "sampleId": "TCGA-G4-6294-01",
+      "patientId": "TCGA-G4-6294",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3774,
+      "WRN_RSEM": 368.903,
+      "WRN_log2_RSEM_plus_1": 8.5310031909
+    },
+    {
+      "sampleId": "TCGA-G4-6295-01",
+      "patientId": "TCGA-G4-6295",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3241,
+      "WRN_RSEM": 140.445,
+      "WRN_log2_RSEM_plus_1": 7.144097369
+    },
+    {
+      "sampleId": "TCGA-G4-6297-01",
+      "patientId": "TCGA-G4-6297",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3325,
+      "WRN_RSEM": 343.241,
+      "WRN_log2_RSEM_plus_1": 8.4272751261
+    },
+    {
+      "sampleId": "TCGA-G4-6298-01",
+      "patientId": "TCGA-G4-6298",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3334,
+      "WRN_RSEM": 131.403,
+      "WRN_log2_RSEM_plus_1": 7.048792001
+    },
+    {
+      "sampleId": "TCGA-G4-6299-01",
+      "patientId": "TCGA-G4-6299",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3963,
+      "WRN_RSEM": 191.538,
+      "WRN_log2_RSEM_plus_1": 7.5889993992
+    },
+    {
+      "sampleId": "TCGA-G4-6302-01",
+      "patientId": "TCGA-G4-6302",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.4592,
+      "WRN_RSEM": 265.215,
+      "WRN_log2_RSEM_plus_1": 8.0564480526
+    },
+    {
+      "sampleId": "TCGA-G4-6303-01",
+      "patientId": "TCGA-G4-6303",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.359,
+      "WRN_RSEM": 161.748,
+      "WRN_log2_RSEM_plus_1": 7.3464960041
+    },
+    {
+      "sampleId": "TCGA-G4-6304-01",
+      "patientId": "TCGA-G4-6304",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.5676,
+      "WRN_RSEM": 499.563,
+      "WRN_log2_RSEM_plus_1": 8.9674078454
+    },
+    {
+      "sampleId": "TCGA-G4-6306-01",
+      "patientId": "TCGA-G4-6306",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3415,
+      "WRN_RSEM": 87.2625,
+      "WRN_log2_RSEM_plus_1": 6.4637287065
+    },
+    {
+      "sampleId": "TCGA-G4-6307-01",
+      "patientId": "TCGA-G4-6307",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.316,
+      "WRN_RSEM": 257.28,
+      "WRN_log2_RSEM_plus_1": 8.012792122
+    },
+    {
+      "sampleId": "TCGA-G4-6309-01",
+      "patientId": "TCGA-G4-6309",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.9341,
+      "WRN_RSEM": 295.583,
+      "WRN_log2_RSEM_plus_1": 8.2122920953
+    },
+    {
+      "sampleId": "TCGA-G4-6311-01",
+      "patientId": "TCGA-G4-6311",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3185,
+      "WRN_RSEM": 160.021,
+      "WRN_log2_RSEM_plus_1": 7.3311050435
+    },
+    {
+      "sampleId": "TCGA-G4-6315-01",
+      "patientId": "TCGA-G4-6315",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3321,
+      "WRN_RSEM": 193.316,
+      "WRN_log2_RSEM_plus_1": 7.6022608873
+    },
+    {
+      "sampleId": "TCGA-G4-6317-01",
+      "patientId": "TCGA-G4-6317",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3455,
+      "WRN_RSEM": 148.007,
+      "WRN_log2_RSEM_plus_1": 7.2192362965
+    },
+    {
+      "sampleId": "TCGA-G4-6320-01",
+      "patientId": "TCGA-G4-6320",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.5674,
+      "WRN_RSEM": 302.437,
+      "WRN_log2_RSEM_plus_1": 8.2452532031
+    },
+    {
+      "sampleId": "TCGA-G4-6321-01",
+      "patientId": "TCGA-G4-6321",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3258,
+      "WRN_RSEM": 214.756,
+      "WRN_log2_RSEM_plus_1": 7.7532568699
+    },
+    {
+      "sampleId": "TCGA-G4-6322-01",
+      "patientId": "TCGA-G4-6322",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3214,
+      "WRN_RSEM": 437.222,
+      "WRN_log2_RSEM_plus_1": 8.7755181033
+    },
+    {
+      "sampleId": "TCGA-G4-6323-01",
+      "patientId": "TCGA-G4-6323",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3512,
+      "WRN_RSEM": 340.703,
+      "WRN_log2_RSEM_plus_1": 8.4165991038
+    },
+    {
+      "sampleId": "TCGA-G4-6586-01",
+      "patientId": "TCGA-G4-6586",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.0607,
+      "WRN_RSEM": 116.121,
+      "WRN_log2_RSEM_plus_1": 6.8718559665
+    },
+    {
+      "sampleId": "TCGA-G4-6588-01",
+      "patientId": "TCGA-G4-6588",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.0066,
+      "WRN_RSEM": 363.045,
+      "WRN_log2_RSEM_plus_1": 8.5079729843
+    },
+    {
+      "sampleId": "TCGA-G4-6626-01",
+      "patientId": "TCGA-G4-6626",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.349,
+      "WRN_RSEM": 137.281,
+      "WRN_log2_RSEM_plus_1": 7.1114591316
+    },
+    {
+      "sampleId": "TCGA-G4-6627-01",
+      "patientId": "TCGA-G4-6627",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3582,
+      "WRN_RSEM": 429.213,
+      "WRN_log2_RSEM_plus_1": 8.74890731
+    },
+    {
+      "sampleId": "TCGA-G4-6628-01",
+      "patientId": "TCGA-G4-6628",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.7863,
+      "WRN_RSEM": 263.682,
+      "WRN_log2_RSEM_plus_1": 8.0481162758
+    },
+    {
+      "sampleId": "TCGA-G5-6641-01",
+      "patientId": "TCGA-G5-6641",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3305,
+      "WRN_RSEM": 245.252,
+      "WRN_log2_RSEM_plus_1": 7.9439916316
+    },
+    {
+      "sampleId": "TCGA-NH-A50T-01",
+      "patientId": "TCGA-NH-A50T",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2912,
+      "WRN_RSEM": 539.825,
+      "WRN_log2_RSEM_plus_1": 9.0790180325
+    },
+    {
+      "sampleId": "TCGA-NH-A50U-01",
+      "patientId": "TCGA-NH-A50U",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3425,
+      "WRN_RSEM": 274.686,
+      "WRN_log2_RSEM_plus_1": 8.1068821954
+    },
+    {
+      "sampleId": "TCGA-NH-A50V-01",
+      "patientId": "TCGA-NH-A50V",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2879,
+      "WRN_RSEM": 204.681,
+      "WRN_log2_RSEM_plus_1": 7.6842647193
+    },
+    {
+      "sampleId": "TCGA-NH-A5IV-01",
+      "patientId": "TCGA-NH-A5IV",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 1.2012,
+      "WRN_RSEM": 408.059,
+      "WRN_log2_RSEM_plus_1": 8.6761651329
+    },
+    {
+      "sampleId": "TCGA-NH-A6GA-01",
+      "patientId": "TCGA-NH-A6GA",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3295,
+      "WRN_RSEM": 280.584,
+      "WRN_log2_RSEM_plus_1": 8.1374215501
+    },
+    {
+      "sampleId": "TCGA-NH-A6GB-01",
+      "patientId": "TCGA-NH-A6GB",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3185,
+      "WRN_RSEM": 134.033,
+      "WRN_log2_RSEM_plus_1": 7.0771682127
+    },
+    {
+      "sampleId": "TCGA-NH-A6GC-01",
+      "patientId": "TCGA-NH-A6GC",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3241,
+      "WRN_RSEM": 409.733,
+      "WRN_log2_RSEM_plus_1": 8.6820570539
+    },
+    {
+      "sampleId": "TCGA-NH-A8F7-01",
+      "patientId": "TCGA-NH-A8F7",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3241,
+      "WRN_RSEM": 585.889,
+      "WRN_log2_RSEM_plus_1": 9.1969438579
+    },
+    {
+      "sampleId": "TCGA-NH-A8F8-01",
+      "patientId": "TCGA-NH-A8F8",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3144,
+      "WRN_RSEM": 215.048,
+      "WRN_log2_RSEM_plus_1": 7.7552080654
+    },
+    {
+      "sampleId": "TCGA-QG-A5YV-01",
+      "patientId": "TCGA-QG-A5YV",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2586,
+      "WRN_RSEM": 313.293,
+      "WRN_log2_RSEM_plus_1": 8.2959663303
+    },
+    {
+      "sampleId": "TCGA-QG-A5YW-01",
+      "patientId": "TCGA-QG-A5YW",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2723,
+      "WRN_RSEM": 434.948,
+      "WRN_log2_RSEM_plus_1": 8.76801225
+    },
+    {
+      "sampleId": "TCGA-QG-A5YX-01",
+      "patientId": "TCGA-QG-A5YX",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.304,
+      "WRN_RSEM": 455.81,
+      "WRN_log2_RSEM_plus_1": 8.8354504228
+    },
+    {
+      "sampleId": "TCGA-QG-A5Z1-01",
+      "patientId": "TCGA-QG-A5Z1",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.2924,
+      "WRN_RSEM": 814.672,
+      "WRN_log2_RSEM_plus_1": 9.6718453186
+    },
+    {
+      "sampleId": "TCGA-QG-A5Z2-01",
+      "patientId": "TCGA-QG-A5Z2",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.86,
+      "WRN_RSEM": 446.349,
+      "WRN_log2_RSEM_plus_1": 8.8052569812
+    },
+    {
+      "sampleId": "TCGA-QL-A97D-01",
+      "patientId": "TCGA-QL-A97D",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3204,
+      "WRN_RSEM": 380.727,
+      "WRN_log2_RSEM_plus_1": 8.5763974235
+    },
+    {
+      "sampleId": "TCGA-RU-A8FL-01",
+      "patientId": "TCGA-RU-A8FL",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3417,
+      "WRN_RSEM": 68.1199,
+      "WRN_log2_RSEM_plus_1": 6.1110292252
+    },
+    {
+      "sampleId": "TCGA-SS-A7HO-01",
+      "patientId": "TCGA-SS-A7HO",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.3318,
+      "WRN_RSEM": 493.044,
+      "WRN_log2_RSEM_plus_1": 8.948495725
+    },
+    {
+      "sampleId": "TCGA-T9-A92H-01",
+      "patientId": "TCGA-T9-A92H",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.317,
+      "WRN_RSEM": 460.665,
+      "WRN_log2_RSEM_plus_1": 8.8507025519
+    },
+    {
+      "sampleId": "TCGA-WS-AB45-01",
+      "patientId": "TCGA-WS-AB45",
+      "sampleType": "Primary Solid Tumor",
+      "MSI_SCORE_MANTIS": 0.6782,
+      "WRN_RSEM": 574.855,
+      "WRN_log2_RSEM_plus_1": 9.1695617773
+    }
+  ],
+  "sourceManifest": [
+    {
+      "file": "research/tcga-samples.json",
+      "sha256": "ce29d0dac02c57e72679d8efe442ed83cc2a2b83aebf870fbd6a0997ee42a1d8",
+      "bytes": 242367
+    },
+    {
+      "file": "research/tcga-sample-clinical.json",
+      "sha256": "5d49adc3132d9df6c37c5d1d34030f97d0c1975fe84787aa38431458a5a9d112",
+      "bytes": 3973089
+    },
+    {
+      "file": "research/tcga-wrn-expression.json",
+      "sha256": "73a8ad46c77b4bd8b443421fd6b375dabf601894c94b83ac14b2f750d48be256",
+      "bytes": 321588
+    },
+    {
+      "file": "research/tcga-study.json",
+      "sha256": "4e75f8e25222cf7654cfe5b7314bffbc1e8a8bf059d4859e94e0c73b14b99706",
+      "bytes": 2007
+    },
+    {
+      "file": "research/tcga-profiles.json",
+      "sha256": "68aadb12cbf29f0d48b0a455cdfcfae5bd71edfc609b99cd76edaf87130ba183",
+      "bytes": 7818
+    },
+    {
+      "file": "research/tcga-clinical-attributes.json",
+      "sha256": "0a126242657a430e53880609782e146ae2add18147df65a1a36ce3425a8478d8",
+      "bytes": 20642
+    }
+  ],
+  "source": {
+    "study": "coadread_tcga_pan_can_atlas_2018",
+    "url": "https://www.cbioportal.org/study/summary?id=coadread_tcga_pan_can_atlas_2018",
+    "citation": "TCGA PanCancer Atlas (Cell, 2018), accessed through cBioPortal. See study metadata for individual publications.",
+    "license": "ODbL-1.0",
+    "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "termsSource": "https://docs.cbioportal.org/user-guide/faq/",
+    "adaptations": "Select six fields; retain all 594 samples; compute log2(RSEM + 1); summarize measurement coverage."
+  }
+}

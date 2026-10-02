@@ -1,0 +1,30 @@
+{
+  "name": "fieldnotes-continuous-evidence",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm run compile && node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test:contracts": "npm run compile && node tests/tumor-contract.mjs && node tests/model-contract.mjs && node tests/dossier.mjs && node tests/uncertainty.mjs",
+    "test:browser": "node scripts/test-browser.mjs",
+    "test": "npm run test:contracts && npm run build && npm run test:browser",
+    "typecheck": "tsc --noEmit",
+    "compile": "tsc",
+    "replay": "npm run compile --silent && node scripts/replay.mjs",
+    "measure": "npm run build && node scripts/measure-performance.mjs"
+  },
+  "devDependencies": {
+    "axe-core": "4.13.0",
+    "esbuild": "0.28.2",
+    "playwright": "1.63.0",
+    "prettier": "3.9.9",
+    "typescript": "7.0.2"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "zod": "4.6.5"
+  }
+}
