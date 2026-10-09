@@ -1,3 +1,4 @@
+import {setupDossierRestore} from './restore-ui.js';
 import { validateUncertainty, uncertaintyPanel, type Uncertainty } from "./uncertainty.js";
 import {
   analyzeModels,
@@ -309,3 +310,5 @@ if (params.get("layer") === "tumors") {
     history.replaceState(null, "", "#" + p);
   }
 }
+
+setupDossierRestore();

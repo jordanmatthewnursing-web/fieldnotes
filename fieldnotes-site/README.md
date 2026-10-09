@@ -1,6 +1,6 @@
 # Fieldnotes: continuous-score evidence
 
-Private research prototype. Static site with public cell-model data and deidentified public tumor observations. No private patient records or clinical predictions.
+Public research prototype. Static site with public cell-model data and deidentified public tumor observations. No private patient records or clinical predictions.
 
 ## Install, test and preview
 
@@ -151,3 +151,11 @@ Newsreader frames the question; IBM Plex Sans carries the working interface and 
 ## Browser evidence-reading consistency
 
 The optional read_current_evidence browser tool reports the selected gene and observation unit using the same analysis as the chart/export. It separates current analysis coverage from raw source coverage, omits WRN correlation for comparators, preserves the independent tumor layer and rejects unavailable evidence. Browser regression checks capture the tool and exercise these state transitions.
+
+## Reopen an observation dossier
+
+Use “Reopen a saved dossier” beneath the evidence toolbar. Choose an existing version-1 observation JSON (up to 2 MiB). The browser validates its dataset and configuration, recomputes the analysis, rejects altered analysis, then compares the full embedded dataset with the currently hosted snapshot. Only a matching snapshot can open the saved gene/unit/observation or tumor sample. Object key order is ignored; array order is preserved. No uploaded file, arbitrary data URL, new cohort or cross-layer join is introduced. Uncertainty exports remain a separate format with their existing Python replay.
+
+An explicit Open saved view action reloads the page with validated selection state. Invalid input leaves the existing chart and URL untouched and removes any earlier Open action. The file content is processed locally; only fixed public snapshot GETs are requested. Matching data establishes consistency, not publisher authenticity or clinical validity.
+
+October 3 verification: existing contract suite and seven new restore checks passed. Browser file chooser exercised valid BRAF donor restoration, changed-result rejection without chart/URL mutation, then valid tumor recovery with the exact selected sample. The 390px expanded panel was visually reviewed and had no horizontal overflow. No physical-phone file chooser, full screen-reader, user-value validation or full browser regression rerun claimed.

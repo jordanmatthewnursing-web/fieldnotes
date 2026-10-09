@@ -2,7 +2,7 @@
 
 ![Fieldnotes — actual project interface](assets/fieldnotes.png)
 
-[Open private demo](https://fieldnotes.jordanmatthew.me) · Owner sign-in required.
+[Open demo](https://fieldnotes.jordanmatthew.me)
 
 Does the observed relationship between WRN dependency and MSI score change when related colorectal cell models are counted once per source donor?
 
@@ -45,4 +45,4 @@ Full source reproduction additionally requires `fetch_sources.py` (approximately
 
 Read `cancer-dependency-workbench/research/CASE_STUDY.md` for methods and interpretation. No public repository or production performance claim is made.
 
-Working private research prototype. Physical-phone testing, full screen-reader review, independent researcher feedback and final design acceptance remain open. Preserve source-specific attribution and redistribution boundaries. This README is a release draft; verified public links will be added at release.
+Public research prototype. Physical-phone testing, full screen-reader review, independent researcher feedback and final design acceptance remain open. Preserve source-specific attribution and redistribution boundaries. GitHub source publication remains pending account verification. Saved dossiers can be verified and reopened against the displayed snapshot.

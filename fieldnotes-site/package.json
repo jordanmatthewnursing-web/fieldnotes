@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run compile && node scripts/build.mjs",
     "preview": "node scripts/serve.mjs",
-    "test:contracts": "npm run compile && node tests/tumor-contract.mjs && node tests/model-contract.mjs && node tests/dossier.mjs && node tests/uncertainty.mjs",
+    "test:contracts": "npm run compile && node tests/tumor-contract.mjs && node tests/model-contract.mjs && node tests/dossier.mjs && node tests/uncertainty.mjs && node tests/restore.mjs",
     "test:browser": "node scripts/test-browser.mjs",
     "test": "npm run test:contracts && npm run build && npm run test:browser",
     "typecheck": "tsc --noEmit",

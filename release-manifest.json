@@ -1,516 +1,462 @@
 {
-  "status": "private review package; not approved for publication",
-  "interfaceCommit": "09634a44c9ce0790fce0fa0f0a00ba47622e903c",
+  "status": "current local staging; runnable verification and GitHub publication pending",
+  "interfaceCommit": "c1b752c0e1278f6ccc247a29f0c71b4a4865f62e",
+  "analysisSource": "retained existing upload staging; three interface artifacts match prior release byte-for-byte",
   "files": [
     {
-      "file": "fieldnotes-site/.gitignore",
-      "bytes": 58,
-      "sha256": "fdaf37e7e26a1b2de120dfe1929e697271e85f9375813501db32d5e2a0dcfccc",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
+      "file": "README.md",
+      "bytes": 2546,
+      "sha256": "b6aec5cd7f7d2f45c7801122aefed3afa13634a59730d223fc73293431864a0c"
     },
     {
-      "file": "fieldnotes-site/PERFORMANCE.md",
-      "bytes": 4391,
-      "sha256": "2c0409de5a71bfcd949a034427f3cb94f2235e6c985580532b7bf2800092474b",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
+      "file": "RELEASE_SETUP.md",
+      "bytes": 2748,
+      "sha256": "ff2a176beb906c9c2ba32f99ee46586988c3350ab05537d912a26a9b2b40f728"
     },
     {
-      "file": "fieldnotes-site/README.md",
-      "bytes": 11233,
-      "sha256": "93145f0e8e7573dfd0a7eed321edc28206091272e545fe1e35b01165c3196f1a",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/font-sources.json",
-      "bytes": 943,
-      "sha256": "fa569195256632c25e946c73defb3c6fd78ccbcc0d2475625a017fdb20b88d6d",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/package-lock.json",
-      "bytes": 29132,
-      "sha256": "3ae57223e77b9dd24915e71d6513e761319e98476ad8239edd02621feeb6e731",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/package.json",
-      "bytes": 958,
-      "sha256": "e5d716128ee9a6437c0dab49d045da4a9e8adaece5a77eb9515f0520e70074ce",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/scripts/build.mjs",
-      "bytes": 3078,
-      "sha256": "0e5145d5ae58a8832024b5210a493729af11ec3c1dd1d38e8b73e3db79a58204",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/scripts/check-a11y.cjs",
-      "bytes": 1010,
-      "sha256": "83f007b4a3dc966e84cee6b762638622518d906fd62fd38ddb51661bb73d61d6",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/scripts/check-dossier.cjs",
-      "bytes": 3863,
-      "sha256": "9453eddb12d140fe062703de6852545ab4b6fa59755f90ed9778d1623ecafde1",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/scripts/check-evidence-tool.cjs",
-      "bytes": 2349,
-      "sha256": "ecdcd08b7d4c5a2e49f66e8a55281030df98299c63e86fdd1a7be75074d755f7",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/scripts/check-invalid.cjs",
-      "bytes": 2028,
-      "sha256": "26e137b93b38d784802ae79e4981d3d2dee99c06e7eb220cb7d7eb15ccff17c6",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/scripts/check-nearby.cjs",
-      "bytes": 2516,
-      "sha256": "06f49468bc9a0363fd6b3069d6c5b1a8aae5d557b0c2f9a6546c6692952dc9db",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/scripts/check-site.cjs",
-      "bytes": 2936,
-      "sha256": "8ef21ee09e45d7d70f97e409403c1d473330d0c3a19a3043832fe4997ea11b9b",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/scripts/check-tumors.cjs",
-      "bytes": 3359,
-      "sha256": "dbd8c2ab551c4fd8579268d0697e479821888ecb46849b8603c04b2c415d7859",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/scripts/check-uncertainty.cjs",
-      "bytes": 2425,
-      "sha256": "7ad39e0d206074f444f2b8c4f366dbde0bc1733b373df8aad4433f964b7a29cb",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/scripts/measure-performance.mjs",
-      "bytes": 7616,
-      "sha256": "f500f2da8c0a062812e38ac61b6f21e277f694becc886b1a92bcda1fc6befeaf",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/scripts/replay.mjs",
-      "bytes": 788,
-      "sha256": "c3129195457bca4d098ddcdc4d69fbb9de9fd8f28d42930ed8051fe786e37614",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/scripts/review-layout.mjs",
-      "bytes": 1193,
-      "sha256": "c22df02057a29a4bd89bd10974280213f0ea0cc457d0b3fa45a105f4cf9ceb07",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/scripts/serve.mjs",
-      "bytes": 1831,
-      "sha256": "0cd87804c7944f79f05d90ac46afe2a18d2a8f787b8df0ea415d7822b537c2b9",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/scripts/test-browser.mjs",
-      "bytes": 1848,
-      "sha256": "74c698c04afd6adbce6a5f7f1cbc79527828af602a78ced3c4c14caaff9651b4",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/scripts/test-runtime.cjs",
-      "bytes": 541,
-      "sha256": "b66027c313a5589fb424d29f60588ddd4b12254005f6440a52ad49d06ed0f7d3",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/ATTRIBUTION.txt",
-      "bytes": 1007,
-      "sha256": "52432dd2bf6f211f28aa08e521d7f401f99cc981c9a3987ad908310c4362e515",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/THIRD_PARTY_NOTICES.txt",
-      "bytes": 1138,
-      "sha256": "a1293bc92f9b0f2af2f2ffb7adcfd07cafb61ea128333e84d6a2f425b21b2437",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/TUMOR_ATTRIBUTION.txt",
-      "bytes": 1163,
-      "sha256": "8cecdeb0b85484e31d1ca286ced4dc420dcc7aad752791a5f02337a72702e3a7",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/continuous-evidence.json",
-      "bytes": 56992,
-      "sha256": "fe9e69a73bc083b90216c6773399756aae0535ec9c73c765a1d99dc48101f4c9",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/continuous.ts",
-      "bytes": 17309,
-      "sha256": "30d556e130731a406bef98f48174bdf4ef5b5763aa97dfb08250529127c52531",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/contract.ts",
-      "bytes": 5900,
-      "sha256": "1e483d871d30e6fdcd37d1063e3cb0630e36d54023f48d1ad49c08670b551129",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/dom.ts",
-      "bytes": 1112,
-      "sha256": "89fded46b6106d54d214ea81868ea6c559b93bd73005db157197ae159c691c6d",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/dossier.ts",
-      "bytes": 5433,
-      "sha256": "8756783f78a63094bbdb83e43bd29f05d78e7f6cb5027326c561393a3f931591",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/fieldnotes-uncertainty.json",
-      "bytes": 73707,
-      "sha256": "2e24ec161dd0ef173f5b90eae643ece4bb5f44e9ccb606c18be355a3fddc2428",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/ibmplexsans-OFL.txt",
-      "bytes": 4456,
-      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/index.html",
-      "bytes": 3041,
-      "sha256": "155b4953aedb288962d4483b6a65579a0592765dc48baf71d13e9acaa23387aa",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/newsreader-OFL.txt",
-      "bytes": 4394,
-      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/newsreader.woff2",
-      "bytes": 131848,
-      "sha256": "01817351be3edfc1714fe6d60ddea6a22a169a5ebd033b50c7f9495e5d9c386a",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/plex-sans.woff2",
-      "bytes": 40240,
-      "sha256": "056e4e2459f57a0033c8c9c844ff19d6e42ac8602027803d4345823bcc939818",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/schema.ts",
-      "bytes": 5302,
-      "sha256": "823355b8db0b2a669f9ca6babab477ed777e5a15fe7550a2114fc25e336edd0e",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/style.css",
-      "bytes": 12056,
-      "sha256": "ed31cd74bf99177a1b8f7ab959b6a51c6d2760174dac8b90739566eb78b67329",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/tumor-evidence.json",
-      "bytes": 140550,
-      "sha256": "39717df2b6d1877480a7d613087a766e830e4f219afbe022c458a22cb4c35b9c",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/tumor.ts",
-      "bytes": 6048,
-      "sha256": "250b850fd4fb72d95d9662728760ceb526ef8f5bec387344baa6d6bdc44a00f6",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/src/uncertainty.ts",
-      "bytes": 4701,
-      "sha256": "a0abf5daf124881afc759c427e7b81ade6a66949a5d1933ce6eee0d6b2786ddb",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/tests/dossier.mjs",
-      "bytes": 3522,
-      "sha256": "5f020ebfebec8e9de5da62eef44a1937a4a09d49655d749f6f1d7279ca900264",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/tests/model-contract.mjs",
-      "bytes": 2229,
-      "sha256": "f89f7e47fb03bbcacbf9c468a2cd75a9cef0b22537898d9334c6831adb4ef5aa",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/tests/tumor-contract.mjs",
-      "bytes": 1631,
-      "sha256": "e5d01d128a13e1587dab0eef571db2ce181e897e4bb2aa73b274bf02fa2dc3eb",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/tests/uncertainty.mjs",
-      "bytes": 1095,
-      "sha256": "93a937711ea442281fb0e4b0859d2c69eed4ac214f71325251e3fa5880ae79a0",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
-    },
-    {
-      "file": "fieldnotes-site/tsconfig.json",
-      "bytes": 314,
-      "sha256": "47181fb5eb4027247cc65ddc8fca23e63d54198fde93ed8ebd788f05de411a65",
-      "source": "interface git 09634a44c9ce0790fce0fa0f0a00ba47622e903c"
+      "file": "assets/fieldnotes.png",
+      "bytes": 123577,
+      "sha256": "9e9a283edbb91d66d9a343b459b573a136d7e9a53e4151e10c0a00e072bec45d"
     },
     {
       "file": "cancer-dependency-workbench/.gitignore",
       "bytes": 84,
-      "sha256": "aeac0e807517c8ccbd29eab52eeb0ecce98caf869a1d3aa624954cdb534414da",
-      "source": "research allowlist snapshot"
+      "sha256": "aeac0e807517c8ccbd29eab52eeb0ecce98caf869a1d3aa624954cdb534414da"
     },
     {
       "file": "cancer-dependency-workbench/README.md",
       "bytes": 4790,
-      "sha256": "9ca4c9bca60d5783d2ab65b6a010e6a3888ed45be950c74eaf5781187ad97dbe",
-      "source": "research allowlist snapshot"
+      "sha256": "9ca4c9bca60d5783d2ab65b6a010e6a3888ed45be950c74eaf5781187ad97dbe"
     },
     {
       "file": "cancer-dependency-workbench/artifacts/continuous-uncertainty.json",
       "bytes": 9470,
-      "sha256": "d739e90eacffb9abb4abc5bc20f11497add8925121f12a7157e3b5cc2e8c018a",
-      "source": "research allowlist snapshot"
+      "sha256": "d739e90eacffb9abb4abc5bc20f11497add8925121f12a7157e3b5cc2e8c018a"
     },
     {
       "file": "cancer-dependency-workbench/artifacts/fieldnotes-uncertainty.json",
       "bytes": 73707,
-      "sha256": "2e24ec161dd0ef173f5b90eae643ece4bb5f44e9ccb606c18be355a3fddc2428",
-      "source": "research allowlist snapshot"
+      "sha256": "2e24ec161dd0ef173f5b90eae643ece4bb5f44e9ccb606c18be355a3fddc2428"
     },
     {
       "file": "cancer-dependency-workbench/requirements.txt",
       "bytes": 76,
-      "sha256": "eac3b45ba8720fedf7edea5f14cc4c530c49d289e7e23eaeee17b46dd3191c87",
-      "source": "research allowlist snapshot"
+      "sha256": "eac3b45ba8720fedf7edea5f14cc4c530c49d289e7e23eaeee17b46dd3191c87"
     },
     {
       "file": "cancer-dependency-workbench/research/ANNOTATION_SOURCE_AUDIT.md",
       "bytes": 2130,
-      "sha256": "fec712540dff411590a2618bf108e36f8af39b011c604d0a3b11dc92f5bf06f8",
-      "source": "research allowlist snapshot"
+      "sha256": "fec712540dff411590a2618bf108e36f8af39b011c604d0a3b11dc92f5bf06f8"
     },
     {
       "file": "cancer-dependency-workbench/research/ARCHITECTURE.md",
       "bytes": 6167,
-      "sha256": "c13732b6cd484e3887326c84179c19f572bf1c6cf8a52c54b2430070bef9ef3e",
-      "source": "research allowlist snapshot"
+      "sha256": "c13732b6cd484e3887326c84179c19f572bf1c6cf8a52c54b2430070bef9ef3e"
     },
     {
       "file": "cancer-dependency-workbench/research/CASE_STUDY.md",
       "bytes": 7627,
-      "sha256": "91a195f9a8ab535b9605a4af4c9914ba2ec8fa48b4e2d37192e3c0c408674978",
-      "source": "research allowlist snapshot"
+      "sha256": "91a195f9a8ab535b9605a4af4c9914ba2ec8fa48b4e2d37192e3c0c408674978"
     },
     {
       "file": "cancer-dependency-workbench/research/COMPLETION_REVIEW.md",
       "bytes": 3427,
-      "sha256": "8d1af782b306b2b71565f2eb9e4f1ad94ec48d018d20e2ea7d0680ab17401d40",
-      "source": "research allowlist snapshot"
+      "sha256": "8d1af782b306b2b71565f2eb9e4f1ad94ec48d018d20e2ea7d0680ab17401d40"
     },
     {
       "file": "cancer-dependency-workbench/research/CONTINUOUS_UNCERTAINTY.md",
       "bytes": 2568,
-      "sha256": "9800007c20b649e061fda40e982e947f8ac768667e4f9ff9190e1ef4d0fdb76e",
-      "source": "research allowlist snapshot"
+      "sha256": "9800007c20b649e061fda40e982e947f8ac768667e4f9ff9190e1ef4d0fdb76e"
     },
     {
       "file": "cancer-dependency-workbench/research/DATA_DICTIONARY.md",
       "bytes": 4936,
-      "sha256": "0703ba3a4ff65a1d2d01df50b111a155c57886d9fcd9e4c9817e89bbdb9cbbe6",
-      "source": "research allowlist snapshot"
+      "sha256": "0703ba3a4ff65a1d2d01df50b111a155c57886d9fcd9e4c9817e89bbdb9cbbe6"
     },
     {
       "file": "cancer-dependency-workbench/research/DESIGN_REVIEW.md",
       "bytes": 3500,
-      "sha256": "1927f1c461bb34639472b42b6b630166db5882cc8386995968f010bb8ce314f1",
-      "source": "research allowlist snapshot"
+      "sha256": "1927f1c461bb34639472b42b6b630166db5882cc8386995968f010bb8ce314f1"
     },
     {
       "file": "cancer-dependency-workbench/research/depmap-24q4.json",
       "bytes": 31812,
-      "sha256": "b8c1130f9c6b4ebc0e7d5f8b89a7e526f9b06f71c72c52efb87cb8d7b819800d",
-      "source": "research allowlist snapshot"
+      "sha256": "b8c1130f9c6b4ebc0e7d5f8b89a7e526f9b06f71c72c52efb87cb8d7b819800d"
     },
     {
       "file": "cancer-dependency-workbench/research/source-manifest.json",
       "bytes": 971,
-      "sha256": "8a606f41c649b223f88519be457e57e2514c1773d207e3085de4526a8fee467f",
-      "source": "research allowlist snapshot"
+      "sha256": "8a606f41c649b223f88519be457e57e2514c1773d207e3085de4526a8fee467f"
     },
     {
       "file": "cancer-dependency-workbench/research/tcga-clinical-attributes.json",
       "bytes": 20642,
-      "sha256": "0a126242657a430e53880609782e146ae2add18147df65a1a36ce3425a8478d8",
-      "source": "research allowlist snapshot"
+      "sha256": "0a126242657a430e53880609782e146ae2add18147df65a1a36ce3425a8478d8"
     },
     {
       "file": "cancer-dependency-workbench/research/tcga-profiles.json",
       "bytes": 7818,
-      "sha256": "68aadb12cbf29f0d48b0a455cdfcfae5bd71edfc609b99cd76edaf87130ba183",
-      "source": "research allowlist snapshot"
+      "sha256": "68aadb12cbf29f0d48b0a455cdfcfae5bd71edfc609b99cd76edaf87130ba183"
     },
     {
       "file": "cancer-dependency-workbench/research/tcga-requests.json",
       "bytes": 2079,
-      "sha256": "c4502dc5e50276eadb69a993b5e36b98297bc1b349531fd3103d3b7510316448",
-      "source": "research allowlist snapshot"
+      "sha256": "c4502dc5e50276eadb69a993b5e36b98297bc1b349531fd3103d3b7510316448"
     },
     {
       "file": "cancer-dependency-workbench/research/tcga-sample-clinical.json",
       "bytes": 3973089,
-      "sha256": "5d49adc3132d9df6c37c5d1d34030f97d0c1975fe84787aa38431458a5a9d112",
-      "source": "research allowlist snapshot"
+      "sha256": "5d49adc3132d9df6c37c5d1d34030f97d0c1975fe84787aa38431458a5a9d112"
     },
     {
       "file": "cancer-dependency-workbench/research/tcga-samples.json",
       "bytes": 242367,
-      "sha256": "ce29d0dac02c57e72679d8efe442ed83cc2a2b83aebf870fbd6a0997ee42a1d8",
-      "source": "research allowlist snapshot"
+      "sha256": "ce29d0dac02c57e72679d8efe442ed83cc2a2b83aebf870fbd6a0997ee42a1d8"
     },
     {
       "file": "cancer-dependency-workbench/research/tcga-snapshot-manifest.json",
       "bytes": 943,
-      "sha256": "65d1e3cfe1a5c09b325cfa71bf447e8d076539a4619b5642bcdaed87adbf2095",
-      "source": "research allowlist snapshot"
+      "sha256": "65d1e3cfe1a5c09b325cfa71bf447e8d076539a4619b5642bcdaed87adbf2095"
     },
     {
       "file": "cancer-dependency-workbench/research/tcga-study.json",
       "bytes": 2007,
-      "sha256": "4e75f8e25222cf7654cfe5b7314bffbc1e8a8bf059d4859e94e0c73b14b99706",
-      "source": "research allowlist snapshot"
+      "sha256": "4e75f8e25222cf7654cfe5b7314bffbc1e8a8bf059d4859e94e0c73b14b99706"
     },
     {
       "file": "cancer-dependency-workbench/research/tcga-wrn-expression.json",
       "bytes": 321588,
-      "sha256": "73a8ad46c77b4bd8b443421fd6b375dabf601894c94b83ac14b2f750d48be256",
-      "source": "research allowlist snapshot"
+      "sha256": "73a8ad46c77b4bd8b443421fd6b375dabf601894c94b83ac14b2f750d48be256"
     },
     {
       "file": "cancer-dependency-workbench/scripts/analysis_core.py",
       "bytes": 1509,
-      "sha256": "b79ff1739c116f9813328f7416834ff1bed796433b5bb99e0b9826033d8b6809",
-      "source": "research allowlist snapshot"
+      "sha256": "b79ff1739c116f9813328f7416834ff1bed796433b5bb99e0b9826033d8b6809"
     },
     {
       "file": "cancer-dependency-workbench/scripts/analyze_tcga.py",
       "bytes": 5049,
-      "sha256": "6216dfb65cd791e5b57f45b797a6e642e433787ab926f6e53d6d4a99725caa92",
-      "source": "research allowlist snapshot"
+      "sha256": "6216dfb65cd791e5b57f45b797a6e642e433787ab926f6e53d6d4a99725caa92"
     },
     {
       "file": "cancer-dependency-workbench/scripts/build_continuous_dataset.py",
       "bytes": 3534,
-      "sha256": "813a2ecc64de1a2b909d6e78cf94a0bb06c9b74595729ee5c738dc6536be1b65",
-      "source": "research allowlist snapshot"
+      "sha256": "813a2ecc64de1a2b909d6e78cf94a0bb06c9b74595729ee5c738dc6536be1b65"
     },
     {
       "file": "cancer-dependency-workbench/scripts/build_tumor_dataset.py",
       "bytes": 1507,
-      "sha256": "9a27c763adf94478bad781abc33f843aa3f3114dabfdb2aafe846f29acb195c5",
-      "source": "research allowlist snapshot"
+      "sha256": "9a27c763adf94478bad781abc33f843aa3f3114dabfdb2aafe846f29acb195c5"
     },
     {
       "file": "cancer-dependency-workbench/scripts/continuous_sensitivity.py",
       "bytes": 2679,
-      "sha256": "c685245592c45cdf9b53d925e01baeae16949a1fc3aef311838407898103b750",
-      "source": "research allowlist snapshot"
+      "sha256": "c685245592c45cdf9b53d925e01baeae16949a1fc3aef311838407898103b750"
     },
     {
       "file": "cancer-dependency-workbench/scripts/continuous_uncertainty.py",
       "bytes": 4146,
-      "sha256": "52909c5c9d675e488cef33ce6798b6410508042e2efda7d33fd55069798f6a33",
-      "source": "research allowlist snapshot"
+      "sha256": "52909c5c9d675e488cef33ce6798b6410508042e2efda7d33fd55069798f6a33"
     },
     {
       "file": "cancer-dependency-workbench/scripts/fetch_sources.py",
       "bytes": 2702,
-      "sha256": "44ba591057005681f6af60db51d8739bc4dfdc7d0b37f7188102539644e9f664",
-      "source": "research allowlist snapshot"
+      "sha256": "44ba591057005681f6af60db51d8739bc4dfdc7d0b37f7188102539644e9f664"
     },
     {
       "file": "cancer-dependency-workbench/scripts/replay_uncertainty.py",
       "bytes": 1598,
-      "sha256": "3941616355d691ac7f41c6a72bb0909974af458f2f7d6a693a8020c217dd17a1",
-      "source": "research allowlist snapshot"
+      "sha256": "3941616355d691ac7f41c6a72bb0909974af458f2f7d6a693a8020c217dd17a1"
     },
     {
       "file": "cancer-dependency-workbench/scripts/reproduce.py",
       "bytes": 1027,
-      "sha256": "e3d53fa9580d379ac8fed8517d9d6dba1a431e8317455eb8878fc0bba3e72b13",
-      "source": "research allowlist snapshot"
+      "sha256": "e3d53fa9580d379ac8fed8517d9d6dba1a431e8317455eb8878fc0bba3e72b13"
     },
     {
       "file": "cancer-dependency-workbench/tests/test_continuous.py",
       "bytes": 1155,
-      "sha256": "6291db507a8d5c469232416f46118e53a6114267d43c9faeedf1ca13ccf7d668",
-      "source": "research allowlist snapshot"
+      "sha256": "6291db507a8d5c469232416f46118e53a6114267d43c9faeedf1ca13ccf7d668"
     },
     {
       "file": "cancer-dependency-workbench/tests/test_fetch_sources.py",
       "bytes": 1806,
-      "sha256": "db4c01242a71b97433b120ef9e6dad6fa643859b0f3a11c8c45f0f982ebc0605",
-      "source": "research allowlist snapshot"
+      "sha256": "db4c01242a71b97433b120ef9e6dad6fa643859b0f3a11c8c45f0f982ebc0605"
     },
     {
       "file": "cancer-dependency-workbench/tests/test_sensitivity.py",
       "bytes": 1888,
-      "sha256": "aa0e65e8c04326f6ff8aa771fba63b12aa1529cc6bf5f3e3c30da6eef5d78f0d",
-      "source": "research allowlist snapshot"
+      "sha256": "aa0e65e8c04326f6ff8aa771fba63b12aa1529cc6bf5f3e3c30da6eef5d78f0d"
     },
     {
       "file": "cancer-dependency-workbench/tests/test_tcga.py",
       "bytes": 2093,
-      "sha256": "c67ae3ffa43decb91d6d686662c06a95b4d4dee85256cc6b277b664805449c53",
-      "source": "research allowlist snapshot"
+      "sha256": "c67ae3ffa43decb91d6d686662c06a95b4d4dee85256cc6b277b664805449c53"
     },
     {
       "file": "cancer-dependency-workbench/tests/test_uncertainty.py",
       "bytes": 1568,
-      "sha256": "9946de9ba322c733c04a07d47e17ad3ac648940c84c8f75816cb94066a76a626",
-      "source": "research allowlist snapshot"
+      "sha256": "9946de9ba322c733c04a07d47e17ad3ac648940c84c8f75816cb94066a76a626"
     },
     {
       "file": "cancer-dependency-workbench/tests/test_uncertainty_replay.py",
       "bytes": 874,
-      "sha256": "6a4024896d3830c6b47dda204793944df087a17c1613b90cb6a1505f62b5d624",
-      "source": "research allowlist snapshot"
+      "sha256": "6a4024896d3830c6b47dda204793944df087a17c1613b90cb6a1505f62b5d624"
     },
     {
       "file": "cancer-dependency-workbench/tests/test_wrn.py",
       "bytes": 1639,
-      "sha256": "b42dd0e3ee096022a596e7fd6ac0f560fe61a9f17e166d8fcb41c527ba3e2c85",
-      "source": "research allowlist snapshot"
+      "sha256": "b42dd0e3ee096022a596e7fd6ac0f560fe61a9f17e166d8fcb41c527ba3e2c85"
     },
     {
-      "file": "README.md",
-      "bytes": 2748,
-      "sha256": "ff2a176beb906c9c2ba32f99ee46586988c3350ab05537d912a26a9b2b40f728",
-      "source": "release tooling"
+      "file": "fieldnotes-site/.gitignore",
+      "bytes": 58,
+      "sha256": "fdaf37e7e26a1b2de120dfe1929e697271e85f9375813501db32d5e2a0dcfccc"
+    },
+    {
+      "file": "fieldnotes-site/.openai/hosting.json",
+      "bytes": 106,
+      "sha256": "ceae36ea0ce260c6b5b52424a4e53227955bff92c8feccbd3171554fd9b65e02"
+    },
+    {
+      "file": "fieldnotes-site/PERFORMANCE.md",
+      "bytes": 4391,
+      "sha256": "2c0409de5a71bfcd949a034427f3cb94f2235e6c985580532b7bf2800092474b"
+    },
+    {
+      "file": "fieldnotes-site/README.md",
+      "bytes": 12680,
+      "sha256": "ecad55c05929497617c2ca4db010f925fcdad4c500e1667da443e4faaaba18c7"
+    },
+    {
+      "file": "fieldnotes-site/font-sources.json",
+      "bytes": 943,
+      "sha256": "fa569195256632c25e946c73defb3c6fd78ccbcc0d2475625a017fdb20b88d6d"
+    },
+    {
+      "file": "fieldnotes-site/package-lock.json",
+      "bytes": 29132,
+      "sha256": "3ae57223e77b9dd24915e71d6513e761319e98476ad8239edd02621feeb6e731"
+    },
+    {
+      "file": "fieldnotes-site/package.json",
+      "bytes": 984,
+      "sha256": "bad0b579034a8a326c8cf1902b378587a3558d3ff87d471eb0cdf1137b44777a"
+    },
+    {
+      "file": "fieldnotes-site/scripts/build.mjs",
+      "bytes": 3078,
+      "sha256": "0e5145d5ae58a8832024b5210a493729af11ec3c1dd1d38e8b73e3db79a58204"
+    },
+    {
+      "file": "fieldnotes-site/scripts/check-a11y.cjs",
+      "bytes": 1010,
+      "sha256": "83f007b4a3dc966e84cee6b762638622518d906fd62fd38ddb51661bb73d61d6"
+    },
+    {
+      "file": "fieldnotes-site/scripts/check-dossier.cjs",
+      "bytes": 3863,
+      "sha256": "9453eddb12d140fe062703de6852545ab4b6fa59755f90ed9778d1623ecafde1"
+    },
+    {
+      "file": "fieldnotes-site/scripts/check-evidence-tool.cjs",
+      "bytes": 2349,
+      "sha256": "ecdcd08b7d4c5a2e49f66e8a55281030df98299c63e86fdd1a7be75074d755f7"
+    },
+    {
+      "file": "fieldnotes-site/scripts/check-invalid.cjs",
+      "bytes": 2028,
+      "sha256": "26e137b93b38d784802ae79e4981d3d2dee99c06e7eb220cb7d7eb15ccff17c6"
+    },
+    {
+      "file": "fieldnotes-site/scripts/check-nearby.cjs",
+      "bytes": 2516,
+      "sha256": "06f49468bc9a0363fd6b3069d6c5b1a8aae5d557b0c2f9a6546c6692952dc9db"
+    },
+    {
+      "file": "fieldnotes-site/scripts/check-site.cjs",
+      "bytes": 2936,
+      "sha256": "8ef21ee09e45d7d70f97e409403c1d473330d0c3a19a3043832fe4997ea11b9b"
+    },
+    {
+      "file": "fieldnotes-site/scripts/check-tumors.cjs",
+      "bytes": 3359,
+      "sha256": "dbd8c2ab551c4fd8579268d0697e479821888ecb46849b8603c04b2c415d7859"
+    },
+    {
+      "file": "fieldnotes-site/scripts/check-uncertainty.cjs",
+      "bytes": 2425,
+      "sha256": "7ad39e0d206074f444f2b8c4f366dbde0bc1733b373df8aad4433f964b7a29cb"
+    },
+    {
+      "file": "fieldnotes-site/scripts/measure-performance.mjs",
+      "bytes": 7616,
+      "sha256": "f500f2da8c0a062812e38ac61b6f21e277f694becc886b1a92bcda1fc6befeaf"
+    },
+    {
+      "file": "fieldnotes-site/scripts/replay.mjs",
+      "bytes": 788,
+      "sha256": "c3129195457bca4d098ddcdc4d69fbb9de9fd8f28d42930ed8051fe786e37614"
+    },
+    {
+      "file": "fieldnotes-site/scripts/review-layout.mjs",
+      "bytes": 1193,
+      "sha256": "c22df02057a29a4bd89bd10974280213f0ea0cc457d0b3fa45a105f4cf9ceb07"
+    },
+    {
+      "file": "fieldnotes-site/scripts/serve.mjs",
+      "bytes": 1831,
+      "sha256": "0cd87804c7944f79f05d90ac46afe2a18d2a8f787b8df0ea415d7822b537c2b9"
+    },
+    {
+      "file": "fieldnotes-site/scripts/test-browser.mjs",
+      "bytes": 1848,
+      "sha256": "74c698c04afd6adbce6a5f7f1cbc79527828af602a78ced3c4c14caaff9651b4"
+    },
+    {
+      "file": "fieldnotes-site/scripts/test-runtime.cjs",
+      "bytes": 541,
+      "sha256": "b66027c313a5589fb424d29f60588ddd4b12254005f6440a52ad49d06ed0f7d3"
+    },
+    {
+      "file": "fieldnotes-site/src/ATTRIBUTION.txt",
+      "bytes": 1007,
+      "sha256": "52432dd2bf6f211f28aa08e521d7f401f99cc981c9a3987ad908310c4362e515"
+    },
+    {
+      "file": "fieldnotes-site/src/THIRD_PARTY_NOTICES.txt",
+      "bytes": 1138,
+      "sha256": "a1293bc92f9b0f2af2f2ffb7adcfd07cafb61ea128333e84d6a2f425b21b2437"
+    },
+    {
+      "file": "fieldnotes-site/src/TUMOR_ATTRIBUTION.txt",
+      "bytes": 1163,
+      "sha256": "8cecdeb0b85484e31d1ca286ced4dc420dcc7aad752791a5f02337a72702e3a7"
+    },
+    {
+      "file": "fieldnotes-site/src/continuous-evidence.json",
+      "bytes": 56992,
+      "sha256": "fe9e69a73bc083b90216c6773399756aae0535ec9c73c765a1d99dc48101f4c9"
+    },
+    {
+      "file": "fieldnotes-site/src/continuous.ts",
+      "bytes": 17386,
+      "sha256": "5b3d43523837380f1a50cca56651038169e5fc5d83d1874d16201c81bff352a0"
+    },
+    {
+      "file": "fieldnotes-site/src/contract.ts",
+      "bytes": 5900,
+      "sha256": "1e483d871d30e6fdcd37d1063e3cb0630e36d54023f48d1ad49c08670b551129"
+    },
+    {
+      "file": "fieldnotes-site/src/dom.ts",
+      "bytes": 1112,
+      "sha256": "89fded46b6106d54d214ea81868ea6c559b93bd73005db157197ae159c691c6d"
+    },
+    {
+      "file": "fieldnotes-site/src/dossier.ts",
+      "bytes": 5433,
+      "sha256": "8756783f78a63094bbdb83e43bd29f05d78e7f6cb5027326c561393a3f931591"
+    },
+    {
+      "file": "fieldnotes-site/src/fieldnotes-uncertainty.json",
+      "bytes": 73707,
+      "sha256": "2e24ec161dd0ef173f5b90eae643ece4bb5f44e9ccb606c18be355a3fddc2428"
+    },
+    {
+      "file": "fieldnotes-site/src/ibmplexsans-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "file": "fieldnotes-site/src/index.html",
+      "bytes": 3920,
+      "sha256": "198dcd15a088cba0d758ed41b572cbabff40f0000a5766cd7afb6efff872b570"
+    },
+    {
+      "file": "fieldnotes-site/src/newsreader-OFL.txt",
+      "bytes": 4394,
+      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+    },
+    {
+      "file": "fieldnotes-site/src/newsreader.woff2",
+      "bytes": 131848,
+      "sha256": "01817351be3edfc1714fe6d60ddea6a22a169a5ebd033b50c7f9495e5d9c386a"
+    },
+    {
+      "file": "fieldnotes-site/src/plex-sans.woff2",
+      "bytes": 40240,
+      "sha256": "056e4e2459f57a0033c8c9c844ff19d6e42ac8602027803d4345823bcc939818"
+    },
+    {
+      "file": "fieldnotes-site/src/restore-ui.ts",
+      "bytes": 2618,
+      "sha256": "b992791567e3de8750df31db0a4563e6ca971082e85b6eea8b7884abaf57e0dd"
+    },
+    {
+      "file": "fieldnotes-site/src/restore.ts",
+      "bytes": 2003,
+      "sha256": "a8dd633142ab3f6891e2acd1f98445d2209bacbcde35718babc7f00f81d2e373"
+    },
+    {
+      "file": "fieldnotes-site/src/schema.ts",
+      "bytes": 5302,
+      "sha256": "823355b8db0b2a669f9ca6babab477ed777e5a15fe7550a2114fc25e336edd0e"
+    },
+    {
+      "file": "fieldnotes-site/src/style.css",
+      "bytes": 13149,
+      "sha256": "4673232cb2ccb37e106ef909f3c129465393226c1a04357024a61f6f2d7da1b6"
+    },
+    {
+      "file": "fieldnotes-site/src/tumor-evidence.json",
+      "bytes": 140550,
+      "sha256": "39717df2b6d1877480a7d613087a766e830e4f219afbe022c458a22cb4c35b9c"
+    },
+    {
+      "file": "fieldnotes-site/src/tumor.ts",
+      "bytes": 6048,
+      "sha256": "250b850fd4fb72d95d9662728760ceb526ef8f5bec387344baa6d6bdc44a00f6"
+    },
+    {
+      "file": "fieldnotes-site/src/uncertainty.ts",
+      "bytes": 4701,
+      "sha256": "a0abf5daf124881afc759c427e7b81ade6a66949a5d1933ce6eee0d6b2786ddb"
+    },
+    {
+      "file": "fieldnotes-site/tests/dossier.mjs",
+      "bytes": 3522,
+      "sha256": "5f020ebfebec8e9de5da62eef44a1937a4a09d49655d749f6f1d7279ca900264"
+    },
+    {
+      "file": "fieldnotes-site/tests/model-contract.mjs",
+      "bytes": 2229,
+      "sha256": "f89f7e47fb03bbcacbf9c468a2cd75a9cef0b22537898d9334c6831adb4ef5aa"
+    },
+    {
+      "file": "fieldnotes-site/tests/restore.mjs",
+      "bytes": 1872,
+      "sha256": "df6035986205005aaff3972c33410f15308e3ef727be51568b69b0e07cc33122"
+    },
+    {
+      "file": "fieldnotes-site/tests/tumor-contract.mjs",
+      "bytes": 1631,
+      "sha256": "e5d01d128a13e1587dab0eef571db2ce181e897e4bb2aa73b274bf02fa2dc3eb"
+    },
+    {
+      "file": "fieldnotes-site/tests/uncertainty.mjs",
+      "bytes": 1095,
+      "sha256": "93a937711ea442281fb0e4b0859d2c69eed4ac214f71325251e3fa5880ae79a0"
+    },
+    {
+      "file": "fieldnotes-site/tsconfig.json",
+      "bytes": 314,
+      "sha256": "47181fb5eb4027247cc65ddc8fca23e63d54198fde93ed8ebd788f05de411a65"
     },
     {
       "file": "verify.py",
       "bytes": 1425,
-      "sha256": "5feedac7534c84d4d9e78761d419d3d4295196b390f3eaca01ded22104c476bb",
-      "source": "release tooling"
+      "sha256": "5feedac7534c84d4d9e78761d419d3d4295196b390f3eaca01ded22104c476bb"
     }
   ]
 }
