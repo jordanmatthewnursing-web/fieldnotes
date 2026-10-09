@@ -1,5 +1,5 @@
 {
-  "status": "current local staging; runnable verification and GitHub publication pending",
+  "status": "Current portfolio source snapshot; runnable interface and research checks passed; no clinical validation",
   "interfaceCommit": "c1b752c0e1278f6ccc247a29f0c71b4a4865f62e",
   "analysisSource": "retained existing upload staging; three interface artifacts match prior release byte-for-byte",
   "files": [
@@ -215,8 +215,8 @@
     },
     {
       "file": "fieldnotes-site/.openai/hosting.json",
-      "bytes": 106,
-      "sha256": "ceae36ea0ce260c6b5b52424a4e53227955bff92c8feccbd3171554fd9b65e02"
+      "bytes": 32,
+      "sha256": "c4c91d5ced09678d071e6274bd8a29386a868ef2f5af0d4b1febc1feffbe2ce8"
     },
     {
       "file": "fieldnotes-site/PERFORMANCE.md",
@@ -458,5 +458,6 @@
       "bytes": 1425,
       "sha256": "5feedac7534c84d4d9e78761d419d3d4295196b390f3eaca01ded22104c476bb"
     }
-  ]
+  ],
+  "hostingConfig": "Site identity removed; static build declaration retained"
 }
